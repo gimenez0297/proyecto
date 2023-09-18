@@ -195,7 +195,7 @@ $favicon = $datos_sistema->favicon;
                 <img src="dist/images/logo.png" alt="logo">
             </div>
             <div class="form-greeting">
-                <span>Bienvenido al Sistema Ñamandú</span>
+                <span>Bienvenido al Sistema</span>
             </div>
             <div class="field-wrapper">
                 <?php echo $mensaje; ?>

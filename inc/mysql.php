@@ -20,7 +20,7 @@ class DataBase extends MySQLi{
     const L_INFO    = "INFO";
 
     // Local
-    const DB_NAME = 'rrhh_db';
+    const DB_NAME = 'proyecto';
     const DB_USER = 'root';
     const DB_PSW = '';
     const DB_HOST = 'localhost';
