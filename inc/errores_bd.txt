@@ -1,0 +1,202 @@
+2023-09-18 14:59:23
+Query: SELECT SQL_CALC_FOUND_ROWS
+                            id_prestamo,
+                            id_funcionario,
+                            funcionario,
+                            ci,
+                            monto,
+                            id_area,
+                            mes,
+                            CASE mes WHEN 1 THEN 'Enero' WHEN 2 THEN 'Febrero' WHEN 3 THEN 'Marzo' WHEN 4 THEN 'Abril' WHEN 5 THEN 'Mayo' WHEN 6 THEN 'Junio' WHEN 7 THEN 'Julio' WHEN 8 THEN 'Agosto' WHEN 9 THEN 'Septiembre' WHEN 10 THEN 'Octubre' WHEN 11 THEN 'Noviembre' WHEN 12 THEN 'Diciembre' END AS mes_str,
+                            anho,
+                            cantidad_cuota as cuota,
+                            observacion,
+                            usuario,
+                            estado,
+                            CASE estado WHEN 0 THEN 'Inactivo' WHEN 1 THEN 'Activo' WHEN 2 THEN 'Procesado' END AS estado_str,
+                            DATE_FORMAT(fecha_creacion,'%d/%m/%Y') AS fecha_creacion
+                            FROM prestamos
+                            WHERE fecha BETWEEN '2023-09-01 00:00:00' AND '2023-09-30 23:59:59'
+                            
+                            ORDER BY funcionario desc
+                            LIMIT 0, 9
+Error Code: 1054
+Error: La columna 'fecha' en where clause es desconocida
+---------------------------------------------------
+2023-09-18 14:59:48
+Query: SELECT SQL_CALC_FOUND_ROWS
+                            id_prestamo,
+                            id_funcionario,
+                            funcionario,
+                            ci,
+                            monto,
+                            id_area,
+                            mes,
+                            CASE mes WHEN 1 THEN 'Enero' WHEN 2 THEN 'Febrero' WHEN 3 THEN 'Marzo' WHEN 4 THEN 'Abril' WHEN 5 THEN 'Mayo' WHEN 6 THEN 'Junio' WHEN 7 THEN 'Julio' WHEN 8 THEN 'Agosto' WHEN 9 THEN 'Septiembre' WHEN 10 THEN 'Octubre' WHEN 11 THEN 'Noviembre' WHEN 12 THEN 'Diciembre' END AS mes_str,
+                            anho,
+                            cantidad_cuota as cuota,
+                            observacion,
+                            usuario,
+                            estado,
+                            CASE estado WHEN 0 THEN 'Inactivo' WHEN 1 THEN 'Activo' WHEN 2 THEN 'Procesado' END AS estado_str,
+                            DATE_FORMAT(fecha_creacion,'%d/%m/%Y') AS fecha_creacion
+                            FROM prestamos
+                            WHERE fecha BETWEEN '2023-09-01 00:00:00' AND '2023-09-30 23:59:59'
+                            
+                            ORDER BY funcionario desc
+                            LIMIT 0, 9
+Error Code: 1054
+Error: La columna 'fecha' en where clause es desconocida
+---------------------------------------------------
+2023-09-18 14:59:55
+Query: SELECT SQL_CALC_FOUND_ROWS
+                            id_prestamo,
+                            id_funcionario,
+                            funcionario,
+                            ci,
+                            monto,
+                            id_area,
+                            mes,
+                            CASE mes WHEN 1 THEN 'Enero' WHEN 2 THEN 'Febrero' WHEN 3 THEN 'Marzo' WHEN 4 THEN 'Abril' WHEN 5 THEN 'Mayo' WHEN 6 THEN 'Junio' WHEN 7 THEN 'Julio' WHEN 8 THEN 'Agosto' WHEN 9 THEN 'Septiembre' WHEN 10 THEN 'Octubre' WHEN 11 THEN 'Noviembre' WHEN 12 THEN 'Diciembre' END AS mes_str,
+                            anho,
+                            cantidad_cuota as cuota,
+                            observacion,
+                            usuario,
+                            estado,
+                            CASE estado WHEN 0 THEN 'Inactivo' WHEN 1 THEN 'Activo' WHEN 2 THEN 'Procesado' END AS estado_str,
+                            DATE_FORMAT(fecha_creacion,'%d/%m/%Y') AS fecha_creacion
+                            FROM prestamos
+                            WHERE fecha BETWEEN '2023-09-01 00:00:00' AND '2023-09-30 23:59:59'
+                            
+                            ORDER BY funcionario desc
+                            LIMIT 0, 9
+Error Code: 1054
+Error: La columna 'fecha' en where clause es desconocida
+---------------------------------------------------
+2023-09-18 15:00:39
+Query: SELECT SQL_CALC_FOUND_ROWS
+                            id_prestamo,
+                            id_funcionario,
+                            funcionario,
+                            ci,
+                            monto,
+                            id_area,
+                            mes,
+                            CASE mes WHEN 1 THEN 'Enero' WHEN 2 THEN 'Febrero' WHEN 3 THEN 'Marzo' WHEN 4 THEN 'Abril' WHEN 5 THEN 'Mayo' WHEN 6 THEN 'Junio' WHEN 7 THEN 'Julio' WHEN 8 THEN 'Agosto' WHEN 9 THEN 'Septiembre' WHEN 10 THEN 'Octubre' WHEN 11 THEN 'Noviembre' WHEN 12 THEN 'Diciembre' END AS mes_str,
+                            anho,
+                            observacion,
+                            usuario,
+                            estado,
+                            CASE estado WHEN 0 THEN 'Inactivo' WHEN 1 THEN 'Activo' WHEN 2 THEN 'Procesado' END AS estado_str,
+                            DATE_FORMAT(fecha_creacion,'%d/%m/%Y') AS fecha_creacion
+                            FROM prestamos
+                            WHERE fecha BETWEEN '2023-09-01 00:00:00' AND '2023-09-30 23:59:59'
+                            
+                            ORDER BY funcionario desc
+                            LIMIT 0, 9
+Error Code: 1054
+Error: La columna 'fecha' en where clause es desconocida
+---------------------------------------------------
+2023-09-18 15:08:44
+Query: SELECT 
+                            IFNULL(SEC_TO_TIME(SUM(a.total_trabajo*60)),'00:00') AS trabajo,
+                            IF(FORMAT(SUM(a.total_trabajo/60), 0,'de_DE') - FORMAT(a.normal/60, 2)&lt; 0 ,0,FORMAT(SUM(a.total_trabajo/60), 0,'de_DE') - FORMAT(a.normal/60, 2))  AS extra
+                        FROM asistencias a 
+                        WHERE a.fecha BETWEEN '2023-09-01' AND '2023-09-30' AND a.id_funcionario = 
+                    
+Error Code: 1064
+Error: Algo está equivocado en su sintax cerca '' en la linea 5
+---------------------------------------------------
+2023-09-18 15:15:16
+Query: SELECT 
+                            IFNULL(SEC_TO_TIME(SUM(a.total_trabajo*60)),'00:00') AS trabajo,
+                            IF(FORMAT(SUM(a.total_trabajo/60), 0,'de_DE') - FORMAT(a.normal/60, 2)&lt; 0 ,0,FORMAT(SUM(a.total_trabajo/60), 0,'de_DE') - FORMAT(a.normal/60, 2))  AS extra
+                        FROM asistencias a 
+                        WHERE a.fecha BETWEEN '2023-03-01' AND '2023-03-30' AND a.id_funcionario = 
+                    
+Error Code: 1064
+Error: Algo está equivocado en su sintax cerca '' en la linea 5
+---------------------------------------------------
+2023-09-18 15:15:16
+Query: 
+                        SELECT 
+                            'Retenci&oacute;n' AS concepto,
+                            ROUND((salario / d.factor) * d.retencion) AS total
+                        FROM funcionarios f
+                        LEFT JOIN descuentos d ON f.vinculo = d.vinculo
+                        WHERE f.id_funcionario = 
+                        UNION ALL
+                        SELECT 
+                            'Multa' AS concepto,
+                            SUM(monto) AS total
+                        FROM descuentos_funcionarios
+                        WHERE estado = 1 AND id_funcionario =  AND anho = 2023 AND mes = 03
+                        
+                    
+Error Code: 1064
+Error: Algo está equivocado en su sintax cerca 'UNION ALL
+                        SELECT 
+                            'Mult...' en la linea 7
+---------------------------------------------------
+2023-09-18 15:16:16
+Query: SELECT 
+                            IFNULL(SEC_TO_TIME(SUM(a.total_trabajo*60)),'00:00') AS trabajo,
+                            IF(FORMAT(SUM(a.total_trabajo/60), 0,'de_DE') - FORMAT(a.normal/60, 2)&lt; 0 ,0,FORMAT(SUM(a.total_trabajo/60), 0,'de_DE') - FORMAT(a.normal/60, 2))  AS extra
+                        FROM asistencias a 
+                        WHERE a.fecha BETWEEN '2023-05-01' AND '2023-05-30' AND a.id_funcionario = 
+                    
+Error Code: 1064
+Error: Algo está equivocado en su sintax cerca '' en la linea 5
+---------------------------------------------------
+2023-09-18 15:16:16
+Query: 
+                        SELECT 
+                            'Retenci&oacute;n' AS concepto,
+                            ROUND((salario / d.factor) * d.retencion) AS total
+                        FROM funcionarios f
+                        LEFT JOIN descuentos d ON f.vinculo = d.vinculo
+                        WHERE f.id_funcionario = 
+                        UNION ALL
+                        SELECT 
+                            'Multa' AS concepto,
+                            SUM(monto) AS total
+                        FROM descuentos_funcionarios
+                        WHERE estado = 1 AND id_funcionario =  AND anho = 2023 AND mes = 05
+                        
+                    
+Error Code: 1064
+Error: Algo está equivocado en su sintax cerca 'UNION ALL
+                        SELECT 
+                            'Mult...' en la linea 7
+---------------------------------------------------
+2023-09-18 15:17:18
+Query: SELECT 
+                            IFNULL(SEC_TO_TIME(SUM(a.total_trabajo*60)),'00:00') AS trabajo,
+                            IF(FORMAT(SUM(a.total_trabajo/60), 0,'de_DE') - FORMAT(a.normal/60, 2)&lt; 0 ,0,FORMAT(SUM(a.total_trabajo/60), 0,'de_DE') - FORMAT(a.normal/60, 2))  AS extra
+                        FROM asistencias a 
+                        WHERE a.fecha BETWEEN '2023-01-01' AND '2023-01-30' AND a.id_funcionario = 
+                    
+Error Code: 1064
+Error: Algo está equivocado en su sintax cerca '' en la linea 5
+---------------------------------------------------
+2023-09-18 15:17:18
+Query: 
+                        SELECT 
+                            'Retenci&oacute;n' AS concepto,
+                            ROUND((salario / d.factor) * d.retencion) AS total
+                        FROM funcionarios f
+                        LEFT JOIN descuentos d ON f.vinculo = d.vinculo
+                        WHERE f.id_funcionario = 
+                        UNION ALL
+                        SELECT 
+                            'Multa' AS concepto,
+                            SUM(monto) AS total
+                        FROM descuentos_funcionarios
+                        WHERE estado = 1 AND id_funcionario =  AND anho = 2023 AND mes = 01
+                        
+                    
+Error Code: 1064
+Error: Algo está equivocado en su sintax cerca 'UNION ALL
+                        SELECT 
+                            'Mult...' en la linea 7
+---------------------------------------------------

@@ -1,0 +1,8312 @@
+[
+ {
+   "Icon": "",
+   "Name": "500px",
+   "Class": "500px",
+   "Code": "<i class=\"fab fa-500px\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Accessible Icon",
+   "Class": "accessible-icon",
+   "Code": "<i class=\"fab fa-accessible-icon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Accusoft",
+   "Class": "accusoft",
+   "Code": "<i class=\"fab fa-accusoft\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Acquisitions Incorporated",
+   "Class": "acquisitions-incorporated",
+   "Code": "<i class=\"fab fa-acquisitions-incorporated\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ad",
+   "Class": "ad",
+   "Code": "<i class=\"fas fa-ad\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Address Book",
+   "Class": "address-book",
+   "Code": "<i class=\"fas fa-address-book\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Address Card",
+   "Class": "address-card",
+   "Code": "<i class=\"fas fa-address-card\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "adjust",
+   "Class": "adjust",
+   "Code": "<i class=\"fas fa-adjust\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "App.net",
+   "Class": "adn",
+   "Code": "<i class=\"fab fa-adn\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Adobe",
+   "Class": "adobe",
+   "Code": "<i class=\"fab fa-adobe\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Adversal",
+   "Class": "adversal",
+   "Code": "<i class=\"fab fa-adversal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "affiliatetheme",
+   "Class": "affiliatetheme",
+   "Code": "<i class=\"fab fa-affiliatetheme\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Air Freshener",
+   "Class": "air-freshener",
+   "Code": "<i class=\"fas fa-air-freshener\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Airbnb",
+   "Class": "airbnb",
+   "Code": "<i class=\"fab fa-airbnb\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Algolia",
+   "Class": "algolia",
+   "Code": "<i class=\"fab fa-algolia\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "align-center",
+   "Class": "align-center",
+   "Code": "<i class=\"fas fa-align-center\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "align-justify",
+   "Class": "align-justify",
+   "Code": "<i class=\"fas fa-align-justify\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "align-left",
+   "Class": "align-left",
+   "Code": "<i class=\"fas fa-align-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "align-right",
+   "Class": "align-right",
+   "Code": "<i class=\"fas fa-align-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alipay",
+   "Class": "alipay",
+   "Code": "<i class=\"fab fa-alipay\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Allergies",
+   "Class": "allergies",
+   "Code": "<i class=\"fas fa-allergies\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Amazon",
+   "Class": "amazon",
+   "Code": "<i class=\"fab fa-amazon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Amazon Pay",
+   "Class": "amazon-pay",
+   "Code": "<i class=\"fab fa-amazon-pay\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "ambulance",
+   "Class": "ambulance",
+   "Code": "<i class=\"fas fa-ambulance\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "American Sign Language Interpreting",
+   "Class": "american-sign-language-interpreting",
+   "Code": "<i class=\"fas fa-american-sign-language-interpreting\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Amilia",
+   "Class": "amilia",
+   "Code": "<i class=\"fab fa-amilia\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Anchor",
+   "Class": "anchor",
+   "Code": "<i class=\"fas fa-anchor\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Android",
+   "Class": "android",
+   "Code": "<i class=\"fab fa-android\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "AngelList",
+   "Class": "angellist",
+   "Code": "<i class=\"fab fa-angellist\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Angle Double Down",
+   "Class": "angle-double-down",
+   "Code": "<i class=\"fas fa-angle-double-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Angle Double Left",
+   "Class": "angle-double-left",
+   "Code": "<i class=\"fas fa-angle-double-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Angle Double Right",
+   "Class": "angle-double-right",
+   "Code": "<i class=\"fas fa-angle-double-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Angle Double Up",
+   "Class": "angle-double-up",
+   "Code": "<i class=\"fas fa-angle-double-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "angle-down",
+   "Class": "angle-down",
+   "Code": "<i class=\"fas fa-angle-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "angle-left",
+   "Class": "angle-left",
+   "Code": "<i class=\"fas fa-angle-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "angle-right",
+   "Class": "angle-right",
+   "Code": "<i class=\"fas fa-angle-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "angle-up",
+   "Class": "angle-up",
+   "Code": "<i class=\"fas fa-angle-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Angry Face",
+   "Class": "angry",
+   "Code": "<i class=\"fas fa-angry\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Angry Creative",
+   "Class": "angrycreative",
+   "Code": "<i class=\"fab fa-angrycreative\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Angular",
+   "Class": "angular",
+   "Code": "<i class=\"fab fa-angular\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ankh",
+   "Class": "ankh",
+   "Code": "<i class=\"fas fa-ankh\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "App Store",
+   "Class": "app-store",
+   "Code": "<i class=\"fab fa-app-store\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "iOS App Store",
+   "Class": "app-store-ios",
+   "Code": "<i class=\"fab fa-app-store-ios\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Apper Systems AB",
+   "Class": "apper",
+   "Code": "<i class=\"fab fa-apper\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Apple",
+   "Class": "apple",
+   "Code": "<i class=\"fab fa-apple\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fruit Apple",
+   "Class": "apple-alt",
+   "Code": "<i class=\"fas fa-apple-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Apple Pay",
+   "Class": "apple-pay",
+   "Code": "<i class=\"fab fa-apple-pay\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Archive",
+   "Class": "archive",
+   "Code": "<i class=\"fas fa-archive\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Archway",
+   "Class": "archway",
+   "Code": "<i class=\"fas fa-archway\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Arrow Circle Down",
+   "Class": "arrow-alt-circle-down",
+   "Code": "<i class=\"fas fa-arrow-alt-circle-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Arrow Circle Left",
+   "Class": "arrow-alt-circle-left",
+   "Code": "<i class=\"fas fa-arrow-alt-circle-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Arrow Circle Right",
+   "Class": "arrow-alt-circle-right",
+   "Code": "<i class=\"fas fa-arrow-alt-circle-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Arrow Circle Up",
+   "Class": "arrow-alt-circle-up",
+   "Code": "<i class=\"fas fa-arrow-alt-circle-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Arrow Circle Down",
+   "Class": "arrow-circle-down",
+   "Code": "<i class=\"fas fa-arrow-circle-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Arrow Circle Left",
+   "Class": "arrow-circle-left",
+   "Code": "<i class=\"fas fa-arrow-circle-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Arrow Circle Right",
+   "Class": "arrow-circle-right",
+   "Code": "<i class=\"fas fa-arrow-circle-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Arrow Circle Up",
+   "Class": "arrow-circle-up",
+   "Code": "<i class=\"fas fa-arrow-circle-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "arrow-down",
+   "Class": "arrow-down",
+   "Code": "<i class=\"fas fa-arrow-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "arrow-left",
+   "Class": "arrow-left",
+   "Code": "<i class=\"fas fa-arrow-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "arrow-right",
+   "Class": "arrow-right",
+   "Code": "<i class=\"fas fa-arrow-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "arrow-up",
+   "Class": "arrow-up",
+   "Code": "<i class=\"fas fa-arrow-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Arrows",
+   "Class": "arrows-alt",
+   "Code": "<i class=\"fas fa-arrows-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Arrows Horizontal",
+   "Class": "arrows-alt-h",
+   "Code": "<i class=\"fas fa-arrows-alt-h\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Arrows Vertical",
+   "Class": "arrows-alt-v",
+   "Code": "<i class=\"fas fa-arrows-alt-v\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Artstation",
+   "Class": "artstation",
+   "Code": "<i class=\"fab fa-artstation\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Assistive Listening Systems",
+   "Class": "assistive-listening-systems",
+   "Code": "<i class=\"fas fa-assistive-listening-systems\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "asterisk",
+   "Class": "asterisk",
+   "Code": "<i class=\"fas fa-asterisk\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Asymmetrik, Ltd.",
+   "Class": "asymmetrik",
+   "Code": "<i class=\"fab fa-asymmetrik\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "At",
+   "Class": "at",
+   "Code": "<i class=\"fas fa-at\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Atlas",
+   "Class": "atlas",
+   "Code": "<i class=\"fas fa-atlas\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Atlassian",
+   "Class": "atlassian",
+   "Code": "<i class=\"fab fa-atlassian\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Atom",
+   "Class": "atom",
+   "Code": "<i class=\"fas fa-atom\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Audible",
+   "Class": "audible",
+   "Code": "<i class=\"fab fa-audible\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Audio Description",
+   "Class": "audio-description",
+   "Code": "<i class=\"fas fa-audio-description\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Autoprefixer",
+   "Class": "autoprefixer",
+   "Code": "<i class=\"fab fa-autoprefixer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "avianex",
+   "Class": "avianex",
+   "Code": "<i class=\"fab fa-avianex\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Aviato",
+   "Class": "aviato",
+   "Code": "<i class=\"fab fa-aviato\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Award",
+   "Class": "award",
+   "Code": "<i class=\"fas fa-award\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Amazon Web Services (AWS)",
+   "Class": "aws",
+   "Code": "<i class=\"fab fa-aws\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Baby",
+   "Class": "baby",
+   "Code": "<i class=\"fas fa-baby\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Baby Carriage",
+   "Class": "baby-carriage",
+   "Code": "<i class=\"fas fa-baby-carriage\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Backspace",
+   "Class": "backspace",
+   "Code": "<i class=\"fas fa-backspace\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "backward",
+   "Class": "backward",
+   "Code": "<i class=\"fas fa-backward\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bacon",
+   "Class": "bacon",
+   "Code": "<i class=\"fas fa-bacon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Balance Scale",
+   "Class": "balance-scale",
+   "Code": "<i class=\"fas fa-balance-scale\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Balance Scale (Left-Weighted)",
+   "Class": "balance-scale-left",
+   "Code": "<i class=\"fas fa-balance-scale-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Balance Scale (Right-Weighted)",
+   "Class": "balance-scale-right",
+   "Code": "<i class=\"fas fa-balance-scale-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "ban",
+   "Class": "ban",
+   "Code": "<i class=\"fas fa-ban\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Band-Aid",
+   "Class": "band-aid",
+   "Code": "<i class=\"fas fa-band-aid\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bandcamp",
+   "Class": "bandcamp",
+   "Code": "<i class=\"fab fa-bandcamp\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "barcode",
+   "Class": "barcode",
+   "Code": "<i class=\"fas fa-barcode\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bars",
+   "Class": "bars",
+   "Code": "<i class=\"fas fa-bars\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Baseball Ball",
+   "Class": "baseball-ball",
+   "Code": "<i class=\"fas fa-baseball-ball\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Basketball Ball",
+   "Class": "basketball-ball",
+   "Code": "<i class=\"fas fa-basketball-ball\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bath",
+   "Class": "bath",
+   "Code": "<i class=\"fas fa-bath\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Battery Empty",
+   "Class": "battery-empty",
+   "Code": "<i class=\"fas fa-battery-empty\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Battery Full",
+   "Class": "battery-full",
+   "Code": "<i class=\"fas fa-battery-full\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Battery 1/2 Full",
+   "Class": "battery-half",
+   "Code": "<i class=\"fas fa-battery-half\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Battery 1/4 Full",
+   "Class": "battery-quarter",
+   "Code": "<i class=\"fas fa-battery-quarter\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Battery 3/4 Full",
+   "Class": "battery-three-quarters",
+   "Code": "<i class=\"fas fa-battery-three-quarters\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Battle.net",
+   "Class": "battle-net",
+   "Code": "<i class=\"fab fa-battle-net\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bed",
+   "Class": "bed",
+   "Code": "<i class=\"fas fa-bed\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "beer",
+   "Class": "beer",
+   "Code": "<i class=\"fas fa-beer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Behance",
+   "Class": "behance",
+   "Code": "<i class=\"fab fa-behance\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Behance Square",
+   "Class": "behance-square",
+   "Code": "<i class=\"fab fa-behance-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "bell",
+   "Class": "bell",
+   "Code": "<i class=\"fas fa-bell\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bell Slash",
+   "Class": "bell-slash",
+   "Code": "<i class=\"fas fa-bell-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bezier Curve",
+   "Class": "bezier-curve",
+   "Code": "<i class=\"fas fa-bezier-curve\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bible",
+   "Class": "bible",
+   "Code": "<i class=\"fas fa-bible\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bicycle",
+   "Class": "bicycle",
+   "Code": "<i class=\"fas fa-bicycle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Biking",
+   "Class": "biking",
+   "Code": "<i class=\"fas fa-biking\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "BIMobject",
+   "Class": "bimobject",
+   "Code": "<i class=\"fab fa-bimobject\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Binoculars",
+   "Class": "binoculars",
+   "Code": "<i class=\"fas fa-binoculars\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Biohazard",
+   "Class": "biohazard",
+   "Code": "<i class=\"fas fa-biohazard\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Birthday Cake",
+   "Class": "birthday-cake",
+   "Code": "<i class=\"fas fa-birthday-cake\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bitbucket",
+   "Class": "bitbucket",
+   "Code": "<i class=\"fab fa-bitbucket\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bitcoin",
+   "Class": "bitcoin",
+   "Code": "<i class=\"fab fa-bitcoin\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bity",
+   "Class": "bity",
+   "Code": "<i class=\"fab fa-bity\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Font Awesome Black Tie",
+   "Class": "black-tie",
+   "Code": "<i class=\"fab fa-black-tie\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "BlackBerry",
+   "Class": "blackberry",
+   "Code": "<i class=\"fab fa-blackberry\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Blender",
+   "Class": "blender",
+   "Code": "<i class=\"fas fa-blender\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Blender Phone",
+   "Class": "blender-phone",
+   "Code": "<i class=\"fas fa-blender-phone\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Blind",
+   "Class": "blind",
+   "Code": "<i class=\"fas fa-blind\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Blog",
+   "Class": "blog",
+   "Code": "<i class=\"fas fa-blog\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Blogger",
+   "Class": "blogger",
+   "Code": "<i class=\"fab fa-blogger\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Blogger B",
+   "Class": "blogger-b",
+   "Code": "<i class=\"fab fa-blogger-b\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bluetooth",
+   "Class": "bluetooth",
+   "Code": "<i class=\"fab fa-bluetooth\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bluetooth",
+   "Class": "bluetooth-b",
+   "Code": "<i class=\"fab fa-bluetooth-b\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "bold",
+   "Class": "bold",
+   "Code": "<i class=\"fas fa-bold\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Lightning Bolt",
+   "Class": "bolt",
+   "Code": "<i class=\"fas fa-bolt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bomb",
+   "Class": "bomb",
+   "Code": "<i class=\"fas fa-bomb\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bone",
+   "Class": "bone",
+   "Code": "<i class=\"fas fa-bone\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bong",
+   "Class": "bong",
+   "Code": "<i class=\"fas fa-bong\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "book",
+   "Class": "book",
+   "Code": "<i class=\"fas fa-book\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Book of the Dead",
+   "Class": "book-dead",
+   "Code": "<i class=\"fas fa-book-dead\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Medical Book",
+   "Class": "book-medical",
+   "Code": "<i class=\"fas fa-book-medical\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Book Open",
+   "Class": "book-open",
+   "Code": "<i class=\"fas fa-book-open\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Book Reader",
+   "Class": "book-reader",
+   "Code": "<i class=\"fas fa-book-reader\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "bookmark",
+   "Class": "bookmark",
+   "Code": "<i class=\"fas fa-bookmark\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bootstrap",
+   "Class": "bootstrap",
+   "Code": "<i class=\"fab fa-bootstrap\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Border All",
+   "Class": "border-all",
+   "Code": "<i class=\"fas fa-border-all\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Border None",
+   "Class": "border-none",
+   "Code": "<i class=\"fas fa-border-none\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Border Style",
+   "Class": "border-style",
+   "Code": "<i class=\"fas fa-border-style\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bowling Ball",
+   "Class": "bowling-ball",
+   "Code": "<i class=\"fas fa-bowling-ball\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Box",
+   "Class": "box",
+   "Code": "<i class=\"fas fa-box\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Box Open",
+   "Class": "box-open",
+   "Code": "<i class=\"fas fa-box-open\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Boxes",
+   "Class": "boxes",
+   "Code": "<i class=\"fas fa-boxes\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Braille",
+   "Class": "braille",
+   "Code": "<i class=\"fas fa-braille\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Brain",
+   "Class": "brain",
+   "Code": "<i class=\"fas fa-brain\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bread Slice",
+   "Class": "bread-slice",
+   "Code": "<i class=\"fas fa-bread-slice\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Briefcase",
+   "Class": "briefcase",
+   "Code": "<i class=\"fas fa-briefcase\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Medical Briefcase",
+   "Class": "briefcase-medical",
+   "Code": "<i class=\"fas fa-briefcase-medical\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Broadcast Tower",
+   "Class": "broadcast-tower",
+   "Code": "<i class=\"fas fa-broadcast-tower\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Broom",
+   "Class": "broom",
+   "Code": "<i class=\"fas fa-broom\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Brush",
+   "Class": "brush",
+   "Code": "<i class=\"fas fa-brush\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "BTC",
+   "Class": "btc",
+   "Code": "<i class=\"fab fa-btc\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Buffer",
+   "Class": "buffer",
+   "Code": "<i class=\"fab fa-buffer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bug",
+   "Class": "bug",
+   "Code": "<i class=\"fas fa-bug\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Building",
+   "Class": "building",
+   "Code": "<i class=\"fas fa-building\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "bullhorn",
+   "Class": "bullhorn",
+   "Code": "<i class=\"fas fa-bullhorn\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bullseye",
+   "Class": "bullseye",
+   "Code": "<i class=\"fas fa-bullseye\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Burn",
+   "Class": "burn",
+   "Code": "<i class=\"fas fa-burn\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "B�rom�bel-Experte GmbH & Co. KG.",
+   "Class": "buromobelexperte",
+   "Code": "<i class=\"fab fa-buromobelexperte\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bus",
+   "Class": "bus",
+   "Code": "<i class=\"fas fa-bus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bus Alt",
+   "Class": "bus-alt",
+   "Code": "<i class=\"fas fa-bus-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Business Time",
+   "Class": "business-time",
+   "Code": "<i class=\"fas fa-business-time\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "BuySellAds",
+   "Class": "buysellads",
+   "Code": "<i class=\"fab fa-buysellads\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Calculator",
+   "Class": "calculator",
+   "Code": "<i class=\"fas fa-calculator\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Calendar",
+   "Class": "calendar",
+   "Code": "<i class=\"fas fa-calendar\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Calendar",
+   "Class": "calendar-alt",
+   "Code": "<i class=\"fas fa-calendar-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Calendar Check",
+   "Class": "calendar-check",
+   "Code": "<i class=\"fas fa-calendar-check\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Calendar with Day Focus",
+   "Class": "calendar-day",
+   "Code": "<i class=\"fas fa-calendar-day\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Calendar Minus",
+   "Class": "calendar-minus",
+   "Code": "<i class=\"fas fa-calendar-minus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Calendar Plus",
+   "Class": "calendar-plus",
+   "Code": "<i class=\"fas fa-calendar-plus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Calendar Times",
+   "Class": "calendar-times",
+   "Code": "<i class=\"fas fa-calendar-times\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Calendar with Week Focus",
+   "Class": "calendar-week",
+   "Code": "<i class=\"fas fa-calendar-week\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "camera",
+   "Class": "camera",
+   "Code": "<i class=\"fas fa-camera\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Retro Camera",
+   "Class": "camera-retro",
+   "Code": "<i class=\"fas fa-camera-retro\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Campground",
+   "Class": "campground",
+   "Code": "<i class=\"fas fa-campground\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Canadian Maple Leaf",
+   "Class": "canadian-maple-leaf",
+   "Code": "<i class=\"fab fa-canadian-maple-leaf\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Candy Cane",
+   "Class": "candy-cane",
+   "Code": "<i class=\"fas fa-candy-cane\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cannabis",
+   "Class": "cannabis",
+   "Code": "<i class=\"fas fa-cannabis\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Capsules",
+   "Class": "capsules",
+   "Code": "<i class=\"fas fa-capsules\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Car",
+   "Class": "car",
+   "Code": "<i class=\"fas fa-car\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Car",
+   "Class": "car-alt",
+   "Code": "<i class=\"fas fa-car-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Car Battery",
+   "Class": "car-battery",
+   "Code": "<i class=\"fas fa-car-battery\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Car Crash",
+   "Class": "car-crash",
+   "Code": "<i class=\"fas fa-car-crash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Car Side",
+   "Class": "car-side",
+   "Code": "<i class=\"fas fa-car-side\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Caret Down",
+   "Class": "caret-down",
+   "Code": "<i class=\"fas fa-caret-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Caret Left",
+   "Class": "caret-left",
+   "Code": "<i class=\"fas fa-caret-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Caret Right",
+   "Class": "caret-right",
+   "Code": "<i class=\"fas fa-caret-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Caret Square Down",
+   "Class": "caret-square-down",
+   "Code": "<i class=\"fas fa-caret-square-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Caret Square Left",
+   "Class": "caret-square-left",
+   "Code": "<i class=\"fas fa-caret-square-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Caret Square Right",
+   "Class": "caret-square-right",
+   "Code": "<i class=\"fas fa-caret-square-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Caret Square Up",
+   "Class": "caret-square-up",
+   "Code": "<i class=\"fas fa-caret-square-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Caret Up",
+   "Class": "caret-up",
+   "Code": "<i class=\"fas fa-caret-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Carrot",
+   "Class": "carrot",
+   "Code": "<i class=\"fas fa-carrot\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shopping Cart Arrow Down",
+   "Class": "cart-arrow-down",
+   "Code": "<i class=\"fas fa-cart-arrow-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Add to Shopping Cart",
+   "Class": "cart-plus",
+   "Code": "<i class=\"fas fa-cart-plus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cash Register",
+   "Class": "cash-register",
+   "Code": "<i class=\"fas fa-cash-register\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cat",
+   "Class": "cat",
+   "Code": "<i class=\"fas fa-cat\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Amazon Pay Credit Card",
+   "Class": "cc-amazon-pay",
+   "Code": "<i class=\"fab fa-cc-amazon-pay\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "American Express Credit Card",
+   "Class": "cc-amex",
+   "Code": "<i class=\"fab fa-cc-amex\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Apple Pay Credit Card",
+   "Class": "cc-apple-pay",
+   "Code": "<i class=\"fab fa-cc-apple-pay\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Diner's Club Credit Card",
+   "Class": "cc-diners-club",
+   "Code": "<i class=\"fab fa-cc-diners-club\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Discover Credit Card",
+   "Class": "cc-discover",
+   "Code": "<i class=\"fab fa-cc-discover\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "JCB Credit Card",
+   "Class": "cc-jcb",
+   "Code": "<i class=\"fab fa-cc-jcb\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "MasterCard Credit Card",
+   "Class": "cc-mastercard",
+   "Code": "<i class=\"fab fa-cc-mastercard\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Paypal Credit Card",
+   "Class": "cc-paypal",
+   "Code": "<i class=\"fab fa-cc-paypal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stripe Credit Card",
+   "Class": "cc-stripe",
+   "Code": "<i class=\"fab fa-cc-stripe\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Visa Credit Card",
+   "Class": "cc-visa",
+   "Code": "<i class=\"fab fa-cc-visa\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Centercode",
+   "Class": "centercode",
+   "Code": "<i class=\"fab fa-centercode\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Centos",
+   "Class": "centos",
+   "Code": "<i class=\"fab fa-centos\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "certificate",
+   "Class": "certificate",
+   "Code": "<i class=\"fas fa-certificate\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chair",
+   "Class": "chair",
+   "Code": "<i class=\"fas fa-chair\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chalkboard",
+   "Class": "chalkboard",
+   "Code": "<i class=\"fas fa-chalkboard\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chalkboard Teacher",
+   "Class": "chalkboard-teacher",
+   "Code": "<i class=\"fas fa-chalkboard-teacher\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Charging Station",
+   "Class": "charging-station",
+   "Code": "<i class=\"fas fa-charging-station\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Area Chart",
+   "Class": "chart-area",
+   "Code": "<i class=\"fas fa-chart-area\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Bar Chart",
+   "Class": "chart-bar",
+   "Code": "<i class=\"fas fa-chart-bar\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Line Chart",
+   "Class": "chart-line",
+   "Code": "<i class=\"fas fa-chart-line\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pie Chart",
+   "Class": "chart-pie",
+   "Code": "<i class=\"fas fa-chart-pie\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Check",
+   "Class": "check",
+   "Code": "<i class=\"fas fa-check\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Check Circle",
+   "Class": "check-circle",
+   "Code": "<i class=\"fas fa-check-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Double Check",
+   "Class": "check-double",
+   "Code": "<i class=\"fas fa-check-double\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Check Square",
+   "Class": "check-square",
+   "Code": "<i class=\"fas fa-check-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cheese",
+   "Class": "cheese",
+   "Code": "<i class=\"fas fa-cheese\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chess",
+   "Class": "chess",
+   "Code": "<i class=\"fas fa-chess\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chess Bishop",
+   "Class": "chess-bishop",
+   "Code": "<i class=\"fas fa-chess-bishop\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chess Board",
+   "Class": "chess-board",
+   "Code": "<i class=\"fas fa-chess-board\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chess King",
+   "Class": "chess-king",
+   "Code": "<i class=\"fas fa-chess-king\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chess Knight",
+   "Class": "chess-knight",
+   "Code": "<i class=\"fas fa-chess-knight\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chess Pawn",
+   "Class": "chess-pawn",
+   "Code": "<i class=\"fas fa-chess-pawn\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chess Queen",
+   "Class": "chess-queen",
+   "Code": "<i class=\"fas fa-chess-queen\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chess Rook",
+   "Class": "chess-rook",
+   "Code": "<i class=\"fas fa-chess-rook\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chevron Circle Down",
+   "Class": "chevron-circle-down",
+   "Code": "<i class=\"fas fa-chevron-circle-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chevron Circle Left",
+   "Class": "chevron-circle-left",
+   "Code": "<i class=\"fas fa-chevron-circle-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chevron Circle Right",
+   "Class": "chevron-circle-right",
+   "Code": "<i class=\"fas fa-chevron-circle-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chevron Circle Up",
+   "Class": "chevron-circle-up",
+   "Code": "<i class=\"fas fa-chevron-circle-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "chevron-down",
+   "Class": "chevron-down",
+   "Code": "<i class=\"fas fa-chevron-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "chevron-left",
+   "Class": "chevron-left",
+   "Code": "<i class=\"fas fa-chevron-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "chevron-right",
+   "Class": "chevron-right",
+   "Code": "<i class=\"fas fa-chevron-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "chevron-up",
+   "Class": "chevron-up",
+   "Code": "<i class=\"fas fa-chevron-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Child",
+   "Class": "child",
+   "Code": "<i class=\"fas fa-child\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chrome",
+   "Class": "chrome",
+   "Code": "<i class=\"fab fa-chrome\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Chromecast",
+   "Class": "chromecast",
+   "Code": "<i class=\"fab fa-chromecast\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Church",
+   "Class": "church",
+   "Code": "<i class=\"fas fa-church\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Circle",
+   "Class": "circle",
+   "Code": "<i class=\"fas fa-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Circle Notched",
+   "Class": "circle-notch",
+   "Code": "<i class=\"fas fa-circle-notch\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "City",
+   "Class": "city",
+   "Code": "<i class=\"fas fa-city\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Medical Clinic",
+   "Class": "clinic-medical",
+   "Code": "<i class=\"fas fa-clinic-medical\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Clipboard",
+   "Class": "clipboard",
+   "Code": "<i class=\"fas fa-clipboard\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Clipboard with Check",
+   "Class": "clipboard-check",
+   "Code": "<i class=\"fas fa-clipboard-check\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Clipboard List",
+   "Class": "clipboard-list",
+   "Code": "<i class=\"fas fa-clipboard-list\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Clock",
+   "Class": "clock",
+   "Code": "<i class=\"fas fa-clock\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Clone",
+   "Class": "clone",
+   "Code": "<i class=\"fas fa-clone\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Closed Captioning",
+   "Class": "closed-captioning",
+   "Code": "<i class=\"fas fa-closed-captioning\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cloud",
+   "Class": "cloud",
+   "Code": "<i class=\"fas fa-cloud\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Cloud Download",
+   "Class": "cloud-download-alt",
+   "Code": "<i class=\"fas fa-cloud-download-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cloud with (a chance of) Meatball",
+   "Class": "cloud-meatball",
+   "Code": "<i class=\"fas fa-cloud-meatball\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cloud with Moon",
+   "Class": "cloud-moon",
+   "Code": "<i class=\"fas fa-cloud-moon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cloud with Moon and Rain",
+   "Class": "cloud-moon-rain",
+   "Code": "<i class=\"fas fa-cloud-moon-rain\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cloud with Rain",
+   "Class": "cloud-rain",
+   "Code": "<i class=\"fas fa-cloud-rain\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cloud with Heavy Showers",
+   "Class": "cloud-showers-heavy",
+   "Code": "<i class=\"fas fa-cloud-showers-heavy\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cloud with Sun",
+   "Class": "cloud-sun",
+   "Code": "<i class=\"fas fa-cloud-sun\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cloud with Sun and Rain",
+   "Class": "cloud-sun-rain",
+   "Code": "<i class=\"fas fa-cloud-sun-rain\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Cloud Upload",
+   "Class": "cloud-upload-alt",
+   "Code": "<i class=\"fas fa-cloud-upload-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "cloudscale.ch",
+   "Class": "cloudscale",
+   "Code": "<i class=\"fab fa-cloudscale\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cloudsmith",
+   "Class": "cloudsmith",
+   "Code": "<i class=\"fab fa-cloudsmith\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "cloudversify",
+   "Class": "cloudversify",
+   "Code": "<i class=\"fab fa-cloudversify\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cocktail",
+   "Class": "cocktail",
+   "Code": "<i class=\"fas fa-cocktail\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Code",
+   "Class": "code",
+   "Code": "<i class=\"fas fa-code\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Code Branch",
+   "Class": "code-branch",
+   "Code": "<i class=\"fas fa-code-branch\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Codepen",
+   "Class": "codepen",
+   "Code": "<i class=\"fab fa-codepen\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Codie Pie",
+   "Class": "codiepie",
+   "Code": "<i class=\"fab fa-codiepie\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Coffee",
+   "Class": "coffee",
+   "Code": "<i class=\"fas fa-coffee\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "cog",
+   "Class": "cog",
+   "Code": "<i class=\"fas fa-cog\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "cogs",
+   "Class": "cogs",
+   "Code": "<i class=\"fas fa-cogs\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Coins",
+   "Class": "coins",
+   "Code": "<i class=\"fas fa-coins\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Columns",
+   "Class": "columns",
+   "Code": "<i class=\"fas fa-columns\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "comment",
+   "Class": "comment",
+   "Code": "<i class=\"fas fa-comment\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Comment",
+   "Class": "comment-alt",
+   "Code": "<i class=\"fas fa-comment-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Comment Dollar",
+   "Class": "comment-dollar",
+   "Code": "<i class=\"fas fa-comment-dollar\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Comment Dots",
+   "Class": "comment-dots",
+   "Code": "<i class=\"fas fa-comment-dots\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Medical Chat",
+   "Class": "comment-medical",
+   "Code": "<i class=\"fas fa-comment-medical\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Comment Slash",
+   "Class": "comment-slash",
+   "Code": "<i class=\"fas fa-comment-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "comments",
+   "Class": "comments",
+   "Code": "<i class=\"fas fa-comments\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Comments Dollar",
+   "Class": "comments-dollar",
+   "Code": "<i class=\"fas fa-comments-dollar\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Compact Disc",
+   "Class": "compact-disc",
+   "Code": "<i class=\"fas fa-compact-disc\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Compass",
+   "Class": "compass",
+   "Code": "<i class=\"fas fa-compass\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Compress",
+   "Class": "compress",
+   "Code": "<i class=\"fas fa-compress\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Compress Arrows",
+   "Class": "compress-arrows-alt",
+   "Code": "<i class=\"fas fa-compress-arrows-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Concierge Bell",
+   "Class": "concierge-bell",
+   "Code": "<i class=\"fas fa-concierge-bell\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Confluence",
+   "Class": "confluence",
+   "Code": "<i class=\"fab fa-confluence\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Connect Develop",
+   "Class": "connectdevelop",
+   "Code": "<i class=\"fab fa-connectdevelop\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Contao",
+   "Class": "contao",
+   "Code": "<i class=\"fab fa-contao\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cookie",
+   "Class": "cookie",
+   "Code": "<i class=\"fas fa-cookie\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cookie Bite",
+   "Class": "cookie-bite",
+   "Code": "<i class=\"fas fa-cookie-bite\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Copy",
+   "Class": "copy",
+   "Code": "<i class=\"fas fa-copy\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Copyright",
+   "Class": "copyright",
+   "Code": "<i class=\"fas fa-copyright\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cotton Bureau",
+   "Class": "cotton-bureau",
+   "Code": "<i class=\"fab fa-cotton-bureau\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Couch",
+   "Class": "couch",
+   "Code": "<i class=\"fas fa-couch\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "cPanel",
+   "Class": "cpanel",
+   "Code": "<i class=\"fab fa-cpanel\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons",
+   "Class": "creative-commons",
+   "Code": "<i class=\"fab fa-creative-commons\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons Attribution",
+   "Class": "creative-commons-by",
+   "Code": "<i class=\"fab fa-creative-commons-by\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons Noncommercial",
+   "Class": "creative-commons-nc",
+   "Code": "<i class=\"fab fa-creative-commons-nc\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons Noncommercial (Euro Sign)",
+   "Class": "creative-commons-nc-eu",
+   "Code": "<i class=\"fab fa-creative-commons-nc-eu\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons Noncommercial (Yen Sign)",
+   "Class": "creative-commons-nc-jp",
+   "Code": "<i class=\"fab fa-creative-commons-nc-jp\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons No Derivative Works",
+   "Class": "creative-commons-nd",
+   "Code": "<i class=\"fab fa-creative-commons-nd\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons Public Domain",
+   "Class": "creative-commons-pd",
+   "Code": "<i class=\"fab fa-creative-commons-pd\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Creative Commons Public Domain",
+   "Class": "creative-commons-pd-alt",
+   "Code": "<i class=\"fab fa-creative-commons-pd-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons Remix",
+   "Class": "creative-commons-remix",
+   "Code": "<i class=\"fab fa-creative-commons-remix\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons Share Alike",
+   "Class": "creative-commons-sa",
+   "Code": "<i class=\"fab fa-creative-commons-sa\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons Sampling",
+   "Class": "creative-commons-sampling",
+   "Code": "<i class=\"fab fa-creative-commons-sampling\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons Sampling +",
+   "Class": "creative-commons-sampling-plus",
+   "Code": "<i class=\"fab fa-creative-commons-sampling-plus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons Share",
+   "Class": "creative-commons-share",
+   "Code": "<i class=\"fab fa-creative-commons-share\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Creative Commons CC0",
+   "Class": "creative-commons-zero",
+   "Code": "<i class=\"fab fa-creative-commons-zero\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Credit Card",
+   "Class": "credit-card",
+   "Code": "<i class=\"fas fa-credit-card\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Critical Role",
+   "Class": "critical-role",
+   "Code": "<i class=\"fab fa-critical-role\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "crop",
+   "Class": "crop",
+   "Code": "<i class=\"fas fa-crop\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Crop",
+   "Class": "crop-alt",
+   "Code": "<i class=\"fas fa-crop-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cross",
+   "Class": "cross",
+   "Code": "<i class=\"fas fa-cross\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Crosshairs",
+   "Class": "crosshairs",
+   "Code": "<i class=\"fas fa-crosshairs\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Crow",
+   "Class": "crow",
+   "Code": "<i class=\"fas fa-crow\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Crown",
+   "Class": "crown",
+   "Code": "<i class=\"fas fa-crown\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Crutch",
+   "Class": "crutch",
+   "Code": "<i class=\"fas fa-crutch\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "CSS 3 Logo",
+   "Class": "css3",
+   "Code": "<i class=\"fab fa-css3\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate CSS3 Logo",
+   "Class": "css3-alt",
+   "Code": "<i class=\"fab fa-css3-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cube",
+   "Class": "cube",
+   "Code": "<i class=\"fas fa-cube\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cubes",
+   "Class": "cubes",
+   "Code": "<i class=\"fas fa-cubes\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cut",
+   "Class": "cut",
+   "Code": "<i class=\"fas fa-cut\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cuttlefish",
+   "Class": "cuttlefish",
+   "Code": "<i class=\"fab fa-cuttlefish\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dungeons & Dragons",
+   "Class": "d-and-d",
+   "Code": "<i class=\"fab fa-d-and-d\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "D&D Beyond",
+   "Class": "d-and-d-beyond",
+   "Code": "<i class=\"fab fa-d-and-d-beyond\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "DashCube",
+   "Class": "dashcube",
+   "Code": "<i class=\"fab fa-dashcube\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Database",
+   "Class": "database",
+   "Code": "<i class=\"fas fa-database\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Deaf",
+   "Class": "deaf",
+   "Code": "<i class=\"fas fa-deaf\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Delicious",
+   "Class": "delicious",
+   "Code": "<i class=\"fab fa-delicious\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Democrat",
+   "Class": "democrat",
+   "Code": "<i class=\"fas fa-democrat\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "deploy.dog",
+   "Class": "deploydog",
+   "Code": "<i class=\"fab fa-deploydog\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Deskpro",
+   "Class": "deskpro",
+   "Code": "<i class=\"fab fa-deskpro\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Desktop",
+   "Class": "desktop",
+   "Code": "<i class=\"fas fa-desktop\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "DEV",
+   "Class": "dev",
+   "Code": "<i class=\"fab fa-dev\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "deviantART",
+   "Class": "deviantart",
+   "Code": "<i class=\"fab fa-deviantart\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dharmachakra",
+   "Class": "dharmachakra",
+   "Code": "<i class=\"fas fa-dharmachakra\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "DHL",
+   "Class": "dhl",
+   "Code": "<i class=\"fab fa-dhl\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Diagnoses",
+   "Class": "diagnoses",
+   "Code": "<i class=\"fas fa-diagnoses\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Diaspora",
+   "Class": "diaspora",
+   "Code": "<i class=\"fab fa-diaspora\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dice",
+   "Class": "dice",
+   "Code": "<i class=\"fas fa-dice\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dice D20",
+   "Class": "dice-d20",
+   "Code": "<i class=\"fas fa-dice-d20\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dice D6",
+   "Class": "dice-d6",
+   "Code": "<i class=\"fas fa-dice-d6\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dice Five",
+   "Class": "dice-five",
+   "Code": "<i class=\"fas fa-dice-five\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dice Four",
+   "Class": "dice-four",
+   "Code": "<i class=\"fas fa-dice-four\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dice One",
+   "Class": "dice-one",
+   "Code": "<i class=\"fas fa-dice-one\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dice Six",
+   "Class": "dice-six",
+   "Code": "<i class=\"fas fa-dice-six\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dice Three",
+   "Class": "dice-three",
+   "Code": "<i class=\"fas fa-dice-three\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dice Two",
+   "Class": "dice-two",
+   "Code": "<i class=\"fas fa-dice-two\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Digg Logo",
+   "Class": "digg",
+   "Code": "<i class=\"fab fa-digg\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Digital Ocean",
+   "Class": "digital-ocean",
+   "Code": "<i class=\"fab fa-digital-ocean\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Digital Tachograph",
+   "Class": "digital-tachograph",
+   "Code": "<i class=\"fas fa-digital-tachograph\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Directions",
+   "Class": "directions",
+   "Code": "<i class=\"fas fa-directions\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Discord",
+   "Class": "discord",
+   "Code": "<i class=\"fab fa-discord\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Discourse",
+   "Class": "discourse",
+   "Code": "<i class=\"fab fa-discourse\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Divide",
+   "Class": "divide",
+   "Code": "<i class=\"fas fa-divide\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dizzy Face",
+   "Class": "dizzy",
+   "Code": "<i class=\"fas fa-dizzy\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "DNA",
+   "Class": "dna",
+   "Code": "<i class=\"fas fa-dna\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "DocHub",
+   "Class": "dochub",
+   "Code": "<i class=\"fab fa-dochub\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Docker",
+   "Class": "docker",
+   "Code": "<i class=\"fab fa-docker\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dog",
+   "Class": "dog",
+   "Code": "<i class=\"fas fa-dog\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dollar Sign",
+   "Class": "dollar-sign",
+   "Code": "<i class=\"fas fa-dollar-sign\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dolly",
+   "Class": "dolly",
+   "Code": "<i class=\"fas fa-dolly\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dolly Flatbed",
+   "Class": "dolly-flatbed",
+   "Code": "<i class=\"fas fa-dolly-flatbed\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Donate",
+   "Class": "donate",
+   "Code": "<i class=\"fas fa-donate\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Door Closed",
+   "Class": "door-closed",
+   "Code": "<i class=\"fas fa-door-closed\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Door Open",
+   "Class": "door-open",
+   "Code": "<i class=\"fas fa-door-open\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dot Circle",
+   "Class": "dot-circle",
+   "Code": "<i class=\"fas fa-dot-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dove",
+   "Class": "dove",
+   "Code": "<i class=\"fas fa-dove\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Download",
+   "Class": "download",
+   "Code": "<i class=\"fas fa-download\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Draft2digital",
+   "Class": "draft2digital",
+   "Code": "<i class=\"fab fa-draft2digital\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Drafting Compass",
+   "Class": "drafting-compass",
+   "Code": "<i class=\"fas fa-drafting-compass\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dragon",
+   "Class": "dragon",
+   "Code": "<i class=\"fas fa-dragon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Draw Polygon",
+   "Class": "draw-polygon",
+   "Code": "<i class=\"fas fa-draw-polygon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dribbble",
+   "Class": "dribbble",
+   "Code": "<i class=\"fab fa-dribbble\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dribbble Square",
+   "Class": "dribbble-square",
+   "Code": "<i class=\"fab fa-dribbble-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dropbox",
+   "Class": "dropbox",
+   "Code": "<i class=\"fab fa-dropbox\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Drum",
+   "Class": "drum",
+   "Code": "<i class=\"fas fa-drum\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Drum Steelpan",
+   "Class": "drum-steelpan",
+   "Code": "<i class=\"fas fa-drum-steelpan\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Drumstick with Bite Taken Out",
+   "Class": "drumstick-bite",
+   "Code": "<i class=\"fas fa-drumstick-bite\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Drupal Logo",
+   "Class": "drupal",
+   "Code": "<i class=\"fab fa-drupal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dumbbell",
+   "Class": "dumbbell",
+   "Code": "<i class=\"fas fa-dumbbell\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dumpster",
+   "Class": "dumpster",
+   "Code": "<i class=\"fas fa-dumpster\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dumpster Fire",
+   "Class": "dumpster-fire",
+   "Code": "<i class=\"fas fa-dumpster-fire\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dungeon",
+   "Class": "dungeon",
+   "Code": "<i class=\"fas fa-dungeon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Dyalog",
+   "Class": "dyalog",
+   "Code": "<i class=\"fab fa-dyalog\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Earlybirds",
+   "Class": "earlybirds",
+   "Code": "<i class=\"fab fa-earlybirds\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "eBay",
+   "Class": "ebay",
+   "Code": "<i class=\"fab fa-ebay\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Edge Browser",
+   "Class": "edge",
+   "Code": "<i class=\"fab fa-edge\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Edit",
+   "Class": "edit",
+   "Code": "<i class=\"fas fa-edit\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Egg",
+   "Class": "egg",
+   "Code": "<i class=\"fas fa-egg\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "eject",
+   "Class": "eject",
+   "Code": "<i class=\"fas fa-eject\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Elementor",
+   "Class": "elementor",
+   "Code": "<i class=\"fab fa-elementor\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Horizontal Ellipsis",
+   "Class": "ellipsis-h",
+   "Code": "<i class=\"fas fa-ellipsis-h\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vertical Ellipsis",
+   "Class": "ellipsis-v",
+   "Code": "<i class=\"fas fa-ellipsis-v\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ello",
+   "Class": "ello",
+   "Code": "<i class=\"fab fa-ello\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ember",
+   "Class": "ember",
+   "Code": "<i class=\"fab fa-ember\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Galactic Empire",
+   "Class": "empire",
+   "Code": "<i class=\"fab fa-empire\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Envelope",
+   "Class": "envelope",
+   "Code": "<i class=\"fas fa-envelope\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Envelope Open",
+   "Class": "envelope-open",
+   "Code": "<i class=\"fas fa-envelope-open\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Envelope Open-text",
+   "Class": "envelope-open-text",
+   "Code": "<i class=\"fas fa-envelope-open-text\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Envelope Square",
+   "Class": "envelope-square",
+   "Code": "<i class=\"fas fa-envelope-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Envira Gallery",
+   "Class": "envira",
+   "Code": "<i class=\"fab fa-envira\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Equals",
+   "Class": "equals",
+   "Code": "<i class=\"fas fa-equals\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "eraser",
+   "Class": "eraser",
+   "Code": "<i class=\"fas fa-eraser\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Erlang",
+   "Class": "erlang",
+   "Code": "<i class=\"fab fa-erlang\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ethereum",
+   "Class": "ethereum",
+   "Code": "<i class=\"fab fa-ethereum\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ethernet",
+   "Class": "ethernet",
+   "Code": "<i class=\"fas fa-ethernet\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Etsy",
+   "Class": "etsy",
+   "Code": "<i class=\"fab fa-etsy\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Euro Sign",
+   "Class": "euro-sign",
+   "Code": "<i class=\"fas fa-euro-sign\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Evernote",
+   "Class": "evernote",
+   "Code": "<i class=\"fab fa-evernote\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Exchange",
+   "Class": "exchange-alt",
+   "Code": "<i class=\"fas fa-exchange-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "exclamation",
+   "Class": "exclamation",
+   "Code": "<i class=\"fas fa-exclamation\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Exclamation Circle",
+   "Class": "exclamation-circle",
+   "Code": "<i class=\"fas fa-exclamation-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Exclamation Triangle",
+   "Class": "exclamation-triangle",
+   "Code": "<i class=\"fas fa-exclamation-triangle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Expand",
+   "Class": "expand",
+   "Code": "<i class=\"fas fa-expand\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Expand Arrows",
+   "Class": "expand-arrows-alt",
+   "Code": "<i class=\"fas fa-expand-arrows-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "ExpeditedSSL",
+   "Class": "expeditedssl",
+   "Code": "<i class=\"fab fa-expeditedssl\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate External Link",
+   "Class": "external-link-alt",
+   "Code": "<i class=\"fas fa-external-link-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate External Link Square",
+   "Class": "external-link-square-alt",
+   "Code": "<i class=\"fas fa-external-link-square-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Eye",
+   "Class": "eye",
+   "Code": "<i class=\"fas fa-eye\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Eye Dropper",
+   "Class": "eye-dropper",
+   "Code": "<i class=\"fas fa-eye-dropper\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Eye Slash",
+   "Class": "eye-slash",
+   "Code": "<i class=\"fas fa-eye-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Facebook",
+   "Class": "facebook",
+   "Code": "<i class=\"fab fa-facebook\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Facebook F",
+   "Class": "facebook-f",
+   "Code": "<i class=\"fab fa-facebook-f\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Facebook Messenger",
+   "Class": "facebook-messenger",
+   "Code": "<i class=\"fab fa-facebook-messenger\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Facebook Square",
+   "Class": "facebook-square",
+   "Code": "<i class=\"fab fa-facebook-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fan",
+   "Class": "fan",
+   "Code": "<i class=\"fas fa-fan\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fantasy Flight-games",
+   "Class": "fantasy-flight-games",
+   "Code": "<i class=\"fab fa-fantasy-flight-games\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "fast-backward",
+   "Class": "fast-backward",
+   "Code": "<i class=\"fas fa-fast-backward\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "fast-forward",
+   "Class": "fast-forward",
+   "Code": "<i class=\"fas fa-fast-forward\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fax",
+   "Class": "fax",
+   "Code": "<i class=\"fas fa-fax\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Feather",
+   "Class": "feather",
+   "Code": "<i class=\"fas fa-feather\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Feather",
+   "Class": "feather-alt",
+   "Code": "<i class=\"fas fa-feather-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "FedEx",
+   "Class": "fedex",
+   "Code": "<i class=\"fab fa-fedex\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fedora",
+   "Class": "fedora",
+   "Code": "<i class=\"fab fa-fedora\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Female",
+   "Class": "female",
+   "Code": "<i class=\"fas fa-female\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "fighter-jet",
+   "Class": "fighter-jet",
+   "Code": "<i class=\"fas fa-fighter-jet\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Figma",
+   "Class": "figma",
+   "Code": "<i class=\"fab fa-figma\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File",
+   "Class": "file",
+   "Code": "<i class=\"fas fa-file\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate File",
+   "Class": "file-alt",
+   "Code": "<i class=\"fas fa-file-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Archive File",
+   "Class": "file-archive",
+   "Code": "<i class=\"fas fa-file-archive\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Audio File",
+   "Class": "file-audio",
+   "Code": "<i class=\"fas fa-file-audio\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Code File",
+   "Class": "file-code",
+   "Code": "<i class=\"fas fa-file-code\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File Contract",
+   "Class": "file-contract",
+   "Code": "<i class=\"fas fa-file-contract\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File CSV",
+   "Class": "file-csv",
+   "Code": "<i class=\"fas fa-file-csv\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File Download",
+   "Class": "file-download",
+   "Code": "<i class=\"fas fa-file-download\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Excel File",
+   "Class": "file-excel",
+   "Code": "<i class=\"fas fa-file-excel\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File Export",
+   "Class": "file-export",
+   "Code": "<i class=\"fas fa-file-export\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Image File",
+   "Class": "file-image",
+   "Code": "<i class=\"fas fa-file-image\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File Import",
+   "Class": "file-import",
+   "Code": "<i class=\"fas fa-file-import\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File Invoice",
+   "Class": "file-invoice",
+   "Code": "<i class=\"fas fa-file-invoice\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File Invoice with US Dollar",
+   "Class": "file-invoice-dollar",
+   "Code": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Medical File",
+   "Class": "file-medical",
+   "Code": "<i class=\"fas fa-file-medical\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Medical File",
+   "Class": "file-medical-alt",
+   "Code": "<i class=\"fas fa-file-medical-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "PDF File",
+   "Class": "file-pdf",
+   "Code": "<i class=\"fas fa-file-pdf\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Powerpoint File",
+   "Class": "file-powerpoint",
+   "Code": "<i class=\"fas fa-file-powerpoint\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File Prescription",
+   "Class": "file-prescription",
+   "Code": "<i class=\"fas fa-file-prescription\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File Signature",
+   "Class": "file-signature",
+   "Code": "<i class=\"fas fa-file-signature\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "File Upload",
+   "Class": "file-upload",
+   "Code": "<i class=\"fas fa-file-upload\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Video File",
+   "Class": "file-video",
+   "Code": "<i class=\"fas fa-file-video\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Word File",
+   "Class": "file-word",
+   "Code": "<i class=\"fas fa-file-word\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fill",
+   "Class": "fill",
+   "Code": "<i class=\"fas fa-fill\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fill Drip",
+   "Class": "fill-drip",
+   "Code": "<i class=\"fas fa-fill-drip\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Film",
+   "Class": "film",
+   "Code": "<i class=\"fas fa-film\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Filter",
+   "Class": "filter",
+   "Code": "<i class=\"fas fa-filter\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fingerprint",
+   "Class": "fingerprint",
+   "Code": "<i class=\"fas fa-fingerprint\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "fire",
+   "Class": "fire",
+   "Code": "<i class=\"fas fa-fire\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Fire",
+   "Class": "fire-alt",
+   "Code": "<i class=\"fas fa-fire-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "fire-extinguisher",
+   "Class": "fire-extinguisher",
+   "Code": "<i class=\"fas fa-fire-extinguisher\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Firefox",
+   "Class": "firefox",
+   "Code": "<i class=\"fab fa-firefox\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "First Aid",
+   "Class": "first-aid",
+   "Code": "<i class=\"fas fa-first-aid\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "First Order",
+   "Class": "first-order",
+   "Code": "<i class=\"fab fa-first-order\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate First Order",
+   "Class": "first-order-alt",
+   "Code": "<i class=\"fab fa-first-order-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "firstdraft",
+   "Class": "firstdraft",
+   "Code": "<i class=\"fab fa-firstdraft\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fish",
+   "Class": "fish",
+   "Code": "<i class=\"fas fa-fish\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Raised Fist",
+   "Class": "fist-raised",
+   "Code": "<i class=\"fas fa-fist-raised\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "flag",
+   "Class": "flag",
+   "Code": "<i class=\"fas fa-flag\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "flag-checkered",
+   "Class": "flag-checkered",
+   "Code": "<i class=\"fas fa-flag-checkered\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "United States of America Flag",
+   "Class": "flag-usa",
+   "Code": "<i class=\"fas fa-flag-usa\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Flask",
+   "Class": "flask",
+   "Code": "<i class=\"fas fa-flask\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Flickr",
+   "Class": "flickr",
+   "Code": "<i class=\"fab fa-flickr\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Flipboard",
+   "Class": "flipboard",
+   "Code": "<i class=\"fab fa-flipboard\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Flushed Face",
+   "Class": "flushed",
+   "Code": "<i class=\"fas fa-flushed\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fly",
+   "Class": "fly",
+   "Code": "<i class=\"fab fa-fly\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Folder",
+   "Class": "folder",
+   "Code": "<i class=\"fas fa-folder\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Folder Minus",
+   "Class": "folder-minus",
+   "Code": "<i class=\"fas fa-folder-minus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Folder Open",
+   "Class": "folder-open",
+   "Code": "<i class=\"fas fa-folder-open\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Folder Plus",
+   "Class": "folder-plus",
+   "Code": "<i class=\"fas fa-folder-plus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "font",
+   "Class": "font",
+   "Code": "<i class=\"fas fa-font\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Font Awesome",
+   "Class": "font-awesome",
+   "Code": "<i class=\"fab fa-font-awesome\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Font Awesome",
+   "Class": "font-awesome-alt",
+   "Code": "<i class=\"fab fa-font-awesome-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Font Awesome Flag",
+   "Class": "font-awesome-flag",
+   "Code": "<i class=\"fab fa-font-awesome-flag\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Font Awesome Full Logo",
+   "Class": "font-awesome-logo-full",
+   "Code": "<i class=\"far fa-font-awesome-logo-full\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fonticons",
+   "Class": "fonticons",
+   "Code": "<i class=\"fab fa-fonticons\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fonticons Fi",
+   "Class": "fonticons-fi",
+   "Code": "<i class=\"fab fa-fonticons-fi\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Football Ball",
+   "Class": "football-ball",
+   "Code": "<i class=\"fas fa-football-ball\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fort Awesome",
+   "Class": "fort-awesome",
+   "Code": "<i class=\"fab fa-fort-awesome\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Fort Awesome",
+   "Class": "fort-awesome-alt",
+   "Code": "<i class=\"fab fa-fort-awesome-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Forumbee",
+   "Class": "forumbee",
+   "Code": "<i class=\"fab fa-forumbee\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "forward",
+   "Class": "forward",
+   "Code": "<i class=\"fas fa-forward\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Foursquare",
+   "Class": "foursquare",
+   "Code": "<i class=\"fab fa-foursquare\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Free Code Camp",
+   "Class": "free-code-camp",
+   "Code": "<i class=\"fab fa-free-code-camp\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "FreeBSD",
+   "Class": "freebsd",
+   "Code": "<i class=\"fab fa-freebsd\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Frog",
+   "Class": "frog",
+   "Code": "<i class=\"fas fa-frog\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Frowning Face",
+   "Class": "frown",
+   "Code": "<i class=\"fas fa-frown\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Frowning Face With Open Mouth",
+   "Class": "frown-open",
+   "Code": "<i class=\"fas fa-frown-open\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Fulcrum",
+   "Class": "fulcrum",
+   "Code": "<i class=\"fab fa-fulcrum\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Funnel Dollar",
+   "Class": "funnel-dollar",
+   "Code": "<i class=\"fas fa-funnel-dollar\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Futbol",
+   "Class": "futbol",
+   "Code": "<i class=\"fas fa-futbol\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Galactic Republic",
+   "Class": "galactic-republic",
+   "Code": "<i class=\"fab fa-galactic-republic\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Galactic Senate",
+   "Class": "galactic-senate",
+   "Code": "<i class=\"fab fa-galactic-senate\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gamepad",
+   "Class": "gamepad",
+   "Code": "<i class=\"fas fa-gamepad\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gas Pump",
+   "Class": "gas-pump",
+   "Code": "<i class=\"fas fa-gas-pump\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gavel",
+   "Class": "gavel",
+   "Code": "<i class=\"fas fa-gavel\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gem",
+   "Class": "gem",
+   "Code": "<i class=\"fas fa-gem\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Genderless",
+   "Class": "genderless",
+   "Code": "<i class=\"fas fa-genderless\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Get Pocket",
+   "Class": "get-pocket",
+   "Code": "<i class=\"fab fa-get-pocket\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "GG Currency",
+   "Class": "gg",
+   "Code": "<i class=\"fab fa-gg\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "GG Currency Circle",
+   "Class": "gg-circle",
+   "Code": "<i class=\"fab fa-gg-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ghost",
+   "Class": "ghost",
+   "Code": "<i class=\"fas fa-ghost\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "gift",
+   "Class": "gift",
+   "Code": "<i class=\"fas fa-gift\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gifts",
+   "Class": "gifts",
+   "Code": "<i class=\"fas fa-gifts\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Git",
+   "Class": "git",
+   "Code": "<i class=\"fab fa-git\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Git Alt",
+   "Class": "git-alt",
+   "Code": "<i class=\"fab fa-git-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Git Square",
+   "Class": "git-square",
+   "Code": "<i class=\"fab fa-git-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "GitHub",
+   "Class": "github",
+   "Code": "<i class=\"fab fa-github\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate GitHub",
+   "Class": "github-alt",
+   "Code": "<i class=\"fab fa-github-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "GitHub Square",
+   "Class": "github-square",
+   "Code": "<i class=\"fab fa-github-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "GitKraken",
+   "Class": "gitkraken",
+   "Code": "<i class=\"fab fa-gitkraken\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "GitLab",
+   "Class": "gitlab",
+   "Code": "<i class=\"fab fa-gitlab\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gitter",
+   "Class": "gitter",
+   "Code": "<i class=\"fab fa-gitter\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Glass Cheers",
+   "Class": "glass-cheers",
+   "Code": "<i class=\"fas fa-glass-cheers\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Martini Glass",
+   "Class": "glass-martini",
+   "Code": "<i class=\"fas fa-glass-martini\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Glass Martini",
+   "Class": "glass-martini-alt",
+   "Code": "<i class=\"fas fa-glass-martini-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Glass Whiskey",
+   "Class": "glass-whiskey",
+   "Code": "<i class=\"fas fa-glass-whiskey\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Glasses",
+   "Class": "glasses",
+   "Code": "<i class=\"fas fa-glasses\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Glide",
+   "Class": "glide",
+   "Code": "<i class=\"fab fa-glide\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Glide G",
+   "Class": "glide-g",
+   "Code": "<i class=\"fab fa-glide-g\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Globe",
+   "Class": "globe",
+   "Code": "<i class=\"fas fa-globe\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Globe with Africa shown",
+   "Class": "globe-africa",
+   "Code": "<i class=\"fas fa-globe-africa\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Globe with Americas shown",
+   "Class": "globe-americas",
+   "Code": "<i class=\"fas fa-globe-americas\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Globe with Asia shown",
+   "Class": "globe-asia",
+   "Code": "<i class=\"fas fa-globe-asia\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Globe with Europe shown",
+   "Class": "globe-europe",
+   "Code": "<i class=\"fas fa-globe-europe\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gofore",
+   "Class": "gofore",
+   "Code": "<i class=\"fab fa-gofore\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Golf Ball",
+   "Class": "golf-ball",
+   "Code": "<i class=\"fas fa-golf-ball\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Goodreads",
+   "Class": "goodreads",
+   "Code": "<i class=\"fab fa-goodreads\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Goodreads G",
+   "Class": "goodreads-g",
+   "Code": "<i class=\"fab fa-goodreads-g\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Google Logo",
+   "Class": "google",
+   "Code": "<i class=\"fab fa-google\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Google Drive",
+   "Class": "google-drive",
+   "Code": "<i class=\"fab fa-google-drive\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Google Play",
+   "Class": "google-play",
+   "Code": "<i class=\"fab fa-google-play\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Google Plus",
+   "Class": "google-plus",
+   "Code": "<i class=\"fab fa-google-plus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Google Plus G",
+   "Class": "google-plus-g",
+   "Code": "<i class=\"fab fa-google-plus-g\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Google Plus Square",
+   "Class": "google-plus-square",
+   "Code": "<i class=\"fab fa-google-plus-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Google Wallet",
+   "Class": "google-wallet",
+   "Code": "<i class=\"fab fa-google-wallet\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gopuram",
+   "Class": "gopuram",
+   "Code": "<i class=\"fas fa-gopuram\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Graduation Cap",
+   "Class": "graduation-cap",
+   "Code": "<i class=\"fas fa-graduation-cap\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gratipay (Gittip)",
+   "Class": "gratipay",
+   "Code": "<i class=\"fab fa-gratipay\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grav",
+   "Class": "grav",
+   "Code": "<i class=\"fab fa-grav\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Greater Than",
+   "Class": "greater-than",
+   "Code": "<i class=\"fas fa-greater-than\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Greater Than Equal To",
+   "Class": "greater-than-equal",
+   "Code": "<i class=\"fas fa-greater-than-equal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grimacing Face",
+   "Class": "grimace",
+   "Code": "<i class=\"fas fa-grimace\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grinning Face",
+   "Class": "grin",
+   "Code": "<i class=\"fas fa-grin\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Grinning Face",
+   "Class": "grin-alt",
+   "Code": "<i class=\"fas fa-grin-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grinning Face With Smiling Eyes",
+   "Class": "grin-beam",
+   "Code": "<i class=\"fas fa-grin-beam\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grinning Face With Sweat",
+   "Class": "grin-beam-sweat",
+   "Code": "<i class=\"fas fa-grin-beam-sweat\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Smiling Face With Heart-Eyes",
+   "Class": "grin-hearts",
+   "Code": "<i class=\"fas fa-grin-hearts\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grinning Squinting Face",
+   "Class": "grin-squint",
+   "Code": "<i class=\"fas fa-grin-squint\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Rolling on the Floor Laughing",
+   "Class": "grin-squint-tears",
+   "Code": "<i class=\"fas fa-grin-squint-tears\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Star-Struck",
+   "Class": "grin-stars",
+   "Code": "<i class=\"fas fa-grin-stars\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Face With Tears of Joy",
+   "Class": "grin-tears",
+   "Code": "<i class=\"fas fa-grin-tears\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Face With Tongue",
+   "Class": "grin-tongue",
+   "Code": "<i class=\"fas fa-grin-tongue\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Squinting Face With Tongue",
+   "Class": "grin-tongue-squint",
+   "Code": "<i class=\"fas fa-grin-tongue-squint\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Winking Face With Tongue",
+   "Class": "grin-tongue-wink",
+   "Code": "<i class=\"fas fa-grin-tongue-wink\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grinning Winking Face",
+   "Class": "grin-wink",
+   "Code": "<i class=\"fas fa-grin-wink\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grip Horizontal",
+   "Class": "grip-horizontal",
+   "Code": "<i class=\"fas fa-grip-horizontal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grip Lines",
+   "Class": "grip-lines",
+   "Code": "<i class=\"fas fa-grip-lines\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grip Lines Vertical",
+   "Class": "grip-lines-vertical",
+   "Code": "<i class=\"fas fa-grip-lines-vertical\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grip Vertical",
+   "Class": "grip-vertical",
+   "Code": "<i class=\"fas fa-grip-vertical\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gripfire, Inc.",
+   "Class": "gripfire",
+   "Code": "<i class=\"fab fa-gripfire\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grunt",
+   "Class": "grunt",
+   "Code": "<i class=\"fab fa-grunt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Guitar",
+   "Class": "guitar",
+   "Code": "<i class=\"fas fa-guitar\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Gulp",
+   "Class": "gulp",
+   "Code": "<i class=\"fab fa-gulp\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "H Square",
+   "Class": "h-square",
+   "Code": "<i class=\"fas fa-h-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hacker News",
+   "Class": "hacker-news",
+   "Code": "<i class=\"fab fa-hacker-news\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hacker News Square",
+   "Class": "hacker-news-square",
+   "Code": "<i class=\"fab fa-hacker-news-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hackerrank",
+   "Class": "hackerrank",
+   "Code": "<i class=\"fab fa-hackerrank\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hamburger",
+   "Class": "hamburger",
+   "Code": "<i class=\"fas fa-hamburger\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hammer",
+   "Class": "hammer",
+   "Code": "<i class=\"fas fa-hammer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hamsa",
+   "Class": "hamsa",
+   "Code": "<i class=\"fas fa-hamsa\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hand Holding",
+   "Class": "hand-holding",
+   "Code": "<i class=\"fas fa-hand-holding\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hand Holding Heart",
+   "Class": "hand-holding-heart",
+   "Code": "<i class=\"fas fa-hand-holding-heart\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hand Holding US Dollar",
+   "Class": "hand-holding-usd",
+   "Code": "<i class=\"fas fa-hand-holding-usd\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Lizard (Hand)",
+   "Class": "hand-lizard",
+   "Code": "<i class=\"fas fa-hand-lizard\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hand with Middle Finger Raised",
+   "Class": "hand-middle-finger",
+   "Code": "<i class=\"fas fa-hand-middle-finger\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Paper (Hand)",
+   "Class": "hand-paper",
+   "Code": "<i class=\"fas fa-hand-paper\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Peace (Hand)",
+   "Class": "hand-peace",
+   "Code": "<i class=\"fas fa-hand-peace\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hand Pointing Down",
+   "Class": "hand-point-down",
+   "Code": "<i class=\"fas fa-hand-point-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hand Pointing Left",
+   "Class": "hand-point-left",
+   "Code": "<i class=\"fas fa-hand-point-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hand Pointing Right",
+   "Class": "hand-point-right",
+   "Code": "<i class=\"fas fa-hand-point-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hand Pointing Up",
+   "Class": "hand-point-up",
+   "Code": "<i class=\"fas fa-hand-point-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pointer (Hand)",
+   "Class": "hand-pointer",
+   "Code": "<i class=\"fas fa-hand-pointer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Rock (Hand)",
+   "Class": "hand-rock",
+   "Code": "<i class=\"fas fa-hand-rock\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Scissors (Hand)",
+   "Class": "hand-scissors",
+   "Code": "<i class=\"fas fa-hand-scissors\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Spock (Hand)",
+   "Class": "hand-spock",
+   "Code": "<i class=\"fas fa-hand-spock\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hands",
+   "Class": "hands",
+   "Code": "<i class=\"fas fa-hands\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Helping Hands",
+   "Class": "hands-helping",
+   "Code": "<i class=\"fas fa-hands-helping\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Handshake",
+   "Class": "handshake",
+   "Code": "<i class=\"fas fa-handshake\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hanukiah",
+   "Class": "hanukiah",
+   "Code": "<i class=\"fas fa-hanukiah\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hard Hat",
+   "Class": "hard-hat",
+   "Code": "<i class=\"fas fa-hard-hat\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hashtag",
+   "Class": "hashtag",
+   "Code": "<i class=\"fas fa-hashtag\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wizard's Hat",
+   "Class": "hat-wizard",
+   "Code": "<i class=\"fas fa-hat-wizard\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Haykal",
+   "Class": "haykal",
+   "Code": "<i class=\"fas fa-haykal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "HDD",
+   "Class": "hdd",
+   "Code": "<i class=\"fas fa-hdd\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "heading",
+   "Class": "heading",
+   "Code": "<i class=\"fas fa-heading\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "headphones",
+   "Class": "headphones",
+   "Code": "<i class=\"fas fa-headphones\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Headphones",
+   "Class": "headphones-alt",
+   "Code": "<i class=\"fas fa-headphones-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Headset",
+   "Class": "headset",
+   "Code": "<i class=\"fas fa-headset\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Heart",
+   "Class": "heart",
+   "Code": "<i class=\"fas fa-heart\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Heart Broken",
+   "Class": "heart-broken",
+   "Code": "<i class=\"fas fa-heart-broken\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Heartbeat",
+   "Class": "heartbeat",
+   "Code": "<i class=\"fas fa-heartbeat\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Helicopter",
+   "Class": "helicopter",
+   "Code": "<i class=\"fas fa-helicopter\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Highlighter",
+   "Class": "highlighter",
+   "Code": "<i class=\"fas fa-highlighter\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hiking",
+   "Class": "hiking",
+   "Code": "<i class=\"fas fa-hiking\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hippo",
+   "Class": "hippo",
+   "Code": "<i class=\"fas fa-hippo\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hips",
+   "Class": "hips",
+   "Code": "<i class=\"fab fa-hips\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "HireAHelper",
+   "Class": "hire-a-helper",
+   "Code": "<i class=\"fab fa-hire-a-helper\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "History",
+   "Class": "history",
+   "Code": "<i class=\"fas fa-history\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hockey Puck",
+   "Class": "hockey-puck",
+   "Code": "<i class=\"fas fa-hockey-puck\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Holly Berry",
+   "Class": "holly-berry",
+   "Code": "<i class=\"fas fa-holly-berry\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "home",
+   "Class": "home",
+   "Code": "<i class=\"fas fa-home\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hooli",
+   "Class": "hooli",
+   "Code": "<i class=\"fab fa-hooli\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hornbill",
+   "Class": "hornbill",
+   "Code": "<i class=\"fab fa-hornbill\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Horse",
+   "Class": "horse",
+   "Code": "<i class=\"fas fa-horse\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Horse Head",
+   "Class": "horse-head",
+   "Code": "<i class=\"fas fa-horse-head\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "hospital",
+   "Class": "hospital",
+   "Code": "<i class=\"fas fa-hospital\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Hospital",
+   "Class": "hospital-alt",
+   "Code": "<i class=\"fas fa-hospital-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hospital Symbol",
+   "Class": "hospital-symbol",
+   "Code": "<i class=\"fas fa-hospital-symbol\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hot Tub",
+   "Class": "hot-tub",
+   "Code": "<i class=\"fas fa-hot-tub\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hot Dog",
+   "Class": "hotdog",
+   "Code": "<i class=\"fas fa-hotdog\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hotel",
+   "Class": "hotel",
+   "Code": "<i class=\"fas fa-hotel\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hotjar",
+   "Class": "hotjar",
+   "Code": "<i class=\"fab fa-hotjar\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hourglass",
+   "Class": "hourglass",
+   "Code": "<i class=\"fas fa-hourglass\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hourglass End",
+   "Class": "hourglass-end",
+   "Code": "<i class=\"fas fa-hourglass-end\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hourglass Half",
+   "Class": "hourglass-half",
+   "Code": "<i class=\"fas fa-hourglass-half\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hourglass Start",
+   "Class": "hourglass-start",
+   "Code": "<i class=\"fas fa-hourglass-start\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Damaged House",
+   "Class": "house-damage",
+   "Code": "<i class=\"fas fa-house-damage\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Houzz",
+   "Class": "houzz",
+   "Code": "<i class=\"fab fa-houzz\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hryvnia",
+   "Class": "hryvnia",
+   "Code": "<i class=\"fas fa-hryvnia\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "HTML 5 Logo",
+   "Class": "html5",
+   "Code": "<i class=\"fab fa-html5\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "HubSpot",
+   "Class": "hubspot",
+   "Code": "<i class=\"fab fa-hubspot\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "I Beam Cursor",
+   "Class": "i-cursor",
+   "Code": "<i class=\"fas fa-i-cursor\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ice Cream",
+   "Class": "ice-cream",
+   "Code": "<i class=\"fas fa-ice-cream\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Icicles",
+   "Class": "icicles",
+   "Code": "<i class=\"fas fa-icicles\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Icons",
+   "Class": "icons",
+   "Code": "<i class=\"fas fa-icons\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Identification Badge",
+   "Class": "id-badge",
+   "Code": "<i class=\"fas fa-id-badge\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Identification Card",
+   "Class": "id-card",
+   "Code": "<i class=\"fas fa-id-card\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Identification Card",
+   "Class": "id-card-alt",
+   "Code": "<i class=\"fas fa-id-card-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Igloo",
+   "Class": "igloo",
+   "Code": "<i class=\"fas fa-igloo\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Image",
+   "Class": "image",
+   "Code": "<i class=\"fas fa-image\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Images",
+   "Class": "images",
+   "Code": "<i class=\"fas fa-images\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "IMDB",
+   "Class": "imdb",
+   "Code": "<i class=\"fab fa-imdb\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "inbox",
+   "Class": "inbox",
+   "Code": "<i class=\"fas fa-inbox\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Indent",
+   "Class": "indent",
+   "Code": "<i class=\"fas fa-indent\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Industry",
+   "Class": "industry",
+   "Code": "<i class=\"fas fa-industry\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Infinity",
+   "Class": "infinity",
+   "Code": "<i class=\"fas fa-infinity\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Info",
+   "Class": "info",
+   "Code": "<i class=\"fas fa-info\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Info Circle",
+   "Class": "info-circle",
+   "Code": "<i class=\"fas fa-info-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Instagram",
+   "Class": "instagram",
+   "Code": "<i class=\"fab fa-instagram\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Intercom",
+   "Class": "intercom",
+   "Code": "<i class=\"fab fa-intercom\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Internet-explorer",
+   "Class": "internet-explorer",
+   "Code": "<i class=\"fab fa-internet-explorer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "InVision",
+   "Class": "invision",
+   "Code": "<i class=\"fab fa-invision\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "ioxhost",
+   "Class": "ioxhost",
+   "Code": "<i class=\"fab fa-ioxhost\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "italic",
+   "Class": "italic",
+   "Code": "<i class=\"fas fa-italic\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "itch.io",
+   "Class": "itch-io",
+   "Code": "<i class=\"fab fa-itch-io\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "iTunes",
+   "Class": "itunes",
+   "Code": "<i class=\"fab fa-itunes\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Itunes Note",
+   "Class": "itunes-note",
+   "Code": "<i class=\"fab fa-itunes-note\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Java",
+   "Class": "java",
+   "Code": "<i class=\"fab fa-java\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Jedi",
+   "Class": "jedi",
+   "Code": "<i class=\"fas fa-jedi\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Jedi Order",
+   "Class": "jedi-order",
+   "Code": "<i class=\"fab fa-jedi-order\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Jenkis",
+   "Class": "jenkins",
+   "Code": "<i class=\"fab fa-jenkins\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Jira",
+   "Class": "jira",
+   "Code": "<i class=\"fab fa-jira\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Joget",
+   "Class": "joget",
+   "Code": "<i class=\"fab fa-joget\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Joint",
+   "Class": "joint",
+   "Code": "<i class=\"fas fa-joint\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Joomla Logo",
+   "Class": "joomla",
+   "Code": "<i class=\"fab fa-joomla\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Journal of the Whills",
+   "Class": "journal-whills",
+   "Code": "<i class=\"fas fa-journal-whills\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "JavaScript (JS)",
+   "Class": "js",
+   "Code": "<i class=\"fab fa-js\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "JavaScript (JS) Square",
+   "Class": "js-square",
+   "Code": "<i class=\"fab fa-js-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "jsFiddle",
+   "Class": "jsfiddle",
+   "Code": "<i class=\"fab fa-jsfiddle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Kaaba",
+   "Class": "kaaba",
+   "Code": "<i class=\"fas fa-kaaba\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Kaggle",
+   "Class": "kaggle",
+   "Code": "<i class=\"fab fa-kaggle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "key",
+   "Class": "key",
+   "Code": "<i class=\"fas fa-key\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Keybase",
+   "Class": "keybase",
+   "Code": "<i class=\"fab fa-keybase\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Keyboard",
+   "Class": "keyboard",
+   "Code": "<i class=\"fas fa-keyboard\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "KeyCDN",
+   "Class": "keycdn",
+   "Code": "<i class=\"fab fa-keycdn\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Khanda",
+   "Class": "khanda",
+   "Code": "<i class=\"fas fa-khanda\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Kickstarter",
+   "Class": "kickstarter",
+   "Code": "<i class=\"fab fa-kickstarter\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Kickstarter K",
+   "Class": "kickstarter-k",
+   "Code": "<i class=\"fab fa-kickstarter-k\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Kissing Face",
+   "Class": "kiss",
+   "Code": "<i class=\"fas fa-kiss\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Kissing Face With Smiling Eyes",
+   "Class": "kiss-beam",
+   "Code": "<i class=\"fas fa-kiss-beam\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Face Blowing a Kiss",
+   "Class": "kiss-wink-heart",
+   "Code": "<i class=\"fas fa-kiss-wink-heart\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Kiwi Bird",
+   "Class": "kiwi-bird",
+   "Code": "<i class=\"fas fa-kiwi-bird\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "KORVUE",
+   "Class": "korvue",
+   "Code": "<i class=\"fab fa-korvue\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Landmark",
+   "Class": "landmark",
+   "Code": "<i class=\"fas fa-landmark\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Language",
+   "Class": "language",
+   "Code": "<i class=\"fas fa-language\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Laptop",
+   "Class": "laptop",
+   "Code": "<i class=\"fas fa-laptop\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Laptop Code",
+   "Class": "laptop-code",
+   "Code": "<i class=\"fas fa-laptop-code\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Laptop Medical",
+   "Class": "laptop-medical",
+   "Code": "<i class=\"fas fa-laptop-medical\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Laravel",
+   "Class": "laravel",
+   "Code": "<i class=\"fab fa-laravel\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "last.fm",
+   "Class": "lastfm",
+   "Code": "<i class=\"fab fa-lastfm\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "last.fm Square",
+   "Class": "lastfm-square",
+   "Code": "<i class=\"fab fa-lastfm-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Grinning Face With Big Eyes",
+   "Class": "laugh",
+   "Code": "<i class=\"fas fa-laugh\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Laugh Face with Beaming Eyes",
+   "Class": "laugh-beam",
+   "Code": "<i class=\"fas fa-laugh-beam\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Laughing Squinting Face",
+   "Class": "laugh-squint",
+   "Code": "<i class=\"fas fa-laugh-squint\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Laughing Winking Face",
+   "Class": "laugh-wink",
+   "Code": "<i class=\"fas fa-laugh-wink\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Layer Group",
+   "Class": "layer-group",
+   "Code": "<i class=\"fas fa-layer-group\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "leaf",
+   "Class": "leaf",
+   "Code": "<i class=\"fas fa-leaf\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Leanpub",
+   "Class": "leanpub",
+   "Code": "<i class=\"fab fa-leanpub\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Lemon",
+   "Class": "lemon",
+   "Code": "<i class=\"fas fa-lemon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Less",
+   "Class": "less",
+   "Code": "<i class=\"fab fa-less\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Less Than",
+   "Class": "less-than",
+   "Code": "<i class=\"fas fa-less-than\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Less Than Equal To",
+   "Class": "less-than-equal",
+   "Code": "<i class=\"fas fa-less-than-equal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Level Down",
+   "Class": "level-down-alt",
+   "Code": "<i class=\"fas fa-level-down-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Level Up",
+   "Class": "level-up-alt",
+   "Code": "<i class=\"fas fa-level-up-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Life Ring",
+   "Class": "life-ring",
+   "Code": "<i class=\"fas fa-life-ring\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Lightbulb",
+   "Class": "lightbulb",
+   "Code": "<i class=\"fas fa-lightbulb\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Line",
+   "Class": "line",
+   "Code": "<i class=\"fab fa-line\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Link",
+   "Class": "link",
+   "Code": "<i class=\"fas fa-link\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "LinkedIn",
+   "Class": "linkedin",
+   "Code": "<i class=\"fab fa-linkedin\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "LinkedIn In",
+   "Class": "linkedin-in",
+   "Code": "<i class=\"fab fa-linkedin-in\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Linode",
+   "Class": "linode",
+   "Code": "<i class=\"fab fa-linode\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Linux",
+   "Class": "linux",
+   "Code": "<i class=\"fab fa-linux\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Turkish Lira Sign",
+   "Class": "lira-sign",
+   "Code": "<i class=\"fas fa-lira-sign\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "List",
+   "Class": "list",
+   "Code": "<i class=\"fas fa-list\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate List",
+   "Class": "list-alt",
+   "Code": "<i class=\"fas fa-list-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "list-ol",
+   "Class": "list-ol",
+   "Code": "<i class=\"fas fa-list-ol\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "list-ul",
+   "Class": "list-ul",
+   "Code": "<i class=\"fas fa-list-ul\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "location-arrow",
+   "Class": "location-arrow",
+   "Code": "<i class=\"fas fa-location-arrow\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "lock",
+   "Class": "lock",
+   "Code": "<i class=\"fas fa-lock\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Lock Open",
+   "Class": "lock-open",
+   "Code": "<i class=\"fas fa-lock-open\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Long Arrow Down",
+   "Class": "long-arrow-alt-down",
+   "Code": "<i class=\"fas fa-long-arrow-alt-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Long Arrow Left",
+   "Class": "long-arrow-alt-left",
+   "Code": "<i class=\"fas fa-long-arrow-alt-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Long Arrow Right",
+   "Class": "long-arrow-alt-right",
+   "Code": "<i class=\"fas fa-long-arrow-alt-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Long Arrow Up",
+   "Class": "long-arrow-alt-up",
+   "Code": "<i class=\"fas fa-long-arrow-alt-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Low Vision",
+   "Class": "low-vision",
+   "Code": "<i class=\"fas fa-low-vision\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Luggage Cart",
+   "Class": "luggage-cart",
+   "Code": "<i class=\"fas fa-luggage-cart\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "lyft",
+   "Class": "lyft",
+   "Code": "<i class=\"fab fa-lyft\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Magento",
+   "Class": "magento",
+   "Code": "<i class=\"fab fa-magento\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "magic",
+   "Class": "magic",
+   "Code": "<i class=\"fas fa-magic\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "magnet",
+   "Class": "magnet",
+   "Code": "<i class=\"fas fa-magnet\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mail Bulk",
+   "Class": "mail-bulk",
+   "Code": "<i class=\"fas fa-mail-bulk\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mailchimp",
+   "Class": "mailchimp",
+   "Code": "<i class=\"fab fa-mailchimp\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Male",
+   "Class": "male",
+   "Code": "<i class=\"fas fa-male\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mandalorian",
+   "Class": "mandalorian",
+   "Code": "<i class=\"fab fa-mandalorian\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Map",
+   "Class": "map",
+   "Code": "<i class=\"fas fa-map\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Map Marked",
+   "Class": "map-marked",
+   "Code": "<i class=\"fas fa-map-marked\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Map Marked",
+   "Class": "map-marked-alt",
+   "Code": "<i class=\"fas fa-map-marked-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "map-marker",
+   "Class": "map-marker",
+   "Code": "<i class=\"fas fa-map-marker\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Map Marker",
+   "Class": "map-marker-alt",
+   "Code": "<i class=\"fas fa-map-marker-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Map Pin",
+   "Class": "map-pin",
+   "Code": "<i class=\"fas fa-map-pin\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Map Signs",
+   "Class": "map-signs",
+   "Code": "<i class=\"fas fa-map-signs\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Markdown",
+   "Class": "markdown",
+   "Code": "<i class=\"fab fa-markdown\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Marker",
+   "Class": "marker",
+   "Code": "<i class=\"fas fa-marker\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mars",
+   "Class": "mars",
+   "Code": "<i class=\"fas fa-mars\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mars Double",
+   "Class": "mars-double",
+   "Code": "<i class=\"fas fa-mars-double\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mars Stroke",
+   "Class": "mars-stroke",
+   "Code": "<i class=\"fas fa-mars-stroke\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mars Stroke Horizontal",
+   "Class": "mars-stroke-h",
+   "Code": "<i class=\"fas fa-mars-stroke-h\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mars Stroke Vertical",
+   "Class": "mars-stroke-v",
+   "Code": "<i class=\"fas fa-mars-stroke-v\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mask",
+   "Class": "mask",
+   "Code": "<i class=\"fas fa-mask\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mastodon",
+   "Class": "mastodon",
+   "Code": "<i class=\"fab fa-mastodon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "MaxCDN",
+   "Class": "maxcdn",
+   "Code": "<i class=\"fab fa-maxcdn\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Medal",
+   "Class": "medal",
+   "Code": "<i class=\"fas fa-medal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "MedApps",
+   "Class": "medapps",
+   "Code": "<i class=\"fab fa-medapps\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Medium",
+   "Class": "medium",
+   "Code": "<i class=\"fab fa-medium\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Medium M",
+   "Class": "medium-m",
+   "Code": "<i class=\"fab fa-medium-m\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "medkit",
+   "Class": "medkit",
+   "Code": "<i class=\"fas fa-medkit\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "MRT",
+   "Class": "medrt",
+   "Code": "<i class=\"fab fa-medrt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Meetup",
+   "Class": "meetup",
+   "Code": "<i class=\"fab fa-meetup\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Megaport",
+   "Class": "megaport",
+   "Code": "<i class=\"fab fa-megaport\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Neutral Face",
+   "Class": "meh",
+   "Code": "<i class=\"fas fa-meh\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Face Without Mouth",
+   "Class": "meh-blank",
+   "Code": "<i class=\"fas fa-meh-blank\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Face With Rolling Eyes",
+   "Class": "meh-rolling-eyes",
+   "Code": "<i class=\"fas fa-meh-rolling-eyes\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Memory",
+   "Class": "memory",
+   "Code": "<i class=\"fas fa-memory\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mendeley",
+   "Class": "mendeley",
+   "Code": "<i class=\"fab fa-mendeley\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Menorah",
+   "Class": "menorah",
+   "Code": "<i class=\"fas fa-menorah\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mercury",
+   "Class": "mercury",
+   "Code": "<i class=\"fas fa-mercury\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Meteor",
+   "Class": "meteor",
+   "Code": "<i class=\"fas fa-meteor\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Microchip",
+   "Class": "microchip",
+   "Code": "<i class=\"fas fa-microchip\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "microphone",
+   "Class": "microphone",
+   "Code": "<i class=\"fas fa-microphone\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Microphone",
+   "Class": "microphone-alt",
+   "Code": "<i class=\"fas fa-microphone-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Microphone Slash",
+   "Class": "microphone-alt-slash",
+   "Code": "<i class=\"fas fa-microphone-alt-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Microphone Slash",
+   "Class": "microphone-slash",
+   "Code": "<i class=\"fas fa-microphone-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Microscope",
+   "Class": "microscope",
+   "Code": "<i class=\"fas fa-microscope\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Microsoft",
+   "Class": "microsoft",
+   "Code": "<i class=\"fab fa-microsoft\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "minus",
+   "Class": "minus",
+   "Code": "<i class=\"fas fa-minus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Minus Circle",
+   "Class": "minus-circle",
+   "Code": "<i class=\"fas fa-minus-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Minus Square",
+   "Class": "minus-square",
+   "Code": "<i class=\"fas fa-minus-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mitten",
+   "Class": "mitten",
+   "Code": "<i class=\"fas fa-mitten\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mix",
+   "Class": "mix",
+   "Code": "<i class=\"fab fa-mix\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mixcloud",
+   "Class": "mixcloud",
+   "Code": "<i class=\"fab fa-mixcloud\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mizuni",
+   "Class": "mizuni",
+   "Code": "<i class=\"fab fa-mizuni\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mobile Phone",
+   "Class": "mobile",
+   "Code": "<i class=\"fas fa-mobile\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Mobile",
+   "Class": "mobile-alt",
+   "Code": "<i class=\"fas fa-mobile-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "MODX",
+   "Class": "modx",
+   "Code": "<i class=\"fab fa-modx\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Monero",
+   "Class": "monero",
+   "Code": "<i class=\"fab fa-monero\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Money Bill",
+   "Class": "money-bill",
+   "Code": "<i class=\"fas fa-money-bill\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Money Bill",
+   "Class": "money-bill-alt",
+   "Code": "<i class=\"fas fa-money-bill-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wavy Money Bill",
+   "Class": "money-bill-wave",
+   "Code": "<i class=\"fas fa-money-bill-wave\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Wavy Money Bill",
+   "Class": "money-bill-wave-alt",
+   "Code": "<i class=\"fas fa-money-bill-wave-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Money Check",
+   "Class": "money-check",
+   "Code": "<i class=\"fas fa-money-check\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Money Check",
+   "Class": "money-check-alt",
+   "Code": "<i class=\"fas fa-money-check-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Monument",
+   "Class": "monument",
+   "Code": "<i class=\"fas fa-monument\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Moon",
+   "Class": "moon",
+   "Code": "<i class=\"fas fa-moon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mortar Pestle",
+   "Class": "mortar-pestle",
+   "Code": "<i class=\"fas fa-mortar-pestle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mosque",
+   "Class": "mosque",
+   "Code": "<i class=\"fas fa-mosque\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Motorcycle",
+   "Class": "motorcycle",
+   "Code": "<i class=\"fas fa-motorcycle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mountain",
+   "Class": "mountain",
+   "Code": "<i class=\"fas fa-mountain\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mouse Pointer",
+   "Class": "mouse-pointer",
+   "Code": "<i class=\"fas fa-mouse-pointer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Mug Hot",
+   "Class": "mug-hot",
+   "Code": "<i class=\"fas fa-mug-hot\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Music",
+   "Class": "music",
+   "Code": "<i class=\"fas fa-music\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Napster",
+   "Class": "napster",
+   "Code": "<i class=\"fab fa-napster\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Neos",
+   "Class": "neos",
+   "Code": "<i class=\"fab fa-neos\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wired Network",
+   "Class": "network-wired",
+   "Code": "<i class=\"fas fa-network-wired\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Neuter",
+   "Class": "neuter",
+   "Code": "<i class=\"fas fa-neuter\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Newspaper",
+   "Class": "newspaper",
+   "Code": "<i class=\"fas fa-newspaper\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Nimblr",
+   "Class": "nimblr",
+   "Code": "<i class=\"fab fa-nimblr\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Node.js",
+   "Class": "node",
+   "Code": "<i class=\"fab fa-node\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Node.js JS",
+   "Class": "node-js",
+   "Code": "<i class=\"fab fa-node-js\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Not Equal",
+   "Class": "not-equal",
+   "Code": "<i class=\"fas fa-not-equal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Medical Notes",
+   "Class": "notes-medical",
+   "Code": "<i class=\"fas fa-notes-medical\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "npm",
+   "Class": "npm",
+   "Code": "<i class=\"fab fa-npm\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "NS8",
+   "Class": "ns8",
+   "Code": "<i class=\"fab fa-ns8\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Nutritionix",
+   "Class": "nutritionix",
+   "Code": "<i class=\"fab fa-nutritionix\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Object Group",
+   "Class": "object-group",
+   "Code": "<i class=\"fas fa-object-group\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Object Ungroup",
+   "Class": "object-ungroup",
+   "Code": "<i class=\"fas fa-object-ungroup\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Odnoklassniki",
+   "Class": "odnoklassniki",
+   "Code": "<i class=\"fab fa-odnoklassniki\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Odnoklassniki Square",
+   "Class": "odnoklassniki-square",
+   "Code": "<i class=\"fab fa-odnoklassniki-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Oil Can",
+   "Class": "oil-can",
+   "Code": "<i class=\"fas fa-oil-can\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Old Republic",
+   "Class": "old-republic",
+   "Code": "<i class=\"fab fa-old-republic\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Om",
+   "Class": "om",
+   "Code": "<i class=\"fas fa-om\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "OpenCart",
+   "Class": "opencart",
+   "Code": "<i class=\"fab fa-opencart\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "OpenID",
+   "Class": "openid",
+   "Code": "<i class=\"fab fa-openid\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Opera",
+   "Class": "opera",
+   "Code": "<i class=\"fab fa-opera\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Optin Monster",
+   "Class": "optin-monster",
+   "Code": "<i class=\"fab fa-optin-monster\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Open Source Initiative",
+   "Class": "osi",
+   "Code": "<i class=\"fab fa-osi\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Otter",
+   "Class": "otter",
+   "Code": "<i class=\"fas fa-otter\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Outdent",
+   "Class": "outdent",
+   "Code": "<i class=\"fas fa-outdent\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "page4 Corporation",
+   "Class": "page4",
+   "Code": "<i class=\"fab fa-page4\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pagelines",
+   "Class": "pagelines",
+   "Code": "<i class=\"fab fa-pagelines\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pager",
+   "Class": "pager",
+   "Code": "<i class=\"fas fa-pager\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Paint Brush",
+   "Class": "paint-brush",
+   "Code": "<i class=\"fas fa-paint-brush\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Paint Roller",
+   "Class": "paint-roller",
+   "Code": "<i class=\"fas fa-paint-roller\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Palette",
+   "Class": "palette",
+   "Code": "<i class=\"fas fa-palette\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Palfed",
+   "Class": "palfed",
+   "Code": "<i class=\"fab fa-palfed\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pallet",
+   "Class": "pallet",
+   "Code": "<i class=\"fas fa-pallet\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Paper Plane",
+   "Class": "paper-plane",
+   "Code": "<i class=\"fas fa-paper-plane\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Paperclip",
+   "Class": "paperclip",
+   "Code": "<i class=\"fas fa-paperclip\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Parachute Box",
+   "Class": "parachute-box",
+   "Code": "<i class=\"fas fa-parachute-box\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "paragraph",
+   "Class": "paragraph",
+   "Code": "<i class=\"fas fa-paragraph\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Parking",
+   "Class": "parking",
+   "Code": "<i class=\"fas fa-parking\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Passport",
+   "Class": "passport",
+   "Code": "<i class=\"fas fa-passport\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pastafarianism",
+   "Class": "pastafarianism",
+   "Code": "<i class=\"fas fa-pastafarianism\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Paste",
+   "Class": "paste",
+   "Code": "<i class=\"fas fa-paste\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Patreon",
+   "Class": "patreon",
+   "Code": "<i class=\"fab fa-patreon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "pause",
+   "Class": "pause",
+   "Code": "<i class=\"fas fa-pause\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pause Circle",
+   "Class": "pause-circle",
+   "Code": "<i class=\"fas fa-pause-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Paw",
+   "Class": "paw",
+   "Code": "<i class=\"fas fa-paw\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Paypal",
+   "Class": "paypal",
+   "Code": "<i class=\"fab fa-paypal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Peace",
+   "Class": "peace",
+   "Code": "<i class=\"fas fa-peace\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pen",
+   "Class": "pen",
+   "Code": "<i class=\"fas fa-pen\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Pen",
+   "Class": "pen-alt",
+   "Code": "<i class=\"fas fa-pen-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pen Fancy",
+   "Class": "pen-fancy",
+   "Code": "<i class=\"fas fa-pen-fancy\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pen Nib",
+   "Class": "pen-nib",
+   "Code": "<i class=\"fas fa-pen-nib\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pen Square",
+   "Class": "pen-square",
+   "Code": "<i class=\"fas fa-pen-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Pencil",
+   "Class": "pencil-alt",
+   "Code": "<i class=\"fas fa-pencil-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pencil Ruler",
+   "Class": "pencil-ruler",
+   "Code": "<i class=\"fas fa-pencil-ruler\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Penny Arcade",
+   "Class": "penny-arcade",
+   "Code": "<i class=\"fab fa-penny-arcade\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "People Carry",
+   "Class": "people-carry",
+   "Code": "<i class=\"fas fa-people-carry\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hot Pepper",
+   "Class": "pepper-hot",
+   "Code": "<i class=\"fas fa-pepper-hot\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Percent",
+   "Class": "percent",
+   "Code": "<i class=\"fas fa-percent\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Percentage",
+   "Class": "percentage",
+   "Code": "<i class=\"fas fa-percentage\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Periscope",
+   "Class": "periscope",
+   "Code": "<i class=\"fab fa-periscope\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Person Entering Booth",
+   "Class": "person-booth",
+   "Code": "<i class=\"fas fa-person-booth\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Phabricator",
+   "Class": "phabricator",
+   "Code": "<i class=\"fab fa-phabricator\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Phoenix Framework",
+   "Class": "phoenix-framework",
+   "Code": "<i class=\"fab fa-phoenix-framework\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Phoenix Squadron",
+   "Class": "phoenix-squadron",
+   "Code": "<i class=\"fab fa-phoenix-squadron\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Phone",
+   "Class": "phone",
+   "Code": "<i class=\"fas fa-phone\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Phone",
+   "Class": "phone-alt",
+   "Code": "<i class=\"fas fa-phone-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Phone Slash",
+   "Class": "phone-slash",
+   "Code": "<i class=\"fas fa-phone-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Phone Square",
+   "Class": "phone-square",
+   "Code": "<i class=\"fas fa-phone-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Phone Square",
+   "Class": "phone-square-alt",
+   "Code": "<i class=\"fas fa-phone-square-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Phone Volume",
+   "Class": "phone-volume",
+   "Code": "<i class=\"fas fa-phone-volume\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Photo Video",
+   "Class": "photo-video",
+   "Code": "<i class=\"fas fa-photo-video\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "PHP",
+   "Class": "php",
+   "Code": "<i class=\"fab fa-php\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pied Piper Logo",
+   "Class": "pied-piper",
+   "Code": "<i class=\"fab fa-pied-piper\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Pied Piper Logo",
+   "Class": "pied-piper-alt",
+   "Code": "<i class=\"fab fa-pied-piper-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pied Piper-hat",
+   "Class": "pied-piper-hat",
+   "Code": "<i class=\"fab fa-pied-piper-hat\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pied Piper PP Logo (Old)",
+   "Class": "pied-piper-pp",
+   "Code": "<i class=\"fab fa-pied-piper-pp\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Piggy Bank",
+   "Class": "piggy-bank",
+   "Code": "<i class=\"fas fa-piggy-bank\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pills",
+   "Class": "pills",
+   "Code": "<i class=\"fas fa-pills\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pinterest",
+   "Class": "pinterest",
+   "Code": "<i class=\"fab fa-pinterest\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pinterest P",
+   "Class": "pinterest-p",
+   "Code": "<i class=\"fab fa-pinterest-p\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pinterest Square",
+   "Class": "pinterest-square",
+   "Code": "<i class=\"fab fa-pinterest-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pizza Slice",
+   "Class": "pizza-slice",
+   "Code": "<i class=\"fas fa-pizza-slice\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Place of Worship",
+   "Class": "place-of-worship",
+   "Code": "<i class=\"fas fa-place-of-worship\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "plane",
+   "Class": "plane",
+   "Code": "<i class=\"fas fa-plane\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Plane Arrival",
+   "Class": "plane-arrival",
+   "Code": "<i class=\"fas fa-plane-arrival\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Plane Departure",
+   "Class": "plane-departure",
+   "Code": "<i class=\"fas fa-plane-departure\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "play",
+   "Class": "play",
+   "Code": "<i class=\"fas fa-play\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Play Circle",
+   "Class": "play-circle",
+   "Code": "<i class=\"fas fa-play-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "PlayStation",
+   "Class": "playstation",
+   "Code": "<i class=\"fab fa-playstation\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Plug",
+   "Class": "plug",
+   "Code": "<i class=\"fas fa-plug\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "plus",
+   "Class": "plus",
+   "Code": "<i class=\"fas fa-plus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Plus Circle",
+   "Class": "plus-circle",
+   "Code": "<i class=\"fas fa-plus-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Plus Square",
+   "Class": "plus-square",
+   "Code": "<i class=\"fas fa-plus-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Podcast",
+   "Class": "podcast",
+   "Code": "<i class=\"fas fa-podcast\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Poll",
+   "Class": "poll",
+   "Code": "<i class=\"fas fa-poll\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Poll H",
+   "Class": "poll-h",
+   "Code": "<i class=\"fas fa-poll-h\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Poo",
+   "Class": "poo",
+   "Code": "<i class=\"fas fa-poo\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Poo Storm",
+   "Class": "poo-storm",
+   "Code": "<i class=\"fas fa-poo-storm\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Poop",
+   "Class": "poop",
+   "Code": "<i class=\"fas fa-poop\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Portrait",
+   "Class": "portrait",
+   "Code": "<i class=\"fas fa-portrait\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pound Sign",
+   "Class": "pound-sign",
+   "Code": "<i class=\"fas fa-pound-sign\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Power Off",
+   "Class": "power-off",
+   "Code": "<i class=\"fas fa-power-off\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pray",
+   "Class": "pray",
+   "Code": "<i class=\"fas fa-pray\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Praying Hands",
+   "Class": "praying-hands",
+   "Code": "<i class=\"fas fa-praying-hands\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Prescription",
+   "Class": "prescription",
+   "Code": "<i class=\"fas fa-prescription\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Prescription Bottle",
+   "Class": "prescription-bottle",
+   "Code": "<i class=\"fas fa-prescription-bottle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Prescription Bottle",
+   "Class": "prescription-bottle-alt",
+   "Code": "<i class=\"fas fa-prescription-bottle-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "print",
+   "Class": "print",
+   "Code": "<i class=\"fas fa-print\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Procedures",
+   "Class": "procedures",
+   "Code": "<i class=\"fas fa-procedures\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Product Hunt",
+   "Class": "product-hunt",
+   "Code": "<i class=\"fab fa-product-hunt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Project Diagram",
+   "Class": "project-diagram",
+   "Code": "<i class=\"fas fa-project-diagram\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Pushed",
+   "Class": "pushed",
+   "Code": "<i class=\"fab fa-pushed\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Puzzle Piece",
+   "Class": "puzzle-piece",
+   "Code": "<i class=\"fas fa-puzzle-piece\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Python",
+   "Class": "python",
+   "Code": "<i class=\"fab fa-python\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "QQ",
+   "Class": "qq",
+   "Code": "<i class=\"fab fa-qq\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "qrcode",
+   "Class": "qrcode",
+   "Code": "<i class=\"fas fa-qrcode\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Question",
+   "Class": "question",
+   "Code": "<i class=\"fas fa-question\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Question Circle",
+   "Class": "question-circle",
+   "Code": "<i class=\"fas fa-question-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Quidditch",
+   "Class": "quidditch",
+   "Code": "<i class=\"fas fa-quidditch\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "QuinScape",
+   "Class": "quinscape",
+   "Code": "<i class=\"fab fa-quinscape\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Quora",
+   "Class": "quora",
+   "Code": "<i class=\"fab fa-quora\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "quote-left",
+   "Class": "quote-left",
+   "Code": "<i class=\"fas fa-quote-left\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "quote-right",
+   "Class": "quote-right",
+   "Code": "<i class=\"fas fa-quote-right\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Quran",
+   "Class": "quran",
+   "Code": "<i class=\"fas fa-quran\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "R Project",
+   "Class": "r-project",
+   "Code": "<i class=\"fab fa-r-project\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Radiation",
+   "Class": "radiation",
+   "Code": "<i class=\"fas fa-radiation\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Radiation",
+   "Class": "radiation-alt",
+   "Code": "<i class=\"fas fa-radiation-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Rainbow",
+   "Class": "rainbow",
+   "Code": "<i class=\"fas fa-rainbow\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "random",
+   "Class": "random",
+   "Code": "<i class=\"fas fa-random\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Raspberry Pi",
+   "Class": "raspberry-pi",
+   "Code": "<i class=\"fab fa-raspberry-pi\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ravelry",
+   "Class": "ravelry",
+   "Code": "<i class=\"fab fa-ravelry\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "React",
+   "Class": "react",
+   "Code": "<i class=\"fab fa-react\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "ReactEurope",
+   "Class": "reacteurope",
+   "Code": "<i class=\"fab fa-reacteurope\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "ReadMe",
+   "Class": "readme",
+   "Code": "<i class=\"fab fa-readme\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Rebel Alliance",
+   "Class": "rebel",
+   "Code": "<i class=\"fab fa-rebel\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Receipt",
+   "Class": "receipt",
+   "Code": "<i class=\"fas fa-receipt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Recycle",
+   "Class": "recycle",
+   "Code": "<i class=\"fas fa-recycle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "red river",
+   "Class": "red-river",
+   "Code": "<i class=\"fab fa-red-river\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "reddit Logo",
+   "Class": "reddit",
+   "Code": "<i class=\"fab fa-reddit\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "reddit Alien",
+   "Class": "reddit-alien",
+   "Code": "<i class=\"fab fa-reddit-alien\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "reddit Square",
+   "Class": "reddit-square",
+   "Code": "<i class=\"fab fa-reddit-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Redhat",
+   "Class": "redhat",
+   "Code": "<i class=\"fab fa-redhat\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Redo",
+   "Class": "redo",
+   "Code": "<i class=\"fas fa-redo\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Redo",
+   "Class": "redo-alt",
+   "Code": "<i class=\"fas fa-redo-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Registered Trademark",
+   "Class": "registered",
+   "Code": "<i class=\"fas fa-registered\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Remove Format",
+   "Class": "remove-format",
+   "Code": "<i class=\"fas fa-remove-format\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Renren",
+   "Class": "renren",
+   "Code": "<i class=\"fab fa-renren\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Reply",
+   "Class": "reply",
+   "Code": "<i class=\"fas fa-reply\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "reply-all",
+   "Class": "reply-all",
+   "Code": "<i class=\"fas fa-reply-all\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "replyd",
+   "Class": "replyd",
+   "Code": "<i class=\"fab fa-replyd\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Republican",
+   "Class": "republican",
+   "Code": "<i class=\"fas fa-republican\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Researchgate",
+   "Class": "researchgate",
+   "Code": "<i class=\"fab fa-researchgate\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Resolving",
+   "Class": "resolving",
+   "Code": "<i class=\"fab fa-resolving\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Restroom",
+   "Class": "restroom",
+   "Code": "<i class=\"fas fa-restroom\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Retweet",
+   "Class": "retweet",
+   "Code": "<i class=\"fas fa-retweet\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Rev.io",
+   "Class": "rev",
+   "Code": "<i class=\"fab fa-rev\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ribbon",
+   "Class": "ribbon",
+   "Code": "<i class=\"fas fa-ribbon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ring",
+   "Class": "ring",
+   "Code": "<i class=\"fas fa-ring\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "road",
+   "Class": "road",
+   "Code": "<i class=\"fas fa-road\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Robot",
+   "Class": "robot",
+   "Code": "<i class=\"fas fa-robot\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "rocket",
+   "Class": "rocket",
+   "Code": "<i class=\"fas fa-rocket\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Rocket.Chat",
+   "Class": "rocketchat",
+   "Code": "<i class=\"fab fa-rocketchat\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Rockrms",
+   "Class": "rockrms",
+   "Code": "<i class=\"fab fa-rockrms\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Route",
+   "Class": "route",
+   "Code": "<i class=\"fas fa-route\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "rss",
+   "Class": "rss",
+   "Code": "<i class=\"fas fa-rss\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "RSS Square",
+   "Class": "rss-square",
+   "Code": "<i class=\"fas fa-rss-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ruble Sign",
+   "Class": "ruble-sign",
+   "Code": "<i class=\"fas fa-ruble-sign\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ruler",
+   "Class": "ruler",
+   "Code": "<i class=\"fas fa-ruler\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ruler Combined",
+   "Class": "ruler-combined",
+   "Code": "<i class=\"fas fa-ruler-combined\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ruler Horizontal",
+   "Class": "ruler-horizontal",
+   "Code": "<i class=\"fas fa-ruler-horizontal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ruler Vertical",
+   "Class": "ruler-vertical",
+   "Code": "<i class=\"fas fa-ruler-vertical\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Running",
+   "Class": "running",
+   "Code": "<i class=\"fas fa-running\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Indian Rupee Sign",
+   "Class": "rupee-sign",
+   "Code": "<i class=\"fas fa-rupee-sign\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Crying Face",
+   "Class": "sad-cry",
+   "Code": "<i class=\"fas fa-sad-cry\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Loudly Crying Face",
+   "Class": "sad-tear",
+   "Code": "<i class=\"fas fa-sad-tear\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Safari",
+   "Class": "safari",
+   "Code": "<i class=\"fab fa-safari\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Salesforce",
+   "Class": "salesforce",
+   "Code": "<i class=\"fab fa-salesforce\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sass",
+   "Class": "sass",
+   "Code": "<i class=\"fab fa-sass\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Satellite",
+   "Class": "satellite",
+   "Code": "<i class=\"fas fa-satellite\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Satellite Dish",
+   "Class": "satellite-dish",
+   "Code": "<i class=\"fas fa-satellite-dish\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Save",
+   "Class": "save",
+   "Code": "<i class=\"fas fa-save\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "SCHLIX",
+   "Class": "schlix",
+   "Code": "<i class=\"fab fa-schlix\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "School",
+   "Class": "school",
+   "Code": "<i class=\"fas fa-school\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Screwdriver",
+   "Class": "screwdriver",
+   "Code": "<i class=\"fas fa-screwdriver\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Scribd",
+   "Class": "scribd",
+   "Code": "<i class=\"fab fa-scribd\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Scroll",
+   "Class": "scroll",
+   "Code": "<i class=\"fas fa-scroll\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sd Card",
+   "Class": "sd-card",
+   "Code": "<i class=\"fas fa-sd-card\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Search",
+   "Class": "search",
+   "Code": "<i class=\"fas fa-search\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Search Dollar",
+   "Class": "search-dollar",
+   "Code": "<i class=\"fas fa-search-dollar\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Search Location",
+   "Class": "search-location",
+   "Code": "<i class=\"fas fa-search-location\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Search Minus",
+   "Class": "search-minus",
+   "Code": "<i class=\"fas fa-search-minus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Search Plus",
+   "Class": "search-plus",
+   "Code": "<i class=\"fas fa-search-plus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Searchengin",
+   "Class": "searchengin",
+   "Code": "<i class=\"fab fa-searchengin\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Seedling",
+   "Class": "seedling",
+   "Code": "<i class=\"fas fa-seedling\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sellcast",
+   "Class": "sellcast",
+   "Code": "<i class=\"fab fa-sellcast\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sellsy",
+   "Class": "sellsy",
+   "Code": "<i class=\"fab fa-sellsy\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Server",
+   "Class": "server",
+   "Code": "<i class=\"fas fa-server\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Servicestack",
+   "Class": "servicestack",
+   "Code": "<i class=\"fab fa-servicestack\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shapes",
+   "Class": "shapes",
+   "Code": "<i class=\"fas fa-shapes\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Share",
+   "Class": "share",
+   "Code": "<i class=\"fas fa-share\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Share",
+   "Class": "share-alt",
+   "Code": "<i class=\"fas fa-share-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Share Square",
+   "Class": "share-alt-square",
+   "Code": "<i class=\"fas fa-share-alt-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Share Square",
+   "Class": "share-square",
+   "Code": "<i class=\"fas fa-share-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shekel Sign",
+   "Class": "shekel-sign",
+   "Code": "<i class=\"fas fa-shekel-sign\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Shield",
+   "Class": "shield-alt",
+   "Code": "<i class=\"fas fa-shield-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ship",
+   "Class": "ship",
+   "Code": "<i class=\"fas fa-ship\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shipping Fast",
+   "Class": "shipping-fast",
+   "Code": "<i class=\"fas fa-shipping-fast\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shirts in Bulk",
+   "Class": "shirtsinbulk",
+   "Code": "<i class=\"fab fa-shirtsinbulk\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shoe Prints",
+   "Class": "shoe-prints",
+   "Code": "<i class=\"fas fa-shoe-prints\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shopping Bag",
+   "Class": "shopping-bag",
+   "Code": "<i class=\"fas fa-shopping-bag\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shopping Basket",
+   "Class": "shopping-basket",
+   "Code": "<i class=\"fas fa-shopping-basket\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "shopping-cart",
+   "Class": "shopping-cart",
+   "Code": "<i class=\"fas fa-shopping-cart\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shopware",
+   "Class": "shopware",
+   "Code": "<i class=\"fab fa-shopware\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shower",
+   "Class": "shower",
+   "Code": "<i class=\"fas fa-shower\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Shuttle Van",
+   "Class": "shuttle-van",
+   "Code": "<i class=\"fas fa-shuttle-van\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sign",
+   "Class": "sign",
+   "Code": "<i class=\"fas fa-sign\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Sign In",
+   "Class": "sign-in-alt",
+   "Code": "<i class=\"fas fa-sign-in-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sign Language",
+   "Class": "sign-language",
+   "Code": "<i class=\"fas fa-sign-language\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Sign Out",
+   "Class": "sign-out-alt",
+   "Code": "<i class=\"fas fa-sign-out-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "signal",
+   "Class": "signal",
+   "Code": "<i class=\"fas fa-signal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Signature",
+   "Class": "signature",
+   "Code": "<i class=\"fas fa-signature\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "SIM Card",
+   "Class": "sim-card",
+   "Code": "<i class=\"fas fa-sim-card\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "SimplyBuilt",
+   "Class": "simplybuilt",
+   "Code": "<i class=\"fab fa-simplybuilt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "SISTRIX",
+   "Class": "sistrix",
+   "Code": "<i class=\"fab fa-sistrix\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sitemap",
+   "Class": "sitemap",
+   "Code": "<i class=\"fas fa-sitemap\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sith",
+   "Class": "sith",
+   "Code": "<i class=\"fab fa-sith\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Skating",
+   "Class": "skating",
+   "Code": "<i class=\"fas fa-skating\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sketch",
+   "Class": "sketch",
+   "Code": "<i class=\"fab fa-sketch\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Skiing",
+   "Class": "skiing",
+   "Code": "<i class=\"fas fa-skiing\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Skiing Nordic",
+   "Class": "skiing-nordic",
+   "Code": "<i class=\"fas fa-skiing-nordic\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Skull",
+   "Class": "skull",
+   "Code": "<i class=\"fas fa-skull\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Skull & Crossbones",
+   "Class": "skull-crossbones",
+   "Code": "<i class=\"fas fa-skull-crossbones\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "skyatlas",
+   "Class": "skyatlas",
+   "Code": "<i class=\"fab fa-skyatlas\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Skype",
+   "Class": "skype",
+   "Code": "<i class=\"fab fa-skype\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Slack Logo",
+   "Class": "slack",
+   "Code": "<i class=\"fab fa-slack\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Slack Hashtag",
+   "Class": "slack-hash",
+   "Code": "<i class=\"fab fa-slack-hash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Slash",
+   "Class": "slash",
+   "Code": "<i class=\"fas fa-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sleigh",
+   "Class": "sleigh",
+   "Code": "<i class=\"fas fa-sleigh\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Horizontal Sliders",
+   "Class": "sliders-h",
+   "Code": "<i class=\"fas fa-sliders-h\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Slideshare",
+   "Class": "slideshare",
+   "Code": "<i class=\"fab fa-slideshare\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Smiling Face",
+   "Class": "smile",
+   "Code": "<i class=\"fas fa-smile\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Beaming Face With Smiling Eyes",
+   "Class": "smile-beam",
+   "Code": "<i class=\"fas fa-smile-beam\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Winking Face",
+   "Class": "smile-wink",
+   "Code": "<i class=\"fas fa-smile-wink\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Smog",
+   "Class": "smog",
+   "Code": "<i class=\"fas fa-smog\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Smoking",
+   "Class": "smoking",
+   "Code": "<i class=\"fas fa-smoking\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Smoking Ban",
+   "Class": "smoking-ban",
+   "Code": "<i class=\"fas fa-smoking-ban\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "SMS",
+   "Class": "sms",
+   "Code": "<i class=\"fas fa-sms\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Snapchat",
+   "Class": "snapchat",
+   "Code": "<i class=\"fab fa-snapchat\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Snapchat Ghost",
+   "Class": "snapchat-ghost",
+   "Code": "<i class=\"fab fa-snapchat-ghost\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Snapchat Square",
+   "Class": "snapchat-square",
+   "Code": "<i class=\"fab fa-snapchat-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Snowboarding",
+   "Class": "snowboarding",
+   "Code": "<i class=\"fas fa-snowboarding\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Snowflake",
+   "Class": "snowflake",
+   "Code": "<i class=\"fas fa-snowflake\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Snowman",
+   "Class": "snowman",
+   "Code": "<i class=\"fas fa-snowman\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Snowplow",
+   "Class": "snowplow",
+   "Code": "<i class=\"fas fa-snowplow\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Socks",
+   "Class": "socks",
+   "Code": "<i class=\"fas fa-socks\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Solar Panel",
+   "Class": "solar-panel",
+   "Code": "<i class=\"fas fa-solar-panel\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sort",
+   "Class": "sort",
+   "Code": "<i class=\"fas fa-sort\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sort Alphabetical Down",
+   "Class": "sort-alpha-down",
+   "Code": "<i class=\"fas fa-sort-alpha-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Sort Alphabetical Down",
+   "Class": "sort-alpha-down-alt",
+   "Code": "<i class=\"fas fa-sort-alpha-down-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sort Alphabetical Up",
+   "Class": "sort-alpha-up",
+   "Code": "<i class=\"fas fa-sort-alpha-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Sort Alphabetical Up",
+   "Class": "sort-alpha-up-alt",
+   "Code": "<i class=\"fas fa-sort-alpha-up-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sort Amount Down",
+   "Class": "sort-amount-down",
+   "Code": "<i class=\"fas fa-sort-amount-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Sort Amount Down",
+   "Class": "sort-amount-down-alt",
+   "Code": "<i class=\"fas fa-sort-amount-down-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sort Amount Up",
+   "Class": "sort-amount-up",
+   "Code": "<i class=\"fas fa-sort-amount-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Sort Amount Up",
+   "Class": "sort-amount-up-alt",
+   "Code": "<i class=\"fas fa-sort-amount-up-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sort Down (Descending)",
+   "Class": "sort-down",
+   "Code": "<i class=\"fas fa-sort-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sort Numeric Down",
+   "Class": "sort-numeric-down",
+   "Code": "<i class=\"fas fa-sort-numeric-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Sort Numeric Down",
+   "Class": "sort-numeric-down-alt",
+   "Code": "<i class=\"fas fa-sort-numeric-down-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sort Numeric Up",
+   "Class": "sort-numeric-up",
+   "Code": "<i class=\"fas fa-sort-numeric-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Sort Numeric Up",
+   "Class": "sort-numeric-up-alt",
+   "Code": "<i class=\"fas fa-sort-numeric-up-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sort Up (Ascending)",
+   "Class": "sort-up",
+   "Code": "<i class=\"fas fa-sort-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "SoundCloud",
+   "Class": "soundcloud",
+   "Code": "<i class=\"fab fa-soundcloud\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sourcetree",
+   "Class": "sourcetree",
+   "Code": "<i class=\"fab fa-sourcetree\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Spa",
+   "Class": "spa",
+   "Code": "<i class=\"fas fa-spa\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Space Shuttle",
+   "Class": "space-shuttle",
+   "Code": "<i class=\"fas fa-space-shuttle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Speakap",
+   "Class": "speakap",
+   "Code": "<i class=\"fab fa-speakap\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Speaker Deck",
+   "Class": "speaker-deck",
+   "Code": "<i class=\"fab fa-speaker-deck\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Spell Check",
+   "Class": "spell-check",
+   "Code": "<i class=\"fas fa-spell-check\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Spider",
+   "Class": "spider",
+   "Code": "<i class=\"fas fa-spider\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Spinner",
+   "Class": "spinner",
+   "Code": "<i class=\"fas fa-spinner\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Splotch",
+   "Class": "splotch",
+   "Code": "<i class=\"fas fa-splotch\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Spotify",
+   "Class": "spotify",
+   "Code": "<i class=\"fab fa-spotify\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Spray Can",
+   "Class": "spray-can",
+   "Code": "<i class=\"fas fa-spray-can\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Square",
+   "Class": "square",
+   "Code": "<i class=\"fas fa-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Square Full",
+   "Class": "square-full",
+   "Code": "<i class=\"fas fa-square-full\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Square Root",
+   "Class": "square-root-alt",
+   "Code": "<i class=\"fas fa-square-root-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Squarespace",
+   "Class": "squarespace",
+   "Code": "<i class=\"fab fa-squarespace\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stack Exchange",
+   "Class": "stack-exchange",
+   "Code": "<i class=\"fab fa-stack-exchange\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stack Overflow",
+   "Class": "stack-overflow",
+   "Code": "<i class=\"fab fa-stack-overflow\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stackpath",
+   "Class": "stackpath",
+   "Code": "<i class=\"fab fa-stackpath\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stamp",
+   "Class": "stamp",
+   "Code": "<i class=\"fas fa-stamp\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Star",
+   "Class": "star",
+   "Code": "<i class=\"fas fa-star\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Star and Crescent",
+   "Class": "star-and-crescent",
+   "Code": "<i class=\"fas fa-star-and-crescent\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "star-half",
+   "Class": "star-half",
+   "Code": "<i class=\"fas fa-star-half\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Star Half",
+   "Class": "star-half-alt",
+   "Code": "<i class=\"fas fa-star-half-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Star of David",
+   "Class": "star-of-david",
+   "Code": "<i class=\"fas fa-star-of-david\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Star of Life",
+   "Class": "star-of-life",
+   "Code": "<i class=\"fas fa-star-of-life\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "StayLinked",
+   "Class": "staylinked",
+   "Code": "<i class=\"fab fa-staylinked\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Steam",
+   "Class": "steam",
+   "Code": "<i class=\"fab fa-steam\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Steam Square",
+   "Class": "steam-square",
+   "Code": "<i class=\"fab fa-steam-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Steam Symbol",
+   "Class": "steam-symbol",
+   "Code": "<i class=\"fab fa-steam-symbol\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "step-backward",
+   "Class": "step-backward",
+   "Code": "<i class=\"fas fa-step-backward\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "step-forward",
+   "Class": "step-forward",
+   "Code": "<i class=\"fas fa-step-forward\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stethoscope",
+   "Class": "stethoscope",
+   "Code": "<i class=\"fas fa-stethoscope\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sticker Mule",
+   "Class": "sticker-mule",
+   "Code": "<i class=\"fab fa-sticker-mule\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sticky Note",
+   "Class": "sticky-note",
+   "Code": "<i class=\"fas fa-sticky-note\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "stop",
+   "Class": "stop",
+   "Code": "<i class=\"fas fa-stop\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stop Circle",
+   "Class": "stop-circle",
+   "Code": "<i class=\"fas fa-stop-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stopwatch",
+   "Class": "stopwatch",
+   "Code": "<i class=\"fas fa-stopwatch\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Store",
+   "Class": "store",
+   "Code": "<i class=\"fas fa-store\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Store",
+   "Class": "store-alt",
+   "Code": "<i class=\"fas fa-store-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Strava",
+   "Class": "strava",
+   "Code": "<i class=\"fab fa-strava\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stream",
+   "Class": "stream",
+   "Code": "<i class=\"fas fa-stream\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Street View",
+   "Class": "street-view",
+   "Code": "<i class=\"fas fa-street-view\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Strikethrough",
+   "Class": "strikethrough",
+   "Code": "<i class=\"fas fa-strikethrough\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stripe",
+   "Class": "stripe",
+   "Code": "<i class=\"fab fa-stripe\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stripe S",
+   "Class": "stripe-s",
+   "Code": "<i class=\"fab fa-stripe-s\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Stroopwafel",
+   "Class": "stroopwafel",
+   "Code": "<i class=\"fas fa-stroopwafel\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Studio Vinari",
+   "Class": "studiovinari",
+   "Code": "<i class=\"fab fa-studiovinari\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "StumbleUpon Logo",
+   "Class": "stumbleupon",
+   "Code": "<i class=\"fab fa-stumbleupon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "StumbleUpon Circle",
+   "Class": "stumbleupon-circle",
+   "Code": "<i class=\"fab fa-stumbleupon-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "subscript",
+   "Class": "subscript",
+   "Code": "<i class=\"fas fa-subscript\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Subway",
+   "Class": "subway",
+   "Code": "<i class=\"fas fa-subway\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Suitcase",
+   "Class": "suitcase",
+   "Code": "<i class=\"fas fa-suitcase\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Suitcase Rolling",
+   "Class": "suitcase-rolling",
+   "Code": "<i class=\"fas fa-suitcase-rolling\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sun",
+   "Class": "sun",
+   "Code": "<i class=\"fas fa-sun\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Superpowers",
+   "Class": "superpowers",
+   "Code": "<i class=\"fab fa-superpowers\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "superscript",
+   "Class": "superscript",
+   "Code": "<i class=\"fas fa-superscript\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Supple",
+   "Class": "supple",
+   "Code": "<i class=\"fab fa-supple\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hushed Face",
+   "Class": "surprise",
+   "Code": "<i class=\"fas fa-surprise\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Suse",
+   "Class": "suse",
+   "Code": "<i class=\"fab fa-suse\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Swatchbook",
+   "Class": "swatchbook",
+   "Code": "<i class=\"fas fa-swatchbook\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Swimmer",
+   "Class": "swimmer",
+   "Code": "<i class=\"fas fa-swimmer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Swimming Pool",
+   "Class": "swimming-pool",
+   "Code": "<i class=\"fas fa-swimming-pool\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Symfony",
+   "Class": "symfony",
+   "Code": "<i class=\"fab fa-symfony\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Synagogue",
+   "Class": "synagogue",
+   "Code": "<i class=\"fas fa-synagogue\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Sync",
+   "Class": "sync",
+   "Code": "<i class=\"fas fa-sync\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Sync",
+   "Class": "sync-alt",
+   "Code": "<i class=\"fas fa-sync-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Syringe",
+   "Class": "syringe",
+   "Code": "<i class=\"fas fa-syringe\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "table",
+   "Class": "table",
+   "Code": "<i class=\"fas fa-table\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Table Tennis",
+   "Class": "table-tennis",
+   "Code": "<i class=\"fas fa-table-tennis\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "tablet",
+   "Class": "tablet",
+   "Code": "<i class=\"fas fa-tablet\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Tablet",
+   "Class": "tablet-alt",
+   "Code": "<i class=\"fas fa-tablet-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tablets",
+   "Class": "tablets",
+   "Code": "<i class=\"fas fa-tablets\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Tachometer",
+   "Class": "tachometer-alt",
+   "Code": "<i class=\"fas fa-tachometer-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "tag",
+   "Class": "tag",
+   "Code": "<i class=\"fas fa-tag\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "tags",
+   "Class": "tags",
+   "Code": "<i class=\"fas fa-tags\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tape",
+   "Class": "tape",
+   "Code": "<i class=\"fas fa-tape\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tasks",
+   "Class": "tasks",
+   "Code": "<i class=\"fas fa-tasks\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Taxi",
+   "Class": "taxi",
+   "Code": "<i class=\"fas fa-taxi\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "TeamSpeak",
+   "Class": "teamspeak",
+   "Code": "<i class=\"fab fa-teamspeak\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Teeth",
+   "Class": "teeth",
+   "Code": "<i class=\"fas fa-teeth\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Teeth Open",
+   "Class": "teeth-open",
+   "Code": "<i class=\"fas fa-teeth-open\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Telegram",
+   "Class": "telegram",
+   "Code": "<i class=\"fab fa-telegram\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Telegram Plane",
+   "Class": "telegram-plane",
+   "Code": "<i class=\"fab fa-telegram-plane\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "High Temperature",
+   "Class": "temperature-high",
+   "Code": "<i class=\"fas fa-temperature-high\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Low Temperature",
+   "Class": "temperature-low",
+   "Code": "<i class=\"fas fa-temperature-low\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tencent Weibo",
+   "Class": "tencent-weibo",
+   "Code": "<i class=\"fab fa-tencent-weibo\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tenge",
+   "Class": "tenge",
+   "Code": "<i class=\"fas fa-tenge\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Terminal",
+   "Class": "terminal",
+   "Code": "<i class=\"fas fa-terminal\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "text-height",
+   "Class": "text-height",
+   "Code": "<i class=\"fas fa-text-height\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Text Width",
+   "Class": "text-width",
+   "Code": "<i class=\"fas fa-text-width\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "th",
+   "Class": "th",
+   "Code": "<i class=\"fas fa-th\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "th-large",
+   "Class": "th-large",
+   "Code": "<i class=\"fas fa-th-large\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "th-list",
+   "Class": "th-list",
+   "Code": "<i class=\"fas fa-th-list\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "The Red Yeti",
+   "Class": "the-red-yeti",
+   "Code": "<i class=\"fab fa-the-red-yeti\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Theater Masks",
+   "Class": "theater-masks",
+   "Code": "<i class=\"fas fa-theater-masks\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Themeco",
+   "Class": "themeco",
+   "Code": "<i class=\"fab fa-themeco\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "ThemeIsle",
+   "Class": "themeisle",
+   "Code": "<i class=\"fab fa-themeisle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Thermometer",
+   "Class": "thermometer",
+   "Code": "<i class=\"fas fa-thermometer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Thermometer Empty",
+   "Class": "thermometer-empty",
+   "Code": "<i class=\"fas fa-thermometer-empty\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Thermometer Full",
+   "Class": "thermometer-full",
+   "Code": "<i class=\"fas fa-thermometer-full\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Thermometer 1/2 Full",
+   "Class": "thermometer-half",
+   "Code": "<i class=\"fas fa-thermometer-half\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Thermometer 1/4 Full",
+   "Class": "thermometer-quarter",
+   "Code": "<i class=\"fas fa-thermometer-quarter\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Thermometer 3/4 Full",
+   "Class": "thermometer-three-quarters",
+   "Code": "<i class=\"fas fa-thermometer-three-quarters\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Think Peaks",
+   "Class": "think-peaks",
+   "Code": "<i class=\"fab fa-think-peaks\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "thumbs-down",
+   "Class": "thumbs-down",
+   "Code": "<i class=\"fas fa-thumbs-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "thumbs-up",
+   "Class": "thumbs-up",
+   "Code": "<i class=\"fas fa-thumbs-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Thumbtack",
+   "Class": "thumbtack",
+   "Code": "<i class=\"fas fa-thumbtack\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Ticket",
+   "Class": "ticket-alt",
+   "Code": "<i class=\"fas fa-ticket-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Times",
+   "Class": "times",
+   "Code": "<i class=\"fas fa-times\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Times Circle",
+   "Class": "times-circle",
+   "Code": "<i class=\"fas fa-times-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "tint",
+   "Class": "tint",
+   "Code": "<i class=\"fas fa-tint\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tint Slash",
+   "Class": "tint-slash",
+   "Code": "<i class=\"fas fa-tint-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tired Face",
+   "Class": "tired",
+   "Code": "<i class=\"fas fa-tired\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Toggle Off",
+   "Class": "toggle-off",
+   "Code": "<i class=\"fas fa-toggle-off\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Toggle On",
+   "Class": "toggle-on",
+   "Code": "<i class=\"fas fa-toggle-on\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Toilet",
+   "Class": "toilet",
+   "Code": "<i class=\"fas fa-toilet\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Toilet Paper",
+   "Class": "toilet-paper",
+   "Code": "<i class=\"fas fa-toilet-paper\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Toolbox",
+   "Class": "toolbox",
+   "Code": "<i class=\"fas fa-toolbox\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tools",
+   "Class": "tools",
+   "Code": "<i class=\"fas fa-tools\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tooth",
+   "Class": "tooth",
+   "Code": "<i class=\"fas fa-tooth\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Torah",
+   "Class": "torah",
+   "Code": "<i class=\"fas fa-torah\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Torii Gate",
+   "Class": "torii-gate",
+   "Code": "<i class=\"fas fa-torii-gate\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tractor",
+   "Class": "tractor",
+   "Code": "<i class=\"fas fa-tractor\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Trade Federation",
+   "Class": "trade-federation",
+   "Code": "<i class=\"fab fa-trade-federation\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Trademark",
+   "Class": "trademark",
+   "Code": "<i class=\"fas fa-trademark\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Traffic Light",
+   "Class": "traffic-light",
+   "Code": "<i class=\"fas fa-traffic-light\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Train",
+   "Class": "train",
+   "Code": "<i class=\"fas fa-train\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tram",
+   "Class": "tram",
+   "Code": "<i class=\"fas fa-tram\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Transgender",
+   "Class": "transgender",
+   "Code": "<i class=\"fas fa-transgender\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Transgender",
+   "Class": "transgender-alt",
+   "Code": "<i class=\"fas fa-transgender-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Trash",
+   "Class": "trash",
+   "Code": "<i class=\"fas fa-trash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Trash",
+   "Class": "trash-alt",
+   "Code": "<i class=\"fas fa-trash-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Trash Restore",
+   "Class": "trash-restore",
+   "Code": "<i class=\"fas fa-trash-restore\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternative Trash Restore",
+   "Class": "trash-restore-alt",
+   "Code": "<i class=\"fas fa-trash-restore-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tree",
+   "Class": "tree",
+   "Code": "<i class=\"fas fa-tree\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Trello",
+   "Class": "trello",
+   "Code": "<i class=\"fab fa-trello\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "TripAdvisor",
+   "Class": "tripadvisor",
+   "Code": "<i class=\"fab fa-tripadvisor\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "trophy",
+   "Class": "trophy",
+   "Code": "<i class=\"fas fa-trophy\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "truck",
+   "Class": "truck",
+   "Code": "<i class=\"fas fa-truck\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Truck Loading",
+   "Class": "truck-loading",
+   "Code": "<i class=\"fas fa-truck-loading\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Truck Monster",
+   "Class": "truck-monster",
+   "Code": "<i class=\"fas fa-truck-monster\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Truck Moving",
+   "Class": "truck-moving",
+   "Code": "<i class=\"fas fa-truck-moving\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Truck Side",
+   "Class": "truck-pickup",
+   "Code": "<i class=\"fas fa-truck-pickup\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "T-Shirt",
+   "Class": "tshirt",
+   "Code": "<i class=\"fas fa-tshirt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "TTY",
+   "Class": "tty",
+   "Code": "<i class=\"fas fa-tty\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tumblr",
+   "Class": "tumblr",
+   "Code": "<i class=\"fab fa-tumblr\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Tumblr Square",
+   "Class": "tumblr-square",
+   "Code": "<i class=\"fab fa-tumblr-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Television",
+   "Class": "tv",
+   "Code": "<i class=\"fas fa-tv\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Twitch",
+   "Class": "twitch",
+   "Code": "<i class=\"fab fa-twitch\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Twitter",
+   "Class": "twitter",
+   "Code": "<i class=\"fab fa-twitter\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Twitter Square",
+   "Class": "twitter-square",
+   "Code": "<i class=\"fab fa-twitter-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Typo3",
+   "Class": "typo3",
+   "Code": "<i class=\"fab fa-typo3\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Uber",
+   "Class": "uber",
+   "Code": "<i class=\"fab fa-uber\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Ubuntu",
+   "Class": "ubuntu",
+   "Code": "<i class=\"fab fa-ubuntu\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "UIkit",
+   "Class": "uikit",
+   "Code": "<i class=\"fab fa-uikit\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Umbrella",
+   "Class": "umbrella",
+   "Code": "<i class=\"fas fa-umbrella\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Umbrella Beach",
+   "Class": "umbrella-beach",
+   "Code": "<i class=\"fas fa-umbrella-beach\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Underline",
+   "Class": "underline",
+   "Code": "<i class=\"fas fa-underline\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Undo",
+   "Class": "undo",
+   "Code": "<i class=\"fas fa-undo\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Undo",
+   "Class": "undo-alt",
+   "Code": "<i class=\"fas fa-undo-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Uniregistry",
+   "Class": "uniregistry",
+   "Code": "<i class=\"fab fa-uniregistry\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Universal Access",
+   "Class": "universal-access",
+   "Code": "<i class=\"fas fa-universal-access\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "University",
+   "Class": "university",
+   "Code": "<i class=\"fas fa-university\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "unlink",
+   "Class": "unlink",
+   "Code": "<i class=\"fas fa-unlink\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "unlock",
+   "Class": "unlock",
+   "Code": "<i class=\"fas fa-unlock\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Unlock",
+   "Class": "unlock-alt",
+   "Code": "<i class=\"fas fa-unlock-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Untappd",
+   "Class": "untappd",
+   "Code": "<i class=\"fab fa-untappd\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Upload",
+   "Class": "upload",
+   "Code": "<i class=\"fas fa-upload\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "UPS",
+   "Class": "ups",
+   "Code": "<i class=\"fab fa-ups\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "USB",
+   "Class": "usb",
+   "Code": "<i class=\"fab fa-usb\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User",
+   "Class": "user",
+   "Code": "<i class=\"fas fa-user\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate User",
+   "Class": "user-alt",
+   "Code": "<i class=\"fas fa-user-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate User Slash",
+   "Class": "user-alt-slash",
+   "Code": "<i class=\"fas fa-user-alt-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Astronaut",
+   "Class": "user-astronaut",
+   "Code": "<i class=\"fas fa-user-astronaut\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Check",
+   "Class": "user-check",
+   "Code": "<i class=\"fas fa-user-check\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Circle",
+   "Class": "user-circle",
+   "Code": "<i class=\"fas fa-user-circle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Clock",
+   "Class": "user-clock",
+   "Code": "<i class=\"fas fa-user-clock\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Cog",
+   "Class": "user-cog",
+   "Code": "<i class=\"fas fa-user-cog\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Edit",
+   "Class": "user-edit",
+   "Code": "<i class=\"fas fa-user-edit\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Friends",
+   "Class": "user-friends",
+   "Code": "<i class=\"fas fa-user-friends\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Graduate",
+   "Class": "user-graduate",
+   "Code": "<i class=\"fas fa-user-graduate\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Injured",
+   "Class": "user-injured",
+   "Code": "<i class=\"fas fa-user-injured\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Lock",
+   "Class": "user-lock",
+   "Code": "<i class=\"fas fa-user-lock\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Doctor",
+   "Class": "user-md",
+   "Code": "<i class=\"fas fa-user-md\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Minus",
+   "Class": "user-minus",
+   "Code": "<i class=\"fas fa-user-minus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Ninja",
+   "Class": "user-ninja",
+   "Code": "<i class=\"fas fa-user-ninja\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Nurse",
+   "Class": "user-nurse",
+   "Code": "<i class=\"fas fa-user-nurse\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Plus",
+   "Class": "user-plus",
+   "Code": "<i class=\"fas fa-user-plus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Secret",
+   "Class": "user-secret",
+   "Code": "<i class=\"fas fa-user-secret\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Shield",
+   "Class": "user-shield",
+   "Code": "<i class=\"fas fa-user-shield\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Slash",
+   "Class": "user-slash",
+   "Code": "<i class=\"fas fa-user-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Tag",
+   "Class": "user-tag",
+   "Code": "<i class=\"fas fa-user-tag\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "User Tie",
+   "Class": "user-tie",
+   "Code": "<i class=\"fas fa-user-tie\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Remove User",
+   "Class": "user-times",
+   "Code": "<i class=\"fas fa-user-times\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Users",
+   "Class": "users",
+   "Code": "<i class=\"fas fa-users\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Users Cog",
+   "Class": "users-cog",
+   "Code": "<i class=\"fas fa-users-cog\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "United States Postal Service",
+   "Class": "usps",
+   "Code": "<i class=\"fab fa-usps\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "us-Sunnah Foundation",
+   "Class": "ussunnah",
+   "Code": "<i class=\"fab fa-ussunnah\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Utensil Spoon",
+   "Class": "utensil-spoon",
+   "Code": "<i class=\"fas fa-utensil-spoon\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Utensils",
+   "Class": "utensils",
+   "Code": "<i class=\"fas fa-utensils\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vaadin",
+   "Class": "vaadin",
+   "Code": "<i class=\"fab fa-vaadin\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vector Square",
+   "Class": "vector-square",
+   "Code": "<i class=\"fas fa-vector-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Venus",
+   "Class": "venus",
+   "Code": "<i class=\"fas fa-venus\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Venus Double",
+   "Class": "venus-double",
+   "Code": "<i class=\"fas fa-venus-double\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Venus Mars",
+   "Class": "venus-mars",
+   "Code": "<i class=\"fas fa-venus-mars\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Viacoin",
+   "Class": "viacoin",
+   "Code": "<i class=\"fab fa-viacoin\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Video",
+   "Class": "viadeo",
+   "Code": "<i class=\"fab fa-viadeo\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Video Square",
+   "Class": "viadeo-square",
+   "Code": "<i class=\"fab fa-viadeo-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vial",
+   "Class": "vial",
+   "Code": "<i class=\"fas fa-vial\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vials",
+   "Class": "vials",
+   "Code": "<i class=\"fas fa-vials\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Viber",
+   "Class": "viber",
+   "Code": "<i class=\"fab fa-viber\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Video",
+   "Class": "video",
+   "Code": "<i class=\"fas fa-video\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Video Slash",
+   "Class": "video-slash",
+   "Code": "<i class=\"fas fa-video-slash\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vihara",
+   "Class": "vihara",
+   "Code": "<i class=\"fas fa-vihara\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vimeo",
+   "Class": "vimeo",
+   "Code": "<i class=\"fab fa-vimeo\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vimeo Square",
+   "Class": "vimeo-square",
+   "Code": "<i class=\"fab fa-vimeo-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vimeo",
+   "Class": "vimeo-v",
+   "Code": "<i class=\"fab fa-vimeo-v\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vine",
+   "Class": "vine",
+   "Code": "<i class=\"fab fa-vine\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "VK",
+   "Class": "vk",
+   "Code": "<i class=\"fab fa-vk\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "VNV",
+   "Class": "vnv",
+   "Code": "<i class=\"fab fa-vnv\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Voicemail",
+   "Class": "voicemail",
+   "Code": "<i class=\"fas fa-voicemail\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Volleyball Ball",
+   "Class": "volleyball-ball",
+   "Code": "<i class=\"fas fa-volleyball-ball\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Volume Down",
+   "Class": "volume-down",
+   "Code": "<i class=\"fas fa-volume-down\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Volume Mute",
+   "Class": "volume-mute",
+   "Code": "<i class=\"fas fa-volume-mute\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Volume Off",
+   "Class": "volume-off",
+   "Code": "<i class=\"fas fa-volume-off\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Volume Up",
+   "Class": "volume-up",
+   "Code": "<i class=\"fas fa-volume-up\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vote Yea",
+   "Class": "vote-yea",
+   "Code": "<i class=\"fas fa-vote-yea\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Cardboard VR",
+   "Class": "vr-cardboard",
+   "Code": "<i class=\"fas fa-vr-cardboard\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Vue.js",
+   "Class": "vuejs",
+   "Code": "<i class=\"fab fa-vuejs\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Walking",
+   "Class": "walking",
+   "Code": "<i class=\"fas fa-walking\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wallet",
+   "Class": "wallet",
+   "Code": "<i class=\"fas fa-wallet\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Warehouse",
+   "Class": "warehouse",
+   "Code": "<i class=\"fas fa-warehouse\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Water",
+   "Class": "water",
+   "Code": "<i class=\"fas fa-water\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Square Wave",
+   "Class": "wave-square",
+   "Code": "<i class=\"fas fa-wave-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Waze",
+   "Class": "waze",
+   "Code": "<i class=\"fab fa-waze\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Weebly",
+   "Class": "weebly",
+   "Code": "<i class=\"fab fa-weebly\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Weibo",
+   "Class": "weibo",
+   "Code": "<i class=\"fab fa-weibo\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Weight",
+   "Class": "weight",
+   "Code": "<i class=\"fas fa-weight\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Hanging Weight",
+   "Class": "weight-hanging",
+   "Code": "<i class=\"fas fa-weight-hanging\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Weixin (WeChat)",
+   "Class": "weixin",
+   "Code": "<i class=\"fab fa-weixin\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "What's App",
+   "Class": "whatsapp",
+   "Code": "<i class=\"fab fa-whatsapp\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "What's App Square",
+   "Class": "whatsapp-square",
+   "Code": "<i class=\"fab fa-whatsapp-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wheelchair",
+   "Class": "wheelchair",
+   "Code": "<i class=\"fas fa-wheelchair\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "WHMCS",
+   "Class": "whmcs",
+   "Code": "<i class=\"fab fa-whmcs\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "WiFi",
+   "Class": "wifi",
+   "Code": "<i class=\"fas fa-wifi\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wikipedia W",
+   "Class": "wikipedia-w",
+   "Code": "<i class=\"fab fa-wikipedia-w\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wind",
+   "Class": "wind",
+   "Code": "<i class=\"fas fa-wind\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Window Close",
+   "Class": "window-close",
+   "Code": "<i class=\"fas fa-window-close\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Window Maximize",
+   "Class": "window-maximize",
+   "Code": "<i class=\"fas fa-window-maximize\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Window Minimize",
+   "Class": "window-minimize",
+   "Code": "<i class=\"fas fa-window-minimize\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Window Restore",
+   "Class": "window-restore",
+   "Code": "<i class=\"fas fa-window-restore\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Windows",
+   "Class": "windows",
+   "Code": "<i class=\"fab fa-windows\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wine Bottle",
+   "Class": "wine-bottle",
+   "Code": "<i class=\"fas fa-wine-bottle\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wine Glass",
+   "Class": "wine-glass",
+   "Code": "<i class=\"fas fa-wine-glass\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Alternate Wine Glas",
+   "Class": "wine-glass-alt",
+   "Code": "<i class=\"fas fa-wine-glass-alt\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wix",
+   "Class": "wix",
+   "Code": "<i class=\"fab fa-wix\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wizards of the Coast",
+   "Class": "wizards-of-the-coast",
+   "Code": "<i class=\"fab fa-wizards-of-the-coast\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wolf Pack Battalion",
+   "Class": "wolf-pack-battalion",
+   "Code": "<i class=\"fab fa-wolf-pack-battalion\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Won Sign",
+   "Class": "won-sign",
+   "Code": "<i class=\"fas fa-won-sign\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "WordPress Logo",
+   "Class": "wordpress",
+   "Code": "<i class=\"fab fa-wordpress\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wordpress Simple",
+   "Class": "wordpress-simple",
+   "Code": "<i class=\"fab fa-wordpress-simple\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "WPBeginner",
+   "Class": "wpbeginner",
+   "Code": "<i class=\"fab fa-wpbeginner\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "WPExplorer",
+   "Class": "wpexplorer",
+   "Code": "<i class=\"fab fa-wpexplorer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "WPForms",
+   "Class": "wpforms",
+   "Code": "<i class=\"fab fa-wpforms\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "wpressr",
+   "Class": "wpressr",
+   "Code": "<i class=\"fab fa-wpressr\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Wrench",
+   "Class": "wrench",
+   "Code": "<i class=\"fas fa-wrench\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "X-Ray",
+   "Class": "x-ray",
+   "Code": "<i class=\"fas fa-x-ray\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Xbox",
+   "Class": "xbox",
+   "Code": "<i class=\"fab fa-xbox\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Xing",
+   "Class": "xing",
+   "Code": "<i class=\"fab fa-xing\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Xing Square",
+   "Class": "xing-square",
+   "Code": "<i class=\"fab fa-xing-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Y Combinator",
+   "Class": "y-combinator",
+   "Code": "<i class=\"fab fa-y-combinator\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Yahoo Logo",
+   "Class": "yahoo",
+   "Code": "<i class=\"fab fa-yahoo\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Yammer",
+   "Class": "yammer",
+   "Code": "<i class=\"fab fa-yammer\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Yandex",
+   "Class": "yandex",
+   "Code": "<i class=\"fab fa-yandex\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Yandex International",
+   "Class": "yandex-international",
+   "Code": "<i class=\"fab fa-yandex-international\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Yarn",
+   "Class": "yarn",
+   "Code": "<i class=\"fab fa-yarn\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Yelp",
+   "Class": "yelp",
+   "Code": "<i class=\"fab fa-yelp\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Yen Sign",
+   "Class": "yen-sign",
+   "Code": "<i class=\"fas fa-yen-sign\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Yin Yang",
+   "Class": "yin-yang",
+   "Code": "<i class=\"fas fa-yin-yang\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Yoast",
+   "Class": "yoast",
+   "Code": "<i class=\"fab fa-yoast\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "YouTube",
+   "Class": "youtube",
+   "Code": "<i class=\"fab fa-youtube\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "YouTube Square",
+   "Class": "youtube-square",
+   "Code": "<i class=\"fab fa-youtube-square\"></i>"
+ },
+ {
+   "Icon": "",
+   "Name": "Zhihu",
+   "Class": "zhihu",
+   "Code": "<i class=\"fab fa-zhihu\"></i>"
+ }
+]

@@ -1,0 +1,5 @@
+[30-Oct-2019 18:26:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/namandu/ro.namandu.com/inc/auth/delight-im/auth/tests/index.php:30
+Stack trace:
+#0 /home/namandu/ro.namandu.com/inc/auth/delight-im/auth/tests/index.php(30): PDO->__construct('mysql:dbname=ro...', 'root', '')
+#1 {main}
+  thrown in /home/namandu/ro.namandu.com/inc/auth/delight-im/auth/tests/index.php on line 30

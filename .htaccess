@@ -1,0 +1,6 @@
+Options -MultiViews -Indexes
+
+RewriteEngine On
+#RewriteRule ^consultar/([a-zA-Z0-9-/]+)$ datos.php?x=$1
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
