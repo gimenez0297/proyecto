@@ -118,6 +118,7 @@ $datos_sistema = configuracionSistema();
 $nombre_sistema = $datos_sistema->nombre_sistema;
 $title = $nombre_sistema;
 $favicon = $datos_sistema->favicon;
+$logo = $datos_sistema->logo;
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -192,7 +193,7 @@ $favicon = $datos_sistema->favicon;
     <form id="loginform" method="post" accept-charset="utf-8">
         <div class="form-wrapper-outer">
             <div class="form-logo">
-                <img src="dist/images/logo.png" alt="logo">
+                <img src="<?php echo $logo; ?>" alt="logo">
             </div>
             <div class="form-greeting">
                 <span>Bienvenido al Sistema</span>
