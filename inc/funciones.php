@@ -47,7 +47,7 @@ define('TIPO_PUESTO_CAJERO', 1);
 
 function url() {
 	$host = $_SERVER['HTTP_HOST'];
-	return "http://$host/santa-victoria/namandu/";
+	return "http://$host/proyecto/";
 }
 
 /* function url_pagina() {
