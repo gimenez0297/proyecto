@@ -1,6 +1,6 @@
 <?php
-	$primary = "#002653";
-	$primary_hover = "#002653";
+	$primary = "#00a7b0";
+	$primary_hover = "#06757a";
 	
 	/*LADY IN RED*/
 	/*$primary = "#931a33";

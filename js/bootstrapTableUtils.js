@@ -47,7 +47,6 @@ function bstFormatterEstado(data) {
         case 'Cargado':
         case 'Aprobado':
         case 'Activo':
-        case 'Autorizado':
         case 'Pagado':
         case 'Recibido':
         case 'Procesado':

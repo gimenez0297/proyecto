@@ -39,7 +39,7 @@
                                                             <a class="nav-link active" id="datos-basicos-tab" data-toggle="tab" href="#datos-basicos" role="tab" aria-controls="datos-basicos" aria-selected="true">DATOS BÁSICOS</a>
                                                         </li>
                                                         <li class="nav-item" role="presentation">
-                                                            <a class="nav-link" id="cargo-tab" data-toggle="tab" href="#cargo" role="tab" aria-controls="cargo" aria-selected="false">CARGO</a>
+                                                            <a class="nav-link" id="confidencial-tab" data-toggle="tab" href="#confidencial" role="tab" aria-controls="confidencial" aria-selected="false">CONFIDENCIAL</a>
                                                         </li>
                                                         <li class="nav-item" role="presentation">
                                                             <a class="nav-link" id="imagenes-tab" data-toggle="tab" href="#imagenes" role="tab" aria-controls="imagenes" aria-selected="false">DOCUMENTOS</a>
@@ -48,7 +48,7 @@
                                                             <a class="nav-link" id="fotos-tab" data-toggle="tab" href="#fotos" role="tab" aria-controls="fotos" aria-selected="false">FOTO DE PERFIL</a>
                                                         </li>
                                                         <li class="nav-item" role="presentation">
-                                                            <a class="nav-link" id="contacto-tab" data-toggle="tab" href="#contacto" role="tab" aria-controls="contacto" aria-selected="false">CONTACTO</a>
+                                                            <a class="nav-link" id="sistema-tab" data-toggle="tab" href="#sistema" role="tab" aria-controls="sistema" aria-selected="false">SISTEMA</a>
                                                         </li>
                                                     </ul>
 
@@ -57,7 +57,7 @@
                                                         <div class="tab-pane fade show active" id="datos-basicos" role="tabpanel" aria-labelledby="datos-basicos-tab">
                                                             <div class="form-row">
                                                                 <div class="form-group col-md-3 col-sm-12">
-                                                                    <label for="ci" class="label-required">Nro. C.I.</label>
+                                                                    <label for="ci">Nro. C.I.</label>
                                                                     <div class="input-group">
                                                                         <input class="form-control input-sm" type="text" name="ci" id="ci" autocomplete="off" required>
                                                                         <div class="input-group-append">
@@ -70,67 +70,32 @@
                                                                     <input class="form-control input-sm upper required" type="text" name="razon_social" id="razon_social" autocomplete="off" required>
                                                                 </div>
                                                                 <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="fecha_nacimiento"  class="label-required">Fecha Nacimiento</label>
-                                                                    <input class="form-control input-sm" type="date" name="fecha_nacimiento" id="fecha_nacimiento" autocomplete="off" required>
-                                                                </div>
-                                                                <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="nacionalidad" class="label-required">Nacionalidad</label>
-                                                                    <select id="nacionalidad" name="nacionalidad" class="form-control" required>
-                                                                        <option value='1'>PARAGUAYA</option>
-                                                                        <option value='2'>PARAGUAYA NACIONALIZADA</option>
-                                                                        <option value='3'>EXTRANJERO</option>
-                                                                    </select>
-                                                                </div>
-                                                                <div class="form-group col-md-3 col-sm-6 d-none nac">
-                                                                    <label for="departamento">Departamento</label>
-                                                                    <select id="departamento" name="departamento" class="form-control"></select>
-                                                                </div>
-                                                                <div class="form-group col-md-3 col-sm-6 d-none nac">
-                                                                    <label for="distrito">Nac. Distrito</label>
-                                                                    <select id="distrito" name="distrito" class="form-control"></select>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="form-row">
-                                                                <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="sexo" class="label-required">Sexo</label>
-                                                                    <select id="sexo" name="sexo" class="form-control" required>
-                                                                        <option value='1'>FEMENINO</option>
-                                                                        <option value='2'>MASCULINO</option>
-                                                                    </select>
-
-                                                                </div>
-                                                                <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="grupo_sanguineo">Grupo Sanguineo</label>
-                                                                    <select id="grupo_sanguineo" name="grupo_sanguineo" class="form-control"></select>
-                                                                </div>
-                                                                <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="id_estado">Estado Civil</label>
-                                                                    <select id="id_estado" name="id_estado" class="form-control"></select>
-                                                                </div>
-                                                                
-                                                                <div class="form-group col-md-3 col-sm-6">
                                                                     <label for="telefono">Teléfono</label>
                                                                     <input class="form-control input-sm" id="telefono" name="telefono" type="text" autocomplete="off">
                                                                 </div>
                                                                 <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="celular">Celular</label>
-                                                                    <input class="form-control input-sm" id="celular" name="celular" type="text" autocomplete="off">
-                                                                </div>
-                                                                <div class="form-group col-md-6 col-sm-6">
-                                                                    <label for="email">E-mail</label>
-                                                                    <input class="form-control input-sm" id="email" name="email" type="text" autocomplete="off">
+                                                                    <label for="celular" class="label-required">Celular</label>
+                                                                    <input class="form-control input-sm" id="celular" name="celular" type="text" autocomplete="off" required>
                                                                 </div>
                                                                 <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="numero">Numero</label>
-                                                                    <input class="form-control input-sm" id="numero" name="numero" type="text" autocomplete="off">
+                                                                    <label for="id_estado" class="label-required">Estado Civil</label>
+                                                                    <select id="id_estado" name="id_estado" class="form-control" required></select>
                                                                 </div>
-                                                            
+                                                                <div class="form-group col-md-3 col-sm-6">
+                                                                    <label for="id_ciudad" class="label-required">Ciudad</label>
+                                                                    <select id="id_ciudad" name="id_ciudad" class="form-control" required></select>
+                                                                </div>
                                                             </div>
                                                             <div class="row">
                                                                 <div class="form-group col-md-12 col-sm-12">
                                                                     <label for="direccion">Dirección</label>
                                                                     <input class="form-control input-sm upper" id="direccion" name="direccion" type="text" autocomplete="off">
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="form-group col-md-12 col-sm-12">
+                                                                    <label for="referencia">Referencia</label>
+                                                                    <input class="form-control input-sm" type="text" name="referencia" id="referencia" autocomplete="off">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -180,71 +145,61 @@
                                                             </div>
                                                         </div>
 
-                                                        <!-- Tab Contacto -->
-                                                        <div class="tab-pane fade" id="contacto" role="tabpanel" aria-labelledby="contacto-tab">
+                                                        <!-- Tab Sistema -->
+                                                        <div class="tab-pane fade" id="sistema" role="tabpanel" aria-labelledby="sistema-tab">
                                                             <div class="form-row">
                                                                 <div class="form-group col-md-4 col-sm-6">
-                                                                    <label for="distrito_contacto">Distrito</label>
-                                                                    <select id="distrito_contacto" name="distrito_contacto" class="form-control"></select>
+                                                                    <label for="id_puesto" class="label-required">Puesto</label>
+                                                                    <select id="id_puesto" name="id_puesto" class="form-control" required></select>
+                                                                </div>
+                                                                <div class="form-group col-md-4 col-sm-6 comi d-none">
+                                                                    <label for="comision">Comisión</label>
+                                                                    <input class="form-control input-sm" id="comision" name="comision" type="text" autocomplete="off" onkeyup="separadorMilesOnKey(event,this)">
                                                                 </div>
                                                                 <div class="form-group col-md-4 col-sm-6">
-                                                                    <label for="localidad_contacto">Localidad</label>
-                                                                    <select id="localidad_contacto" name="localidad_contacto" class="form-control"></select>
+                                                                    <label for="id_usuario">Usuario</label>
+                                                                    <select id="id_usuario" name="id_usuario" class="form-control"></select>
                                                                 </div>
                                                                 <div class="form-group col-md-4 col-sm-6">
-                                                                    <label for="barrio">Barrio</label>
-                                                                    <select id="barrio" name="barrio" class="form-control"></select>
+                                                                    <label for="id_sucursal" class="label-required">Sucursal</label>
+                                                                    <select id="id_sucursal" name="id_sucursal" class="form-control" required></select>
                                                                 </div>
-                                                                <div class="form-group col-md-6 col-sm-6">
-                                                                    <label for="persona_contacto">Persona a recurrir en caso de necesidad</label>
-                                                                    <input class="form-control input-sm" id="persona_contacto" name="persona_contacto" type="text" autocomplete="off">
+                                                                <div class="form-group col-md-4 col-sm-6">
+                                                                    <label for="fecha_alta">Fecha de Alta</label>
+                                                                    <input class="form-control input-sm" type="date" name="fecha_alta" id="fecha_alta" autocomplete="off">
                                                                 </div>
-                                                                <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="celular_contacto">Celular</label>
-                                                                    <input class="form-control input-sm" id="celular_contacto" name="celular_contacto" type="text" autocomplete="off">
+                                                                <div class="form-group col-md-4 col-sm-6">
+                                                                    <label for="fecha_baja">Fecha de Baja</label>
+                                                                    <input class="form-control input-sm" type="date" name="fecha_baja" id="fecha_baja" autocomplete="off">
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <!-- Tab Datos Cargo -->
-                                                        <div class="tab-pane fade" id="cargo" role="tabpanel" aria-labelledby="cargo-tab">
+                                                        <!-- Tab Datos Confidencial -->
+                                                        <div class="tab-pane fade" id="confidencial" role="tabpanel" aria-labelledby="confidencial-tab">
                                                             <div class="form-row">
-                                                                <div class="form-group col-md-6 col-sm-6">
-                                                                    <label for="area" class="label-required">Área</label>
-                                                                    <select id="area" name="area" class="form-control" required></select>
-                                                                </div>
-                                                                <div class="form-group col-md-6 col-sm-6">
-                                                                    <label for="cargo_funcional" class="label-required">Cargo Funcional</label>
-                                                                    <select id="cargo_funcional" name="cargo_funcional" class="form-control" required></select>
-                                                                </div>
-                                                                <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="vinculo">Vinculo</label>
-                                                                    <select id="vinculo" name="vinculo" class="form-control">
-                                                                        <option value='1'>PERMANENTE</option>
-                                                                        <option value='2'>CONTRATADO</option>
-                                                                        <option value='3'>COMISIONADO</option>
-                                                                        <option value='4'>CONTRATADO POR PRODUCTO</option>
-                                                                    </select>
-                                                                </div>
-                                                                <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="fecha_ingreso"  class="label-required">Fecha Ingreso</label>
-                                                                    <input class="form-control input-sm" type="date" name="fecha_ingreso" id="fecha_ingreso" autocomplete="off" required>
-                                                                </div>
-                                                                <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="fecha_asuncion"  class="label-required">Fecha Asunción</label>
-                                                                    <input class="form-control input-sm" type="date" name="fecha_asuncion" id="fecha_asuncion" autocomplete="off" required>
-                                                                </div>
                                                                 <div class="form-group col-md-3 col-sm-6">
                                                                     <label for="salario" class="label-required">Salario</label>
                                                                     <input class="form-control input-sm" id="salario" name="salario" type="text" autocomplete="off" onkeyup="separadorMilesOnKey(event,this)" required>
                                                                 </div>
                                                                 <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="telefono_interno">Tel. Interno</label>
-                                                                    <input class="form-control input-sm" id="telefono_interno" name="telefono_interno" type="text" autocomplete="off">
+                                                                    <label for="hijos">Cant. Hijos</label>
+                                                                    <input class="form-control input-sm text-right" type="text" name="hijos" id="hijos" autocomplete="off" onkeyup="separadorMilesOnKey(event,this)" value="0">
                                                                 </div>
                                                                 <div class="form-group col-md-3 col-sm-6">
-                                                                    <label for="id_usuario">Usuario</label>
-                                                                    <select id="id_usuario" name="id_usuario" class="form-control"></select>
+                                                                    <label for="aporte">Tipo Aporte</label>
+                                                                    <select id="aporte" name="aporte" class="form-control">
+                                                                        <option value="1">I.P.S</option>
+                                                                        <option value="2">FACTURA/SET</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="form-group col-md-3 col-sm-6">
+                                                                    <label for="id_banco">Banco</label>
+                                                                    <select id="id_banco" name="id_banco" class="form-control"></select>
+                                                                </div>
+                                                                <div class="form-group col-md-3 col-sm-6">
+                                                                    <label for="nro_cuenta">N° Cuenta</label>
+                                                                    <input class="form-control input-sm" id="nro_cuenta" name="nro_cuenta" type="text" autocomplete="off">
                                                                 </div>
                                                             </div>
                                                         </div>

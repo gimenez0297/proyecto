@@ -5,6 +5,13 @@ require_once "mysql.php";
 include 'class.upload.php';
 
 require_once ("funciones/permisos-funciones.php");
+require_once ("funciones/solicitudes-compra-funciones.php");
+require_once ("funciones/ordenes-compras-funciones.php");
+require_once ("funciones/recepcion-compras-funciones.php");
+require_once ("funciones/productos-funciones.php");
+require_once ("funciones/caja-funciones.php");
+require_once ("funciones/solicitudes-deposito-funciones.php");
+require_once ("funciones/insumos-funciones.php");
 
 /**
  * @var string Representa el tipo de MIME permitido para almacenar archivos PDF.
@@ -40,7 +47,7 @@ define('TIPO_PUESTO_CAJERO', 1);
 
 function url() {
 	$host = $_SERVER['HTTP_HOST'];
-	return "http://$host/proyecto/";
+	return "http://$host/santa-victoria/namandu/";
 }
 
 /* function url_pagina() {

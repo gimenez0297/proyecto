@@ -20,11 +20,18 @@ class DataBase extends MySQLi{
     const L_INFO    = "INFO";
 
     // Local
-    const DB_NAME = 'proyecto';
+    const DB_NAME = 'victoria_db';
     const DB_USER = 'root';
     const DB_PSW = '';
     const DB_HOST = 'localhost';
     const DB_PORT = '3306';
+
+    // Desarrollo
+    // const DB_NAME = 'victoria_db';
+    // const DB_USER = 'root';
+    // const DB_PSW  = 'FDPMdb*22_';
+    // const DB_HOST = '190.104.191.81';
+    // const DB_PORT = '27395';
  
     public function logger($status = true, $comentario = ""){
         $this->logger = $status;
@@ -157,7 +164,7 @@ class DataBase extends MySQLi{
         $this->sql = $sql;
         
         if(!preg_match("/(^\s+select)|(^select)/i", $sql)) {
-			$usuario = $_SESSION['usuario'];
+			$usuario = $_SESSION['usuario'] ?: $_SESSION['auth_username'];
 			$sql_clean = $this->clearText(trim(preg_replace('/\s+/', ' ', $sql)));
 			//$message = date('Y-m-d H:i:s')."|".$sql_clean."\r\n";
 			//file_put_contents("querys.txt", $message, FILE_APPEND);

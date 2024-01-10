@@ -18,10 +18,10 @@
 	if ($tit_tmp <> "index"){
 		if (verificaLogin($pagina)){
 			$datos_empresa = datosSucursal($auth->getUsername());
-			$establecimiento = $datos_empresa->nombre_empresa;
+			$establecimiento = $datos_empresa->nombre_empresa." - ".$datos_empresa->sucursal;
 			$permisos = permisos($auth->getUsername());
 			$titulo = $permisos->titulo_pagina." - <span style='font-size:16px'>".$establecimiento."</span>";
-			$title = $permisos->titulo_pagina." - ".$nombre_sistema;
+			$title = $permisos->titulo_pagina." - ".$nombre_sistema." - ".$establecimiento;
 		}else {
             header('Location: '.url());
             exit;

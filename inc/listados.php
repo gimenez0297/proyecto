@@ -122,6 +122,263 @@
             echo json_encode($salida);
         break;
 
+        case 'tipos_productos':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_tipo_producto, tipo, principios_activos
+                            FROM tipos_productos
+                            WHERE estado=1 AND tipo LIKE '$term%'
+                            ORDER BY tipo
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'productos_insumo':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT 
+                                SQL_CALC_FOUND_ROWS 
+                                id_producto_insumo,
+                                producto,
+                                costo,
+                                codigo,
+                                (SELECT 
+                                 IFNULL(SUM(s.stock), 0)
+                                 FROM stock_insumos s 
+                                 WHERE s.id_producto_insumo=p.id_producto_insumo AND (vencimiento>=CURRENT_DATE() OR vencimiento IS NULL)
+                                ) AS stock
+                            FROM productos_insumo p
+                            WHERE estado=1 AND  producto LIKE '$term%'
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'premios':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS 
+                            id_premio,
+                            premio,
+                            codigo,
+                            costo,
+                            puntos
+                            FROM premios
+                            WHERE estado=1 AND  premio LIKE '$term%'
+                            
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'clasificaciones_productos':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_clasificacion_producto, clasificacion
+                            FROM clasificaciones_productos
+                            WHERE estado=1 AND clasificacion LIKE '$term%'
+                            ORDER BY clasificacion
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'principios_activos':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_principio, nombre AS principio
+                            FROM principios_activos
+                            WHERE estado=1 AND nombre LIKE '$term%'
+                            ORDER BY nombre
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'laboratorios':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_laboratorio, laboratorio
+                            FROM laboratorios
+                            WHERE estado=1 AND laboratorio LIKE '$term%'
+                            ORDER BY laboratorio
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'presentaciones':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_presentacion, presentacion
+                            FROM presentaciones
+                            WHERE estado=1 AND presentacion LIKE '$term%'
+                            ORDER BY presentacion
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'unidades_medidas':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_unidad_medida, unidad_medida, sigla
+                            FROM unidades_medidas
+                            WHERE estado=1 AND unidad_medida LIKE '$term%'
+                            ORDER BY unidad_medida
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'origenes':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_origen, origen
+                            FROM origenes
+                            WHERE estado=1 AND origen LIKE '$term%'
+                            ORDER BY origen
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
         case 'marcas':
             $db = DataBase::conectar();
             $page = $db->clearText($_GET['page']);
@@ -149,6 +406,33 @@
             echo json_encode($salida);
         break;
 
+        case 'rubros':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_rubro, rubro
+                            FROM rubros
+                            WHERE estado=1 AND rubro LIKE '$term%'
+                            ORDER BY rubro
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
         case 'proveedores':
             $db = DataBase::conectar();
             $page = $db->clearText($_GET['page']);
@@ -163,6 +447,65 @@
                             WHERE pt.tipo_proveedor=$tipo_proveedor AND proveedor LIKE '$term%'
                             GROUP BY p.id_proveedor
                             ORDER BY proveedor
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'proveedores_pral':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS 
+                            p.*,
+                            pp.*
+                            FROM proveedores p
+                            LEFT JOIN proveedores_tipos pt ON p.id_proveedor=pt.id_proveedor
+                            LEFT JOIN productos_proveedores pp ON pp.id_proveedor=p.id_proveedor
+                            WHERE pp.proveedor_principal = 1 AND pt.tipo_proveedor = 1 AND p.proveedor LIKE '$term%'
+                            GROUP BY p.id_proveedor
+                            ORDER BY p.proveedor
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'grupos_clasificaciones':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_grupo, grupo
+                            FROM grupos
+                            WHERE estado=1 AND grupo LIKE '$term%'
+                            ORDER BY grupo
                             LIMIT $end, $resultCount");
             $rows = ($db->loadObjectList()) ?: [];
 
@@ -318,30 +661,22 @@
 		
 		case 'departamentos':
 			$db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-			$db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_departamento, nombre
-                            FROM departamentos
-                            WHERE nombre LIKE '$term%'
-                            ORDER BY id_departamento
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-			echo json_encode($salida);
+			$db->setQuery("SELECT departamento from departamentos where estado = 1 order by 1");
+			$rows = $db->loadObjectList();
+			echo json_encode($rows);
 		
+		break;
+		
+		case 'categorias':
+			$db = DataBase::conectar();
+			$db->setQuery("SELECT * FROM categorias ORDER BY categoria");
+			/*$db->setQuery("SELECT a.id_categoria padre_id, a.categoria padre_cat, a.descripcion padre_desc,
+							IFNULL(b.id_categoria,a.id_categoria) as hijo_id, IFNULL(b.categoria,a.categoria) hijo_cat, 
+							b.descripcion hijo_desc
+							FROM categorias a LEFT OUTER JOIN categorias b ON a.id_categoria = b.id_padre
+							WHERE a.id_padre = 0 ORDER BY a.categoria, b.categoria");*/
+			$rows = $db->loadObjectList();
+			if ($rows) echo json_encode($rows);
 		break;
 		
 		case 'familias':
@@ -370,13 +705,12 @@
             $db = DataBase::conectar();
             $page = $db->clearText($_GET['page']);
             $term = $db->clearText($_GET['term']);
-            $id_departamento = $db->clearText($_GET['id_departamento']);
             $resultCount = 5;
             $end = ($page - 1) * $resultCount; 
 
             $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_distrito, nombre
                             FROM distritos
-                            WHERE id_departamento = $id_departamento AND nombre LIKE '%$term%'
+                            WHERE nombre LIKE '$term%'
                             ORDER BY nombre
                             LIMIT $end, $resultCount");
             $rows = ($db->loadObjectList()) ?: [];
@@ -452,13 +786,12 @@
             $db = DataBase::conectar();
             $page = $db->clearText($_GET['page']);
             $term = $db->clearText($_GET['term']);
-            $id_area = $db->clearText($_GET['id_area']);
             $resultCount = 5;
             $end = ($page - 1) * $resultCount; 
 
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_funcionario, funcionario, ci
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_funcionario, funcionario, ci, nro_cuenta
                             FROM funcionarios
-                            WHERE estado = 1 AND id_area = $id_area AND funcionario LIKE '$term%'
+                            WHERE funcionario LIKE '$term%'
                             ORDER BY funcionario
                             LIMIT $end, $resultCount");
             $rows = ($db->loadObjectList()) ?: [];
@@ -480,11 +813,9 @@
             $db = DataBase::conectar();
             $ci = $db->clearText($_POST["ci"]);
 
-            $db->setQuery("SELECT *, f.funcionario AS razon_social,
-                                ROUND(f.salario / d.`factor`) AS impuesto
-                            FROM funcionarios f
-                            LEFT JOIN descuentos d ON f.vinculo = d.vinculo
-                            WHERE ci='$ci' AND f.estado = 1");
+            $db->setQuery("SELECT *, funcionario AS razon_social
+                            FROM funcionarios
+                            WHERE ci='$ci' AND estado = 1");
             $row = ($db->loadObject()) ?: ["ruc" => null];
             echo json_encode($row);
         break;  
@@ -827,6 +1158,81 @@
             echo json_encode($salida);
         break;
 
+        case 'buscar_producto_por_codigo':
+            $db = DataBase::conectar();
+            $codigo = $db->clearText($_POST["codigo"]);
+
+
+            $db->setQuery("SELECT p.id_producto, p.producto, p.codigo, p.fraccion, p.precio, pre.id_presentacion, pre.presentacion
+                            FROM productos p
+                            LEFT JOIN presentaciones pre ON p.id_presentacion=pre.id_presentacion
+                            WHERE p.estado=1 AND p.codigo=$codigo");
+            $row = $db->loadObject();
+            echo json_encode($row);
+        break;
+
+        case 'buscar_producto_por_codigo_insumo':
+            $db = DataBase::conectar();
+            $codigo = $db->clearText($_POST["codigo"]);
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS 
+                            id_producto_insumo,
+                            producto,
+                            costo,
+                            codigo
+                            FROM productos_insumo
+                            WHERE estado=1 AND codigo=$codigo");
+            $row = $db->loadObject();
+            echo json_encode($row);
+        break;
+
+        case 'buscar_premio_por_codigo':
+            $db = DataBase::conectar();
+            $codigo = $db->clearText($_POST["codigo"]);
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS 
+                            id_premio,
+                            premio,
+                            costo,
+                            codigo,
+                            puntos
+                            FROM premios
+                            WHERE estado=1 AND codigo=$codigo");
+            $row = $db->loadObject();
+            echo json_encode($row);
+        break;
+
+        case 'lotes':
+            $db = DataBase::conectar();
+            $id_producto = $db->clearText($_GET["id_producto"]);
+
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT l.id_lote, l.lote, l.vencimiento
+                            FROM lotes l
+                            JOIN stock s ON l.id_lote=s.id_lote
+                            WHERE s.id_producto=$id_producto AND l.lote LIKE '$term%'
+                            GROUP BY l.id_lote
+                            ORDER BY l.vencimiento DESC
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
         case 'clientes_tipos':
             $db = DataBase::conectar();
             $page = $db->clearText($_GET['page']);
@@ -838,6 +1244,35 @@
                             FROM clientes_tipos
                             WHERE tipo LIKE '$term%'
                             ORDER BY tipo
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+            
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'proveedores_modal':
+            $db = DataBase::conectar();
+            $producto = $db->clearText($_GET['producto']);
+            $page     = $db->clearText($_GET['page']);
+            $term     = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS p.id_proveedor, p.proveedor, pp.costo
+                            FROM proveedores p
+                            JOIN productos_proveedores pp ON p.id_proveedor=pp.id_proveedor
+                            WHERE p.proveedor LIKE '$term%' AND pp.id_producto='$producto'
+                            ORDER BY p.proveedor
                             LIMIT $end, $resultCount");
             $rows = ($db->loadObjectList()) ?: [];
 
@@ -896,6 +1331,34 @@
                             WHERE p.id_tipo_puesto = 1
                             AND username LIKE '$term%'
                             ORDER BY username
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'cajas':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $id_sucursal = $db->clearText($_REQUEST['id_sucursal']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT id_caja, numero
+                            FROM cajas
+                            WHERE id_sucursal=$id_sucursal AND numero LIKE '$term%'
+                            ORDER BY numero
                             LIMIT $end, $resultCount");
             $rows = ($db->loadObjectList()) ?: [];
 
@@ -991,6 +1454,69 @@
             echo json_encode($salida);
         break;
 
+        case 'doctores':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS * 
+                            FROM especialidades_doctores
+                            WHERE nombre LIKE '$term%' AND estado=1
+                            ORDER BY nombre
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'doctores_facturas':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS 
+                            d.id_doctor, 
+                            d.nombre_apellido, 
+                            d.registro_nro, 
+                            d.estado,
+                            e.id_especialidad,
+                            CASE d.estado WHEN 0 THEN 'Inactivo' WHEN 1 THEN 'Activo' END AS estado_str,
+                            e.nombre AS especialidad
+                            FROM doctores d
+                            LEFT JOIN `especialidades_doctores` e ON e.id_especialidad = d.id_especialidad
+                            WHERE d.estado=1
+                            AND d.nombre_apellido LIKE '$term%'
+                            ORDER BY d.nombre_apellido
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
         case 'tipos_puestos':
             $db = DataBase::conectar();
             $page = $db->clearText($_GET['page']);
@@ -1029,6 +1555,230 @@
                             FROM tipos_comprobantes 
                             WHERE nombre_comprobante LIKE '$term%' 
                             ORDER BY nombre_comprobante
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'tipos_gastos':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_tipo_gasto, nombre
+                            FROM tipos_gastos
+                            WHERE nombre LIKE '$term%' 
+                            ORDER BY nombre
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'sub_tipos_gastos':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_sub_tipo_gasto, nombre
+                            FROM sub_tipos_gastos
+                            WHERE nombre LIKE '$term%' 
+                            ORDER BY nombre
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'proveedores-compras':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS ruc,razon_social AS proveedor 
+                            FROM gastos 
+                            WHERE razon_social LIKE '$term%' 
+                            GROUP BY ruc
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'notas_remision_motivos':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_nota_remision_motivo, descripcion, nombre_corto 
+                            FROM notas_remision_motivos 
+                            WHERE estado = 1 AND nombre_corto LIKE '$term%' 
+                            ORDER BY id_nota_remision_motivo
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'proveedores-pagados':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery(" SELECT SQL_CALC_FOUND_ROWS p.ruc,p.proveedor
+                            FROM recepciones_compras r
+                            LEFT JOIN proveedores p ON p.id_proveedor = r.id_proveedor
+                            WHERE proveedor LIKE '$term%' 
+                            GROUP BY p.ruc
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'clientes-credito':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery(" SELECT SQL_CALC_FOUND_ROWS ruc,razon_social,id_cliente
+                            FROM facturas 
+                            WHERE razon_social LIKE '$term%' AND condicion = 2
+                            GROUP BY ruc
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'entidades_descuento':
+            $db = DataBase::conectar();
+            $id = $db->clearText($_GET['id']);
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+            
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS e.id_entidad, e.entidad, IFNULL(dp.porcentaje,0) AS porcentaje,dp.descripcion, dp.id_descuento_pago
+                                  FROM entidades e
+                                  LEFT JOIN descuentos_pagos dp ON dp.id_entidad = e.id_entidad AND dp.estado = 1 AND dp.id_metodo_pago = $id
+                                  WHERE e.estado=1  AND entidad LIKE '$term%'
+                                  ORDER BY entidad
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'cajeros':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT 
+                                f.id_funcionario,
+                                f.funcionario
+
+                            FROM tipos_puestos tp
+                            LEFT JOIN puestos p ON tp.id_tipo_puesto=p.id_tipo_puesto
+                            LEFT JOIN funcionarios f ON p.id_puesto=f.id_puesto
+                            WHERE tp.id_tipo_puesto=1 AND funcionario LIKE '$term%'
+                            ORDER BY funcionario
                             LIMIT $end, $resultCount");
             $rows = ($db->loadObjectList()) ?: [];
 
@@ -1325,6 +2075,240 @@
             echo json_encode($salida);
         break;
 
+        case 'buscar_proveedor_gasto':
+            $db = DataBase::conectar();
+            $ruc=$db->clearText($_POST['ruc']);
+            $tipo_proveedor=$db->clearText($_POST['tipo_proveedor']);
+
+            $db->setQuery("SELECT p.id_proveedor,
+                            proveedor,
+                            ruc
+                            FROM proveedores p
+                            LEFT JOIN proveedores_tipos pt on p.id_proveedor=pt.id_proveedor
+                            WHERE ruc='$ruc' 
+                            AND pt.tipo_proveedor=$tipo_proveedor
+                            GROUP BY p.id_proveedor");
+            $row = ($db->loadObject()) ;
+            echo json_encode($row);
+        break;
+
+
+        case 'tipos_gastos_fijos':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_gasto_fijo_tipo, nombre
+                            FROM gastos_fijos_tipos
+                            WHERE estado= 1 AND nombre LIKE '$term%' 
+                            ORDER BY nombre
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'sub_tipos_gastos_fijos_gastos_fijos':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+            $id=$db->clearText($_GET['id']);
+
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_gasto_fijo_sub_tipo, nombre
+                            FROM gastos_fijos_sub_tipos
+                            WHERE estado= 1 AND id_gasto_fijo_tipo = $id AND nombre LIKE '$term%' 
+                            ORDER BY nombre
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'tipo_insumo':             
+            $db = DataBase::conectar();             
+            $page = $db->clearText($_GET['page']);             
+            $term = $db->clearText($_GET['term']);             
+            $resultCount = 5;             
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS nombre, id_tipo_insumo                             
+                            FROM tipos_insumos                             
+                            WHERE estado=1 AND nombre LIKE '$term%'                            
+                            ORDER BY nombre                             
+                            LIMIT $end, $resultCount");             
+            $rows = ($db->loadObjectList()) ?: [];             
+            $db->setQuery("SELECT FOUND_ROWS() as total");             
+            $total_row = $db->loadObject();             
+            $total_count = $total_row->total;   
+
+            if (empty($rows)) {                 
+                $salida = ['data' => [], 'total_count' => 0];             
+            } else {                 
+                $salida = ['data' => $rows, 'total_count' => $total_count];             
+            }              
+            echo json_encode($salida);
+        break;
+
+        case 'proveedores_gastos_carga_insumo':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $tipo_proveedor=$db->clearText($_GET['tipo_proveedor']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS p.id_proveedor, proveedor, ruc, nombre_fantasia, contacto, telefono
+                            FROM proveedores p
+                            LEFT JOIN proveedores_tipos pt ON p.id_proveedor=pt.id_proveedor
+                            WHERE proveedor LIKE '$term%' AND pt.tipo_proveedor = 2
+                            GROUP BY p.id_proveedor
+                            ORDER BY proveedor
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'usuarios_encargados_caja_chica':
+            $db = DataBase::conectar();
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+            $id=$db->clearText($_GET['id']);
+
+
+            $db->setQuery("SELECT id AS id_usuario, username AS nombre_usuario , f.funcionario, id_funcionario
+                            FROM users u
+                            JOIN funcionarios f ON f.id_usuario = u.id
+                            JOIN puestos p ON p.id_puesto = f.id_puesto
+                            WHERE p.id_tipo_puesto = 3 AND f.`id_sucursal` = $id 
+                            AND username LIKE '$term%'
+                            ORDER BY username
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'sucursales_caja_chica':
+            $db = DataBase::conectar();
+            $id = $db->clearText($_GET[$id]);
+            $where = "";
+
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS
+                                cc.id_sucursal,
+                                s.`sucursal`
+                            FROM
+                                caja_chica cc
+                            LEFT JOIN sucursales s ON s.`id_sucursal`=cc.`id_sucursal`
+                            WHERE cc.`estado` = 1 AND sucursal LIKE '$term%' $where
+                            ORDER BY id_sucursal
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
+        case 'cajas_chicas_sucursal':
+            $db = DataBase::conectar();
+            $id = $db->clearText($_GET[$id]);
+            $where = "";
+
+            $page = $db->clearText($_GET['page']);
+            $term = $db->clearText($_GET['term']);
+            $resultCount = 5;
+            $end = ($page - 1) * $resultCount; 
+            $id=$db->clearText($_GET['id']);
+
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS
+                                ccs.`id_caja_chica_sucursal`,
+                                ccs.`cod_movimiento`,
+                                ccs.`saldo`,
+                                ccs.`sobrante`,
+                                ccs.`estado`,
+                                CASE ccs.estado WHEN 1 THEN 'Abierto' WHEN 2 THEN 'Rendido' END AS estado_str
+                            FROM
+                                caja_chica_sucursal ccs
+                            LEFT JOIN caja_chica cc ON cc.`id_caja_chica`= ccs.`id_caja_chica`
+                            WHERE cc.`id_sucursal`= $id AND ccs.estado IN(1,2) AND cod_movimiento LIKE '$term%' $where
+                            ORDER BY cod_movimiento DESC
+                            LIMIT $end, $resultCount");
+            $rows = ($db->loadObjectList()) ?: [];
+
+            $db->setQuery("SELECT FOUND_ROWS() as total");
+            $total_row = $db->loadObject();
+            $total_count = $total_row->total;
+
+            if (empty($rows)) {
+                $salida = ['data' => [], 'total_count' => 0];
+            } else {
+                $salida = ['data' => $rows, 'total_count' => $total_count];
+            }
+
+            echo json_encode($salida);
+        break;
+
         case 'cuentas':             
             $db = DataBase::conectar();             
             $page = $db->clearText($_GET['page']);             
@@ -1356,233 +2340,39 @@
             echo json_encode($salida);
         break;
 
-        case 'area_superior':
+        case 'productos_insumos_codigo':
             $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
+            $codigo = $db->clearText($_POST['codigo']);
 
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_area AS id_area_superior, area AS area_superior 
-                            FROM areas 
-                            WHERE area LIKE '$term%' 
-                            ORDER BY area
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
+            $db->setQuery("SELECT 
+                                SQL_CALC_FOUND_ROWS 
+                                id_producto_insumo,
+                                producto,
+                                costo,
+                                codigo,
+                                (SELECT 
+                                 IFNULL(SUM(s.stock), 0)
+                                 FROM stock_insumos s 
+                                 WHERE s.id_producto_insumo=p.id_producto_insumo AND (vencimiento>=CURRENT_DATE() OR vencimiento IS NULL)
+                                ) AS stock
+                            FROM productos_insumo p
+                            WHERE estado=1 AND codigo='$codigo'");
+            $row = $db->loadObject();
+            echo json_encode($row);
         break;
 
-        case 'areas':
+
+        case 'gastos_fijos':
             $db = DataBase::conectar();
             $page = $db->clearText($_GET['page']);
             $term = $db->clearText($_GET['term']);
+            $gasto = $db->clearText($_GET['tipo_gasto']);
             $resultCount = 5;
             $end = ($page - 1) * $resultCount; 
 
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_area, area
-                            FROM areas 
-                            WHERE estado = 1 AND area LIKE '$term%' 
-                            ORDER BY area
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'categoria_superior':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_categoria AS id_categoria_superior, CONCAT(categoria,' - (',cargo,' - ',salario,')') AS categoria_superior 
-                            FROM categorias 
-                            WHERE categoria LIKE '$term%' 
-                            ORDER BY categoria
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'tipo_organizacion':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_tipo, tipo
-                            FROM tipo_organizacion
-                            WHERE tipo LIKE '$term%'
-                            ORDER BY tipo
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-            
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'sectores':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_sector, sector
-                            FROM sector
-                            WHERE sector LIKE '$term%'
-                            ORDER BY sector
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-            
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'jefe_organigrama':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_cargo AS id_jefe, cargo AS jefe
-                            FROM organigrama
-                            WHERE cargo LIKE '$term%'
-                            ORDER BY cargo
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-            
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'grupo_sanguineo':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_grupo, grupo_sanguineo
-                            FROM grupo_sanguineo
-                            WHERE grupo_sanguineo LIKE '%$term%'
-                            ORDER BY grupo_sanguineo
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'cargo_funcional':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $id_area = $db->clearText($_GET['id_area']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_cargo, cargo
-                            FROM organigrama
-                            WHERE id_area = $id_area AND estado = 1 AND cargo LIKE '%$term%'
-                            ORDER BY cargo
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'distritos_contacto':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_distrito, nombre
-                            FROM distritos
-                            WHERE nombre LIKE '%$term%'
+            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_gastos_fijos, nombre 
+                            FROM gastos_fijos 
+                            WHERE id_tipo_gastos =  $gasto and nombre LIKE '$term%' 
                             ORDER BY nombre
                             LIMIT $end, $resultCount");
             $rows = ($db->loadObjectList()) ?: [];
@@ -1600,537 +2390,91 @@
             echo json_encode($salida);
         break;
 
-        case 'localidades':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $id_distrito = $db->clearText($_GET['id_distrito']);
-            $resultCount = 5;
+        case 'libros-diarios':             
+            $db = DataBase::conectar();             
+            $page = $db->clearText($_GET['page']);             
+            $term = $db->clearText($_GET['term']);   
+
+            $resultCount = 5;             
             $end = ($page - 1) * $resultCount; 
 
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_localidad, localidad
-                            FROM localidades
-                            WHERE id_distrito = $id_distrito AND localidad LIKE '%$term%'
-                            ORDER BY localidad
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
+            $db->setQuery("SELECT 
+                                SQL_CALC_FOUND_ROWS 
+                                id_libro_diario_periodo, 
+                                CONCAT(nombre, ' - (', DATE_FORMAT(desde, '%d/%m/%Y'), ' - ', DATE_FORMAT(hasta, '%d/%m/%Y'),')') AS libro
+                            FROM
+                                libro_diario_periodo                             
+                            HAVING libro LIKE '$term%'                                                        
+                            LIMIT $end, $resultCount");             
+            $rows = ($db->loadObjectList()) ?: [];             
+            $db->setQuery("SELECT FOUND_ROWS() as total");             
+            $total_row = $db->loadObject();             
+            $total_count = $total_row->total;   
 
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
+            if (empty($rows)) {                 
+                $salida = ['data' => [], 'total_count' => 0];             
+            } else {                 
+                $salida = ['data' => $rows, 'total_count' => $total_count];             
+            }              
             echo json_encode($salida);
         break;
 
-        case 'barrios':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $id_localidad = $db->clearText($_GET['id_localidad']);
-            $resultCount = 5;
+        case 'motivo-asiento':             
+            $db = DataBase::conectar();             
+            $page = $db->clearText($_GET['page']);             
+            $term = $db->clearText($_GET['term']);   
+
+            $resultCount = 5;             
             $end = ($page - 1) * $resultCount; 
 
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_barrio, barrio
-                            FROM barrios
-                            WHERE id_localidad = $id_localidad AND barrio LIKE '%$term%'
-                            ORDER BY barrio
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
+            $db->setQuery("SELECT 
+                                SQL_CALC_FOUND_ROWS 
+                                id_motivo_asiento,
+                                descripcion
+                            FROM motivos_asiento                         
+                            HAVING descripcion LIKE '$term%'                                                        
+                            LIMIT $end, $resultCount");             
+            $rows = ($db->loadObjectList()) ?: [];             
+            $db->setQuery("SELECT FOUND_ROWS() as total");             
+            $total_row = $db->loadObject();             
+            $total_count = $total_row->total;   
 
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
+            if (empty($rows)) {                 
+                $salida = ['data' => [], 'total_count' => 0];             
+            } else {                 
+                $salida = ['data' => $rows, 'total_count' => $total_count];             
+            }              
             echo json_encode($salida);
         break;
 
-        case 'carreras':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
+        case 'planes':             
+            $db = DataBase::conectar();             
+            $page = $db->clearText($_GET['page']);             
+            $term = $db->clearText($_GET['term']);   
+
+            $resultCount = 5;             
             $end = ($page - 1) * $resultCount; 
 
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_carrera, carrera
-                            FROM carreras
-                            WHERE carrera LIKE '%$term%'
-                            ORDER BY carrera
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'universidades':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_organizacion, organizacion
-                            FROM organizacion
-                            WHERE id_tipo = 1 AND organizacion LIKE '%$term%'
-                            ORDER BY organizacion
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'institutos':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_organizacion, organizacion
-                            FROM organizacion
-                            WHERE id_tipo = 3 AND organizacion LIKE '%$term%'
-                            ORDER BY organizacion
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'idiomas':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_idioma, idioma
-                            FROM idiomas
-                            WHERE idioma LIKE '%$term%'
-                            ORDER BY idioma
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'vinculos_familiares':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_vinculo_familiar, vinculo
-                            FROM vinculos_familiares
-                            WHERE estado = 1 AND vinculo LIKE '%$term%'
-                            ORDER BY vinculo
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'funcionarios_select':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_funcionario, funcionario, ci, o.cargo
-                            FROM funcionarios f 
-                            LEFT JOIN organigrama o ON f.id_cargo=o.id_cargo
-                            WHERE f.estado = 1 AND funcionario LIKE '$term%'
-                            GROUP BY f.id_funcionario
-                            ORDER BY f.funcionario
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'cargos':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $id_servidor = $db->clearText($_GET['id_servidor']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS o.id_cargo, o.cargo
-                            FROM organigrama o 
-                            LEFT JOIN funcionarios f ON o.id_cargo=f.id_cargo
-                            WHERE id_funcionario = $id_servidor AND cargo LIKE '%$term%'
-                            GROUP BY o.id_cargo
-                            ORDER BY o.cargo
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'objetos_gastos':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_objeto_gasto, objeto_gasto
-                            FROM objeto_gasto 
-                            WHERE objeto_gasto LIKE '%$term%'
-                            ORDER BY objeto_gasto
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'fuente_financiamiento':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_fuente_financiamiento, fuente
-                            FROM fuente_financiamiento 
-                            WHERE fuente LIKE '%$term%'
-                            ORDER BY fuente
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'numero_resolucion':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_resolucion, numero
-                            FROM resoluciones 
-                            WHERE numero LIKE '%$term%'
-                            ORDER BY numero
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'categorias':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_categoria, categoria
-                            FROM categorias 
-                            WHERE categoria LIKE '%$term%'
-                            ORDER BY categoria
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'nombramientos_servidor':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $id_area = $db->clearText($_GET['id_area']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS 
-                                    f.id_funcionario, 
-                                    f.funcionario, 
-                                    f.ci, 
-                                    f.fecha_ingreso, 
-                                    f.fecha_asuncion, 
-                                    o.cargo,
-                                    CASE f.vinculo WHEN 1 THEN 'PERMANENTE' WHEN 2 THEN 'CONTRATADO' WHEN 3 THEN 'COMISIONADO' WHEN 4 THEN 'CONTRATADO POR PRODUCTO' END AS vinculo,
-                                    TIMESTAMPDIFF(YEAR,fecha_ingreso,CURRENT_DATE()) AS anhos,
-                                    MONTH(CURRENT_DATE())-MONTH(fecha_ingreso) AS meses,
-                                    DAY(CURRENT_DATE())-DAY(fecha_ingreso) AS dias
-                            FROM funcionarios f
-                            LEFT JOIN organigrama o ON f.id_cargo = o.id_cargo
-                            WHERE f.estado = 1 AND f.id_area = $id_area AND f.funcionario LIKE '$term%'
-                            ORDER BY funcionario
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'permisos':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_permiso, concepto
-                            FROM permisos 
-                            WHERE concepto LIKE '%$term%'
-                            ORDER BY concepto
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'organizaciones':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_organizacion, organizacion
-                            FROM organizacion
-                            WHERE estado = 1 AND organizacion LIKE '%$term%'
-                            ORDER BY organizacion
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'organigramas':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_cargo, cargo
-                            FROM organigrama
-                            WHERE cargo LIKE '$term%'
-                            ORDER BY cargo
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-            
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'funcionarios_cargos':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $id_cargo = $db->clearText($_GET['id_cargo']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_funcionario, funcionario
-                            FROM funcionarios f 
-                            WHERE id_cargo = $id_cargo AND f.estado = 1 AND funcionario LIKE '$term%'
-                            GROUP BY f.id_funcionario
-                            ORDER BY f.funcionario
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
-            echo json_encode($salida);
-        break;
-
-        case 'instituciones':
-            $db = DataBase::conectar();
-            $page = $db->clearText($_GET['page']);
-            $term = $db->clearText($_GET['term']);
-            $resultCount = 5;
-            $end = ($page - 1) * $resultCount; 
-
-            $db->setQuery("SELECT SQL_CALC_FOUND_ROWS id_organizacion, organizacion
-                            FROM organizacion
-                            WHERE estado = 1 AND id_sector = 2 AND organizacion LIKE '%$term%'
-                            ORDER BY organizacion
-                            LIMIT $end, $resultCount");
-            $rows = ($db->loadObjectList()) ?: [];
-
-            $db->setQuery("SELECT FOUND_ROWS() as total");
-            $total_row = $db->loadObject();
-            $total_count = $total_row->total;
-
-            if (empty($rows)) {
-                $salida = ['data' => [], 'total_count' => 0];
-            } else {
-                $salida = ['data' => $rows, 'total_count' => $total_count];
-            }
-
+            $db->setQuery("SELECT 
+                                SQL_CALC_FOUND_ROWS 
+                                id_libro_cuenta,
+                                CONCAT(cuenta, ' - ',denominacion) AS denominacion,
+                                tipo_cuenta
+                            FROM
+                                `libro_cuentas` lc
+                            WHERE lc.`nivel` IS NULL
+                            HAVING denominacion LIKE '$term%'                                                                           
+                            LIMIT $end, $resultCount");             
+            $rows = ($db->loadObjectList()) ?: [];             
+            $db->setQuery("SELECT FOUND_ROWS() as total");             
+            $total_row = $db->loadObject();             
+            $total_count = $total_row->total;   
+
+            if (empty($rows)) {                 
+                $salida = ['data' => [], 'total_count' => 0];             
+            } else {                 
+                $salida = ['data' => $rows, 'total_count' => $total_count];             
+            }              
             echo json_encode($salida);
         break;
 	}
