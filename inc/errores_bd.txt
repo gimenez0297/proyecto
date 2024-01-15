@@ -5599,3 +5599,33 @@ Query: SELECT
 Error Code: 1054
 Error: La columna 'undefined' en where clause es desconocida
 ---------------------------------------------------
+2024-01-12 10:45:24
+Query: SELECT
+                                oc.id_orden_compra, 
+                                oc.numero, 
+                                ocp.id_orden_compra_producto, 
+                                ocp.id_producto, 
+                                ocp.producto, 
+                                ocp.codigo, 
+                                ocp.costo,
+                                pp.costo AS costo_ultimo,  
+                                ocp.cantidad,
+                                ocp.total_costo as costo_tt,
+                                pre.id_presentacion,
+                                pre.presentacion,
+                                CASE p.iva WHEN 1 THEN 'EXENTAS' WHEN 2 THEN '5%'  WHEN 3 THEN '10%'  END AS iva_str,
+                                ocp.cantidad - (
+                                    SELECT IFNULL(SUM(rcp.cantidad), 0)
+                                    FROM recepciones_compras_productos rcp
+                                    JOIN recepciones_compras rc ON rcp.id_recepcion_compra=rc.id_recepcion_compra
+                                    WHERE rc.estado!=2 AND rcp.id_orden_compra=oc.id_orden_compra AND id_producto=ocp.id_producto
+                                ) AS pendiente
+                            FROM ordenes_compras_productos ocp
+                            JOIN ordenes_compras oc ON ocp.id_orden_compra=oc.id_orden_compra
+                            LEFT JOIN productos p ON ocp.id_producto=p.id_producto
+                            LEFT JOIN presentaciones pre ON p.id_presentacion=pre.id_presentacion
+                            LEFT JOIN productos_proveedores pp ON p.id_producto=pp.id_producto AND oc.id_proveedor=pp.id_proveedor
+                            WHERE ocp.cantidad&gt;0 AND oc.id_proveedor=undefined AND oc.estado IN(1,3) AND ocp.estado IN(0,1) 
+Error Code: 1054
+Error: Unknown column 'undefined' in 'where clause'
+---------------------------------------------------

@@ -304,7 +304,7 @@
     $Spreadsheet->fromArray($encabezado, null, 'A2');
     $documento
         ->getProperties()
-        ->setCreator("Freelancers Py S.A.")
+        ->setCreator("ABS Montajes S.A")
         ->setLastModifiedBy('BaulPHP')
         ->setTitle('Planilla de Stock')
         ->setSubject('Excel')

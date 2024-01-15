@@ -57,7 +57,7 @@ include ("inc/funciones.php");
     $documento = new Spreadsheet();
     $documento
     ->getProperties()
-    ->setCreator("Freelancers Py S.A.")
+    ->setCreator("ABS Montajes S.A")
     ->setLastModifiedBy('BaulPHP')
     ->setTitle('Ingresos y Egresos')
     ->setSubject('Excel')

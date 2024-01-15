@@ -175,7 +175,7 @@ $encabezado = [
     $Spreadsheet->fromArray($encabezado, null, 'A2');
     $documento
         ->getProperties()
-        ->setCreator("Freelancers Py S.A.")
+        ->setCreator("ABS Montajes S.A")
         ->setLastModifiedBy('BaulPHP')
         ->setTitle('PLANILLA DE PRODUCTOS')
         ->setSubject('Excel')

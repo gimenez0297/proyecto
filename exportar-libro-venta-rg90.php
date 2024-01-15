@@ -103,7 +103,7 @@ $hojaLibroVentaRg90->setTitle("Libro Venta RG90");
 $hojaLibroVentaRg90->fromArray($encabezado, null, 'A1');
 $documento
 ->getProperties()
-->setCreator("Freelancers Py S.A.")
+->setCreator("ABS Montajes S.A")
 ->setLastModifiedBy('BaulPHP')
 ->setTitle('Libro Ventas')
 ->setSubject('Excel')

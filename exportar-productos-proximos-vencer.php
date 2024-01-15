@@ -217,7 +217,7 @@ $productos_vendidos->fromArray($encabezado, null, 'A3');
 
 $documento
     ->getProperties()
-    ->setCreator("Freelancers Py S.A.")
+    ->setCreator("ABS Montajes S.A")
     ->setLastModifiedBy('BaulPHP')
     ->setTitle('Productos Proximos a Vencer')
     ->setSubject('Excel')
