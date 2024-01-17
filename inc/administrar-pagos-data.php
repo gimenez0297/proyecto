@@ -139,28 +139,6 @@
 
                             $rows = $db->loadObjectList();
 
-                            // ! recorremos el objeto
-
-                            foreach ($rows as $r) {
-
-                                $condicion = $r->condicion;
-                            
-                                // ! si la condicion es credito y si no tiene algun archivo cargado en la orden de pago retornamos error
-
-                                if($condicion == 2){
-            
-                                    $db->setQuery("SELECT * FROM orden_pagos_archivos WHERE id_pago=$id");
-                                    $row = $db->loadObject();
-
-                                    if (empty($row)) {
-                                        echo json_encode(["status" => "error", "mensaje" => "Aún no ha cargado ningún documento. Favor verifique."]);
-                                        exit;
-                                    }
-                                }
-                            }
-                                            
-                            // ! si es pago a gastos
-
                         }else if($orden->destino_pago == 3){
 
                             // ! recuperamos la orden que esta asociado con el gasto
